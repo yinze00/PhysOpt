@@ -1,0 +1,203 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>目录</title>
+<script TYPE="text/javascript">
+if (navigator.userAgent.indexOf("MSIE") == -1 || navigator.appVersion.substring(0,1) < 4)
+{ scss = ' '  }
+else {
+scss='<style type="text/css">'+'  .p9 {  font-family: "宋体"; font-size: 9pt; color:#000000}'+'A:link {text-decoration: none; color: #0000ea}'+'A:visited {text-decoration: none; color: #000085}'+
+'A:hover {text-decoration: none; color:red}'+'</style>';
+}
+document.write(scss)
+</script>
+
+<style type="text/css">
+<!--
+..h1 {  font-family: "宋体"; font-size: 9pt; text-decoration: none}
+-->
+</style>
+<meta name="Microsoft Border" content="tl, default">
+</head>
+
+<body bgcolor="#CCCCCC" background="1.JPG"><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+<p align="center">　</p> 
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td valign="top" width="1%">
+
+
+
+</td><td valign="top" width="24"></td><!--msnavigation--><td valign="top">
+
+
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td valign="top" width="1%">
+
+
+
+</td><td valign="top" width="24"></td><td valign="top" msnavigation>
+
+<p align="center"><font face="仿宋_GB2312"><big><big><big><big>目&nbsp; 录</big></big></big></big></font></p>  
+ 
+      <p align="left"><font face="宋体" size="5"><a href="0_0.htm">绪论</a></font></p> 
+<script language="JavaScript1.2"> 
+NS4 = (document.layers) ? 1 : 0; 
+IE4 = (document.all) ? 1 : 0; 
+ver4 = (NS4 || IE4) ? 1 : 0; 
+if (ver4) { 
+  with (document) { 
+      write("<STYLE TYPE='text/css'>"); 
+      if (NS4) { 
+          write(".parent {position:absolute; visibility:visible}"); 
+          write(".child {position:absolute; visibility:visible}"); 
+          write(".regular {position:absolute; visibility:visible}") 
+      } 
+      else { 
+          write(".child {display:none}") 
+      } 
+      write("</STYLE>"); 
+  } 
+} 
+function getIndex(el) { 
+  ind = null; 
+  for (i=0; i<document.layers.length; i++) { 
+      whichEl = document.layers[i]; 
+      if (whichEl.id == el) { 
+          ind = i; 
+          break; 
+      } 
+  } 
+  return ind; 
+} 
+function arrange() { 
+  nextY = document.layers[firstInd].pageY +document.layers[firstInd].document.height; 
+  for (i=firstInd+1; i<document.layers.length; i++) { 
+      whichEl = document.layers[i]; 
+      if (whichEl.visibility != "hide") { 
+          whichEl.pageY = nextY; 
+          nextY += whichEl.document.height; 
+      } 
+  } 
+} 
+function initIt(){ 
+  if (!ver4) return; 
+  if (NS4) { 
+      for (i=0; i<document.layers.length; i++) { 
+          whichEl = document.layers[i]; 
+          if (whichEl.id.indexOf("Child") != -1) whichEl.visibility = "hide"; 
+     } 
+      arrange(); 
+  } 
+  else { 
+      divColl = document.all.tags("DIV"); 
+      for (i=0; i<divColl.length; i++) { 
+          whichEl = divColl(i); 
+          if (whichEl.className == "child") whichEl.style.display = "none"; 
+      } 
+  } 
+} 
+function expandIt(el) { 
+  if (!ver4) return; 
+  if (IE4) { 
+      whichEl = eval(el + "Child"); 
+      if (whichEl.style.display == "none") { 
+          whichEl.style.display = "block"; 
+      } 
+      else { 
+          whichEl.style.display = "none"; 
+      } 
+  } 
+  else { 
+      whichEl = eval("document." + el + "Child"); 
+      if (whichEl.visibility == "hide") { 
+          whichEl.visibility = "show"; 
+      } 
+      else { 
+          whichEl.visibility = "hide"; 
+      } 
+      arrange(); 
+  } 
+} 
+onload = initIt; 
+</script> 
+<div id="KB1Parent" class="parent"> 
+ 
+<p><big><big><a href="工程光学绪论/绪论.htm" onClick="expandIt('KB1'); return false">
+第一章&nbsp; 光的电磁理论基础</a></big> </big></p>   
+</div><div id="KB1Child" class="child">   
+   
+<p>&nbsp;&nbsp;&nbsp;&nbsp;<a href="1_0.htm">前言</a><br>   
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="1_1.htm">§1 光的电磁性质</a><br>   
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="1_2.htm">§2    
+光在电介质分界面上的反射和折射</a><br>   
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="1_3.htm">§3 光在金属表面的反射和透射</a><br>   
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="1_4.htm">§4 光波的叠加</a><br>   
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="1_3.htm">§5 光波的傅利叶分析</a><br>   
+</p>   
+</div><div id="KB2Parent" class="parent"><a href="#"   
+onClick="expandIt('KB2'); return false"><big><big>   
+   
+<p>第二章&nbsp; 光的干涉和干涉系统</p></big></big></a>   
+</div><div id="KB2Child" class="child">   
+   
+<p>&nbsp;&nbsp;&nbsp;&nbsp;<a href="2_0.htm">前言</a><br>   
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="2_1.htm">§1 光波干涉的条件</a><br>   
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="2_2.htm">§2 杨氏干涉实验</a><br>   
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="2_3.htm">§3 干涉条纹的可见度</a><br>   
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="2_4.htm">§4 平板的双光束干涉</a><br>   
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="2_5.htm">§5 典型的双光束干涉系统及其应用</a><br>   
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="2_6.htm">§6 平行平板的多光束干涉及其应用</a><br>   
+</p>   
+</div><div id="KB3Parent" class="parent"><a href="#"   
+onClick="expandIt('KB3'); return false"><big><big>   
+   
+<p>第三章&nbsp; 光的衍射</p></big></big></a>   
+</div><div id="KB3Child" class="child">   
+   
+<p>&nbsp;&nbsp;&nbsp;&nbsp;<a href="3_0.htm">前言</a><br>   
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="3_1.htm">§1 光波的标量衍射理论</a><br>   
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="3_2.htm">§2 典型孔径的夫琅和费衍射</a><br>   
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="3_3.htm">§3 光学成像系统的衍射和分辨本领</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="3_4.htm">§4 多缝的夫琅和费衍射</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="3_5.htm">§5 衍射光栅</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="3_6.htm">§6 菲涅耳衍射</a><br>   
+</p>   
+</div><div id="KB4Parent" class="parent"><a href="#"   
+onClick="expandIt('KB4'); return false"><big><big>   
+   
+<p>第四章&nbsp; 傅里叶光学</p></big></big></a>   
+</div><div id="KB4Child" class="child">   
+   
+<p>&nbsp;&nbsp;&nbsp;&nbsp;<a href="4_0.htm">前言</a><br>   
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="4_1.htm">§1 平面波的复振幅分布和空间频率</a><br>   
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="4_2.htm">§2 衍射的傅里叶分析方法</a><br>   
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="4_3.htm">§3    
+透镜的傅里叶变换性质和成像性质</a><br>   
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="4_4.htm">§4    
+相干成像系统分析及相干传递函数</a><br>   
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="4_5.htm">§5    
+非相干成像系统分析及光学传递函数</a><br>   
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="4_6.htm">§6 阿贝成像理论与波特实验</a><br>   
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="4_7.htm">§7 光学信息处理</a><br>   
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="4_8.htm">§8 全息术</a><br>   
+</p>   
+</div><div id="KB5Parent" class="parent"><a href="#"   
+onClick="expandIt('KB5'); return false"><big><big>   
+   
+<p>第五章&nbsp; 光的偏振和晶体光学基础</p></big></big></a>   
+</div><div id="KB5Child" class="child">   
+   
+<p>&nbsp;&nbsp;&nbsp;&nbsp;<a href="5_0.htm">前言</a><br>   
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="5_1.htm">§1 偏振光概述</a><br>   
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="5_2.htm">§2 光在晶体中的传播</a><br>   
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="5_3.htm">§3 晶体光学性质的几何表示</a><br>   
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="5_4.htm">§4 光波在晶体表面的折射和反射</a><br>   
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="5_5.htm">§5 晶体偏振器件</a><br>   
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="5_6.htm">§6 偏振的矩阵表示</a><br>   
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="5_7.htm">§7 偏振光的变换和测定</a><br>   
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="5_8.htm">§8 偏振光的干涉</a><br>   
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="5_9.htm">§9 磁光、电光和声光效应</a><br>   
+</p>   
+</div>   
+</table>　<!--msnavigation--></td></tr><!--msnavigation--></table></body>   
+</html>   

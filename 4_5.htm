@@ -1,0 +1,673 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>4_5 非相干成像系统分析及光学传递函数</title>
+<!--mstheme--><link rel="stylesheet" type="text/css" href="_themes/nature/natu1111-106.css"><meta name="Microsoft Theme" content="nature 1111">
+<meta name="Microsoft Border" content="tl, default">
+</head>
+
+<body><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+<p align="center">　</p> 
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td valign="top" width="1%">
+
+
+
+</td><td valign="top" width="24"></td><!--msnavigation--><td valign="top">
+
+<p><b>    
+<a name="first"><font size="4"></font></a></b></p>
+<div id="KBStatic" style="position:absolute; left:650px; top:350px; width:41px; height:59px; z-index:25"><a href="#head">
+<dd align="left"><font size="4"><b><img src="images/back-top.gif" border="0" width="45" height="57"></b></font></a></dd>
+</div><script language="JavaScript">
+function KB_keepItInIE(theName,theWantTop,theWantLeft) {
+theRealTop=parseInt(document.body.scrollTop)
+theTrueTop=theWantTop+theRealTop
+document.all[theName].style.top=theTrueTop
+theRealLeft=parseInt(document.body.scrollLeft)
+theTrueLeft=theWantLeft+theRealLeft
+document.all[theName].style.left=theTrueLeft
+}
+function KB_keepItInNN(theName,theWantX,theWantY) {
+theRealLay=document.layers[theName]
+theBadX=self.pageYOffset
+theBadY=self.pageXOffset
+theRealX=theBadX+theWantX
+theRealY=theBadY+theWantY
+theRealLay.moveTo(theRealY,theRealX)
+}
+IE4=(document.all)?1:0
+NN4=(document.layers)?1:0
+if (IE4)
+setInterval('KB_keepItInIE("KBStatic",350,650)',1)
+if (NN4)
+setInterval('KB_keepItInNN("KBStatic",350,650)',1)
+</script>
+
+
+<p><font size="4"><b><a href="#first">一、非相干系统的成像和光学传递函数（OTF）</a><br>
+<a href="#second">
+二、OTF的求法</a></b></font></p>
+
+<hr>
+
+<p align="center"><b><font size="4">&nbsp;</font><font size="5">第五节                      
+&nbsp;&nbsp; 非相干成像系统分析及光学传递函数</font></b></p>                     
+     
+<p><font size="4"><b><br>     
+一、非相干系统的成像和光学传递函数（OTF）</b></font></p>    
+    
+<p><font color="#FF8000" size="4"><b>1、非相干系统的成像</b></font></p>    
+    
+<p align="center"><font size="4"><b><img border="0" src="images4_5/4_5.HT1.gif" width="763" height="58"><span lang="EN-US" style="font-size:10.5pt;mso-bidi-font-size:   
+12.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:宋体;mso-font-kerning:   
+1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:   
+AR-SA"><!--[if gte mso 9]><xml>   
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1025"   
+  DrawAspect="Content" ObjectID="_1080667834">   
+ </o:OLEObject>   
+</xml><![endif]-->   
+</span><br>    
+ <span lang="EN-US" style="font-size:10.5pt;mso-bidi-font-size:   
+12.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:宋体;mso-font-kerning:   
+1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:   
+AR-SA">   
+<img src="images4_5/4_5.ht5.gif" v:shapes="_x0000_i1025" width="523" height="87"><!--[if gte mso 9]><xml>   
+ <o:OLEObject Type="Embed" ProgID="Paint.Picture" ShapeID="_x0000_i1025"   
+  DrawAspect="Content" ObjectID="_1080670117">   
+ </o:OLEObject>   
+</xml><![endif]-->   
+<!--[if gte mso 9]><xml>     
+ <o:OLEObject Type="Embed" ProgID="Paint.Picture" ShapeID="_x0000_i1025"   
+  DrawAspect="Content" ObjectID="_1080668331">   
+ </o:OLEObject>   
+</xml><![endif]-->   
+</span></b></font></p>    
+    
+<p align="center"><font size="4"><b>&nbsp;&nbsp;<span lang="EN-US" style="font-size:10.5pt;mso-bidi-font-size:   
+12.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:宋体;mso-font-kerning:   
+1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:   
+AR-SA">   
+<img src="images4_5/4_5.ht6.gif" v:shapes="_x0000_i1025" width="484" height="51"><!--[if gte mso 9]><xml>    
+ <o:OLEObject Type="Embed" ProgID="Paint.Picture" ShapeID="_x0000_i1025"   
+  DrawAspect="Content" ObjectID="_1080671108">   
+ </o:OLEObject>   
+</xml><![endif]-->   
+<!--[if gte mso 9]><xml>     
+ <o:OLEObject Type="Embed" ProgID="Paint.Picture" ShapeID="_x0000_i1025"   
+  DrawAspect="Content" ObjectID="_1080670201">   
+ </o:OLEObject>   
+</xml><![endif]-->   
+<!--[if gte mso 9]><xml>     
+ <o:OLEObject Type="Embed" ProgID="Paint.Picture" ShapeID="_x0000_i1025"   
+  DrawAspect="Content" ObjectID="_1080668428">   
+ </o:OLEObject>   
+</xml><![endif]-->   
+</span></b></font></p>    
+    
+<p><font color="#FF8040" size="4"><b>2、光学传递函数（OTF）</b></font></p>    
+    
+<p><font size="4"><b>&nbsp;&nbsp;&nbsp; &nbsp;<img border="0" src="images4_5/4_5.ht4.gif" width="314" height="69"></b></font></p>                    
+    
+<p align="center"><span lang="EN-US" style="mso-bidi-font-size: 12.0pt; font-family: Times New Roman; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA">   
+<font size="4">   
+<b>   
+<img src="images4_5/4_5.ht7.gif" v:shapes="_x0000_i1025" width="475" height="110"><!--[if gte mso 9]><xml>  
+ <o:OLEObject Type="Embed" ProgID="Paint.Picture" ShapeID="_x0000_i1025"  
+  DrawAspect="Content" ObjectID="_1080669954">  
+ </o:OLEObject>  
+</xml><![endif]-->  
+<!--[if gte mso 9]><xml>      
+ <o:OLEObject Type="Embed" ProgID="Paint.Picture" ShapeID="_x0000_i1025"   
+  DrawAspect="Content" ObjectID="_1080669833">   
+ </o:OLEObject>   
+</xml><![endif]-->   
+</b>   
+</font>   
+</span></p>    
+    
+<p align="center"><font size="4"><b>&nbsp; <img border="0" src="images4_5/4_5.HT8.gif" width="620" height="274">&nbsp;&nbsp;&nbsp;</b></font></p>      
+    
+<p align="center"><font size="4"><b>&nbsp; 得:&nbsp; <span lang="EN-US" style="font-size:10.5pt;mso-bidi-font-size:                 
+12.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:宋体;mso-font-kerning:  
+1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:  
+AR-SA"><!--[if gte vml 1]><v:shapetype id="_x0000_t75" coordsize="21600,21600"  
+ o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe" filled="f"  
+ stroked="f">  
+ <v:stroke joinstyle="miter"/>  
+ <v:formulas>  
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>  
+  <v:f eqn="sum @0 1 0"/>  
+  <v:f eqn="sum 0 0 @1"/>  
+  <v:f eqn="prod @2 1 2"/>  
+  <v:f eqn="prod @3 21600 pixelWidth"/>  
+  <v:f eqn="prod @3 21600 pixelHeight"/>  
+  <v:f eqn="sum @0 0 1"/>  
+  <v:f eqn="prod @6 1 2"/>  
+  <v:f eqn="prod @7 21600 pixelWidth"/>  
+  <v:f eqn="sum @8 21600 0"/>  
+  <v:f eqn="prod @7 21600 pixelHeight"/>  
+  <v:f eqn="sum @10 21600 0"/>  
+ </v:formulas>  
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>  
+ <o:lock v:ext="edit" aspectratio="t"/>  
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:278.25pt;  
+ height:45.75pt' o:ole="" o:bordertopcolor="red" o:borderleftcolor="red"  
+ o:borderbottomcolor="red" o:borderrightcolor="red">  
+ <v:imagedata src="file:///C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/msoclip1/01/clip_image001.png"  
+  o:title=""/>  
+ <w:bordertop type="dashDotStroked" width="24" shadow="t"/>  
+ <w:borderleft type="dashDotStroked" width="24" shadow="t"/>  
+ <w:borderbottom type="dashDotStroked" width="24" shadow="t"/>  
+ <w:borderright type="dashDotStroked" width="24" shadow="t"/>  
+</v:shape><![endif]-->  
+<img src="images4_5/4_5.ht9.gif" v:shapes="_x0000_i1025" align="absmiddle" width="387" height="77"><!--[if gte mso 9]><xml>      
+ <o:OLEObject Type="Embed" ProgID="Paint.Picture" ShapeID="_x0000_i1025"   
+  DrawAspect="Content" ObjectID="_1080672502">   
+ </o:OLEObject>   
+</xml><![endif]-->   
+</span></b></font></p>    
+    
+<table border="0" cellpadding="0" cellspacing="5" width="100%"> 
+  <tr> 
+    <td nowrap> 
+      <p align="right"><font size="4"><b>&nbsp;这里：</b></font></p>
+    </td>
+    <td nowrap><font size="4"><b>①                      
+用归一化的物象频谱表示物象对应的各(u,v)分量的对比度</b></font></td> 
+  </tr> 
+  <tr> 
+    <td nowrap><font color="#FF0080" size="4"><b>&nbsp; <span lang="EN-US" style="mso-bidi-font-size: 12.0pt; font-family: Times New Roman; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA"><!--[if gte mso 9]><xml>   
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1025" 
+  DrawAspect="Content" ObjectID="_1082765335"> 
+ </o:OLEObject> 
+</xml><![endif]--> 
+      <!--[if gte mso 9]><xml>    
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1025"  
+  DrawAspect="Content" ObjectID="_1080672730">  
+ </o:OLEObject>  
+</xml><![endif]-->  
+</span>      
+      </b>      
+</font></td>
+    <td nowrap><font size="4"><b>② 一般情况下，<font color="#FF0080"><span style="mso-text-raise:-7.0pt"><!--[if gte vml 1]><v:shapetype                   
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"   
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">   
+ <v:stroke joinstyle="miter"/>   
+ <v:formulas>   
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>   
+  <v:f eqn="sum @0 1 0"/>   
+  <v:f eqn="sum 0 0 @1"/>   
+  <v:f eqn="prod @2 1 2"/>   
+  <v:f eqn="prod @3 21600 pixelWidth"/>   
+  <v:f eqn="prod @3 21600 pixelHeight"/>   
+  <v:f eqn="sum @0 0 1"/>   
+  <v:f eqn="prod @6 1 2"/>   
+  <v:f eqn="prod @7 21600 pixelWidth"/>   
+  <v:f eqn="sum @8 21600 0"/>   
+  <v:f eqn="prod @7 21600 pixelHeight"/>   
+  <v:f eqn="sum @10 21600 0"/>   
+ </v:formulas>   
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>   
+ <o:lock v:ext="edit" aspectratio="t"/>   
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:138.75pt;   
+ height:24.75pt' o:ole="">   
+ <v:imagedata src="file:///C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/msoclip1/01/clip_image001.wmz"   
+  o:title=""/>   
+</v:shape><![endif]-->   
+ <span lang="EN-US" style="font-size:10.5pt;mso-bidi-font-size:  
+12.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:宋体;mso-font-kerning: 
+1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language: 
+AR-SA"><!--[if gte vml 1]><v:shapetype 
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t" 
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f"> 
+ <v:stroke joinstyle="miter"/> 
+ <v:formulas> 
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/> 
+  <v:f eqn="sum @0 1 0"/> 
+  <v:f eqn="sum 0 0 @1"/> 
+  <v:f eqn="prod @2 1 2"/> 
+  <v:f eqn="prod @3 21600 pixelWidth"/> 
+  <v:f eqn="prod @3 21600 pixelHeight"/> 
+  <v:f eqn="sum @0 0 1"/> 
+  <v:f eqn="prod @6 1 2"/> 
+  <v:f eqn="prod @7 21600 pixelWidth"/> 
+  <v:f eqn="sum @8 21600 0"/> 
+  <v:f eqn="prod @7 21600 pixelHeight"/> 
+  <v:f eqn="sum @10 21600 0"/> 
+ </v:formulas> 
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/> 
+ <o:lock v:ext="edit" aspectratio="t"/> 
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:181.5pt; 
+ height:33pt' o:ole=""> 
+ <v:imagedata src="file:///C:/WINDOWS/TEMP/msoclip1/01/clip_image001.wmz" 
+  o:title=""/> 
+</v:shape><![endif]--> 
+</span></span>    
+ <span lang="EN-US" style="font-size:10.5pt;mso-bidi-font-size: 
+12.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:宋体;mso-font-kerning: 
+1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language: 
+AR-SA"> 
+ <img src="images4_5/4_5.HT10.gif" v:shapes="_x0000_i1025" align="middle" width="242" height="44"> 
+</span> </font></b></font></td> 
+  </tr> 
+  <tr> 
+    <td colspan="2" nowrap><font size="4"><b>&nbsp; |H(u,v)|<font color="#FF0080">        
+</font> ——对比传递函数（MTF），表示物象分布中同一(u,v)分量对比度变化</b></font></td>
+  </tr>
+  <tr>
+    <td colspan="2" nowrap><font size="4"><b>&nbsp;&nbsp;&nbsp; φ(u,v)                      
+——相位传递函数（PTF），表示物象分布中同一(u,v)分量的相移</b></font></td>
+  </tr>
+</table>
+    
+<p><font size="4">    
+<b>    
+<a name="second"></a>二、OTF的求法</b></font></p>   
+   
+<p><font size="4"><font color="#FF8000"><b>1、利用OTF与CTF的自相关关系</b></font><b>，由&nbsp;&nbsp;<font color="#800040">  
+<span lang="EN-US" style="font-size:10.5pt;mso-bidi-font-size:     
+12.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:宋体;mso-font-kerning:  
+1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:  
+AR-SA"><span style="mso-text-raise:-5.0pt"><!--[if gte vml 1]><v:shapetype  
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"  
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">  
+ <v:stroke joinstyle="miter"/>  
+ <v:formulas>  
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>  
+  <v:f eqn="sum @0 1 0"/>  
+  <v:f eqn="sum 0 0 @1"/>  
+  <v:f eqn="prod @2 1 2"/>  
+  <v:f eqn="prod @3 21600 pixelWidth"/>  
+  <v:f eqn="prod @3 21600 pixelHeight"/>  
+  <v:f eqn="sum @0 0 1"/>  
+  <v:f eqn="prod @6 1 2"/>  
+  <v:f eqn="prod @7 21600 pixelWidth"/>  
+  <v:f eqn="sum @8 21600 0"/>  
+  <v:f eqn="prod @7 21600 pixelHeight"/>  
+  <v:f eqn="sum @10 21600 0"/>  
+ </v:formulas>  
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>  
+ <o:lock v:ext="edit" aspectratio="t"/>  
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:116.25pt;  
+ height:15.75pt' o:ole="" o:bordertopcolor="blue" o:borderleftcolor="blue"  
+ o:borderbottomcolor="blue" o:borderrightcolor="blue">  
+ <v:imagedata src="file:///C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/msoclip1/01/clip_image001.wmz"  
+  o:title=""/>  
+ <w:bordertop type="single" width="12"/>  
+ <w:borderleft type="single" width="12"/>  
+ <w:borderbottom type="single" width="12"/>  
+ <w:borderright type="single" width="12"/>  
+</v:shape><![endif]-->  
+ <!--[if gte vml 1]><v:shapetype
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:133.5pt;
+ height:21pt' o:ole="" o:bordertopcolor="blue" o:borderleftcolor="blue"
+ o:borderbottomcolor="blue" o:borderrightcolor="blue">
+ <v:imagedata src="file:///C:/WINDOWS/TEMP/msoclip1/01/clip_image001.wmz"
+  o:title=""/>
+ <w:bordertop type="single" width="12"/>
+ <w:borderleft type="single" width="12"/>
+ <w:borderbottom type="single" width="12"/>
+ <w:borderright type="single" width="12"/>
+</v:shape><![endif]-->
+<img width="182" height="32" src="images4_5/4_5.HT11.gif" v:shapes="_x0000_i1025" align="middle"></span><!--[if gte mso 9]><xml> 
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1025" 
+  DrawAspect="Content" ObjectID="_1082766642"> 
+ </o:OLEObject> 
+</xml><![endif]--> 
+ <!--[if gte mso 9]><xml>   
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1025" 
+  DrawAspect="Content" ObjectID="_1080674121"> 
+ </o:OLEObject> 
+</xml><![endif]--> 
+</span> &nbsp;</font></b></font></p>      
+   
+<p><font size="4"><b>&nbsp;&nbsp;&nbsp; * &nbsp; 卷积，相关，自相关，傅里叶变换自相关定理：</b></font></p>        
+   
+<div align="center">
+  <center>     
+  
+<table border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="100%" height="59">
+      <ul>
+        <li><font size="4"><b>&nbsp;卷积积分： <img src="images4_5/4_5.ht6.jpg" alt="wpe2F.jpg (4978 字节)" align="center" WIDTH="451" HEIGHT="38"></b></font></li>       
+      </ul> 
+    </td> 
+  </tr> 
+  <tr> 
+    <td width="100%" height="57"> 
+      <ul> 
+        <li> <font size="4"> <b> 相关积分： <img border="0" src="images4_5/4_5.ht19.jpg" align="absmiddle" width="463" height="36"></b></font></li>   
+      </ul> 
+    </td> 
+  </tr> 
+  <tr> 
+    <td width="100%" height="89"> 
+      <ul> 
+        <li> <font size="4"> <b> 自相关积分：<img border="0" src="images4_5/4_5.HT23.jpg" align="texttop" width="454" height="68"></b></font></li> 
+      </ul> 
+    </td> 
+  </tr> 
+  <tr> 
+    <td width="100%" height="1"> 
+      <ul> 
+        <li> <font size="4"> <b> 傅里叶变换自相关定理：</b></font></li> 
+      </ul> 
+    </td> 
+  </tr> 
+</table> 
+  </center> 
+</div> 
+  <p><font size="4"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 设&nbsp; G(u,v)是函数g(x,y)的频谱函数，则有</b></font></p>             
+  <p><font size="4"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;       
+  F{g(x,y)★g(x,y)}              
+  = |G(u,v)|&sup2;</b></font></p>             
+  <p><font size="4"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;              
+  或 F{|g(x,y)|&sup2;} = G(u,v)★G(u,v)</b></font></p>            
+    
+<p><font size="4"><b>&nbsp;&nbsp;&nbsp; 由前面讨论知：<img border="0" src="images4_5/4_5.HT14.gif" align="texttop" width="398" height="110"></b></font></p>            
+    
+<p><font size="4"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       
+利用傅里叶变换自相关定理，有</b></font></p>       
+    
+<p align="center"><font size="4"><b>&nbsp;&nbsp;&nbsp; <img border="0" src="images4_5/4_5.HT16.gif" width="497" height="36"></b></font></p>            
+    
+<p><font size="4"><b>&nbsp; <font color="#FF0080">上式表明，非相干成像系统传递函数是相干传递函数的自相关积分。</font></b></font></p>          
+    
+<p align="center"><font size="4"><b>&nbsp; <img border="0" src="images4_5/4_5.HT20.jpg" width="667" height="215"></b></font></p>         
+  
+<p><font color="#FF0080" size="4"><b>&nbsp; 对于衍射受限系统,可由光瞳函数直接计算求取光学传递函数</b></font></p>             
+    
+<p><font size="4"><b>&nbsp; 因为,&nbsp;          
+Hc(u,v)            
+= P(λl'u, λl'v)</b></font> </p>            
+    
+<p><font size="4"><b>&nbsp; 代入前面 Hc(u,v)<img border="0" src="images4_5/4_5.ht15.gif" align="absmiddle" width="22" height="19">H(u,v) 表式, 则得:</b></font></p>             
+    
+<p align="center"><font size="4"><b>&nbsp;&nbsp; <img border="0" src="images4_5/4_5.ht21.jpg" width="575" height="192"><br>            
+<span lang="EN-US" style="font-size:10.5pt;mso-bidi-font-size:  
+12.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:宋体;mso-font-kerning:  
+1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:  
+AR-SA"><!--[if gte vml 1]><v:shapetype id="_x0000_t75" coordsize="21600,21600"  
+ o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe" filled="f"  
+ stroked="f">  
+ <v:stroke joinstyle="miter"/>  
+ <v:formulas>  
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>  
+  <v:f eqn="sum @0 1 0"/>  
+  <v:f eqn="sum 0 0 @1"/>  
+  <v:f eqn="prod @2 1 2"/>  
+  <v:f eqn="prod @3 21600 pixelWidth"/>  
+  <v:f eqn="prod @3 21600 pixelHeight"/>  
+  <v:f eqn="sum @0 0 1"/>  
+  <v:f eqn="prod @6 1 2"/>  
+  <v:f eqn="prod @7 21600 pixelWidth"/>  
+  <v:f eqn="sum @8 21600 0"/>  
+  <v:f eqn="prod @7 21600 pixelHeight"/>  
+  <v:f eqn="sum @10 21600 0"/>  
+ </v:formulas>  
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>  
+ <o:lock v:ext="edit" aspectratio="t"/>  
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:316.5pt;  
+ height:88.5pt' o:ole="" o:bordertopcolor="red" o:borderleftcolor="red"  
+ o:borderbottomcolor="red" o:borderrightcolor="red">  
+ <v:imagedata src="file:///C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/msoclip1/01/clip_image001.png"  
+  o:title=""/>  
+ <w:bordertop type="dashDotStroked" width="24" shadow="t"/>  
+ <w:borderleft type="dashDotStroked" width="24" shadow="t"/>  
+ <w:borderbottom type="dashDotStroked" width="24" shadow="t"/>  
+ <w:borderright type="dashDotStroked" width="24" shadow="t"/>  
+</v:shape><![endif]-->  
+<img src="images4_5/4_5.ht17.gif" v:shapes="_x0000_i1025" width="438" height="134"><!--[if gte mso 9]><xml>     
+ <o:OLEObject Type="Embed" ProgID="Paint.Picture" ShapeID="_x0000_i1025"  
+  DrawAspect="Content" ObjectID="_1080678053">  
+ </o:OLEObject>  
+</xml><![endif]-->  
+</span></b></font></p>   
+   
+<p><font color="#FF8000" size="4"><b>2、图解法求取OTF</b></font></p>   
+   
+<p><font size="4"><b>&nbsp; 据计算式：<img src="images4_5/4_5.ht11.jpg" alt="wpe6.jpg (7345 字节)" align="center" width="384" height="83"><br>             
+&nbsp;&nbsp;&nbsp; 分母：为光瞳的总面积；</b></font></p>             
+    
+<p><font size="4"><b>&nbsp;&nbsp;&nbsp; 分子：中心在原点与中心偏离 (-λl'u, -λl'v)          
+的两个光瞳的重叠面积</b></font></p>    
+    
+<p><font size="4"><b>&nbsp;&nbsp;&nbsp; 于是：&nbsp;<span lang="EN-US" style="font-size:10.5pt;mso-bidi-font-size:           
+12.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:宋体;mso-font-kerning:  
+1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:  
+AR-SA"><span style="mso-text-raise:-13.0pt"><!--[if gte vml 1]><v:shapetype  
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"  
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">  
+ <v:stroke joinstyle="miter"/>  
+ <v:formulas>  
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>  
+  <v:f eqn="sum @0 1 0"/>  
+  <v:f eqn="sum 0 0 @1"/>  
+  <v:f eqn="prod @2 1 2"/>  
+  <v:f eqn="prod @3 21600 pixelWidth"/>  
+  <v:f eqn="prod @3 21600 pixelHeight"/>  
+  <v:f eqn="sum @0 0 1"/>  
+  <v:f eqn="prod @6 1 2"/>  
+  <v:f eqn="prod @7 21600 pixelWidth"/>  
+  <v:f eqn="sum @8 21600 0"/>  
+  <v:f eqn="prod @7 21600 pixelHeight"/>  
+  <v:f eqn="sum @10 21600 0"/>  
+ </v:formulas>  
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>  
+ <o:lock v:ext="edit" aspectratio="t"/>  
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:173.25pt;  
+ height:33pt' o:ole="" o:bordertopcolor="red" o:borderleftcolor="red"  
+ o:borderbottomcolor="red" o:borderrightcolor="red">  
+ <v:imagedata src="file:///C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/msoclip1/01/clip_image001.wmz"  
+  o:title=""/>  
+ <w:bordertop type="dashDotStroked" width="24" shadow="t"/>  
+ <w:borderleft type="dashDotStroked" width="24" shadow="t"/>  
+ <w:borderbottom type="dashDotStroked" width="24" shadow="t"/>  
+ <w:borderright type="dashDotStroked" width="24" shadow="t"/>  
+</v:shape><![endif]-->  
+<!--[if gte vml 1]><v:shapetype     
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"  
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">  
+ <v:stroke joinstyle="miter"/>  
+ <v:formulas>  
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>  
+  <v:f eqn="sum @0 1 0"/>  
+  <v:f eqn="sum 0 0 @1"/>  
+  <v:f eqn="prod @2 1 2"/>  
+  <v:f eqn="prod @3 21600 pixelWidth"/>  
+  <v:f eqn="prod @3 21600 pixelHeight"/>  
+  <v:f eqn="sum @0 0 1"/>  
+  <v:f eqn="prod @6 1 2"/>  
+  <v:f eqn="prod @7 21600 pixelWidth"/>  
+  <v:f eqn="sum @8 21600 0"/>  
+  <v:f eqn="prod @7 21600 pixelHeight"/>  
+  <v:f eqn="sum @10 21600 0"/>  
+ </v:formulas>  
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>  
+ <o:lock v:ext="edit" aspectratio="t"/>  
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:173.25pt;  
+ height:33pt' o:ole="" o:bordertopcolor="red" o:borderleftcolor="red"  
+ o:borderbottomcolor="red" o:borderrightcolor="red">  
+ <v:imagedata src="file:///C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/msoclip1/01/clip_image001.wmz"  
+  o:title=""/>  
+ <w:bordertop type="dashDotStroked" width="24" shadow="t"/>  
+ <w:borderleft type="dashDotStroked" width="24" shadow="t"/>  
+ <w:borderbottom type="dashDotStroked" width="24" shadow="t"/>  
+ <w:borderright type="dashDotStroked" width="24" shadow="t"/>  
+</v:shape><![endif]-->  
+ <!--[if gte vml 1]><v:shapetype
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:196.5pt;
+ height:48pt' o:ole="" o:bordertopcolor="red" o:borderleftcolor="red"
+ o:borderbottomcolor="red" o:borderrightcolor="red">
+ <v:imagedata src="file:///C:/WINDOWS/TEMP/msoclip1/01/clip_image001.wmz"
+  o:title=""/>
+ <w:bordertop type="dashDotStroked" width="24" shadow="t"/>
+ <w:borderleft type="dashDotStroked" width="24" shadow="t"/>
+ <w:borderbottom type="dashDotStroked" width="24" shadow="t"/>
+ <w:borderright type="dashDotStroked" width="24" shadow="t"/>
+</v:shape><![endif]-->
+<img width="278" height="80" src="images4_5/4_5.HT18.gif" v:shapes="_x0000_i1025" align="middle"></span><!--[if gte mso 9]><xml> 
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1025" 
+  DrawAspect="Content" ObjectID="_1082766738"> 
+ </o:OLEObject> 
+</xml><![endif]--> 
+ <!--[if gte mso 9]><xml>   
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1025" 
+  DrawAspect="Content" ObjectID="_1080678845"> 
+ </o:OLEObject> 
+</xml><![endif]--></span>（对计算式的数学处理）</b></font></p>  
+  
+<div align="center">
+  <center>
+  <table border="0" cellpadding="0" cellspacing="5" width="539">
+    <tr>
+      <td width="168"><span lang="EN-US" style="mso-bidi-font-size: 12.0pt; font-family: Times New Roman; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA"><font size="4"><b><span style="mso-text-raise:-4.0pt"><!--[if gte vml 1]><v:shapetype
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:126pt;
+ height:21.75pt' o:ole="">
+ <v:imagedata src="file:///C:/WINDOWS/TEMP/msoclip1/01/clip_image001.wmz"
+  o:title=""/>
+</v:shape><![endif]-->
+        <img src="images4_5/4_5.ht12.jpg" v:shapes="_x0000_i1025" width="662" height="265"></span><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1025"
+  DrawAspect="Content" ObjectID="_1082763543">
+ </o:OLEObject>
+</xml><![endif]-->
+        </b>
+        </font>
+        </span></td>
+    </tr>
+  </table>
+  </center>
+</div>
+  
+<p><font size="4"><b>&nbsp;例：图解法求圆孔的OTF及截止频率</b></font></p> 
+ 
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tr>
+    <td nowrap align="center"> <font size="4"> <b> 直径为D的圆形孔径（如图）</b></font></td>
+    <td rowspan="3">
+      <p align="center"><font size="4"><b><img src="images4_5/4_5.tu1.jpg" alt="wpeB.jpg (8968 字节)" align="top" width="408" height="168"></b></font></p>
+    </td>
+  </tr>
+  <tr>
+    <td nowrap align="center"><font size="4"><b>光瞳总面积： S总           
+= π(D/2)&sup2;</b></font></td>    
+  </tr> 
+  <tr> 
+    <td nowrap align="center"><font size="4"><b>重叠面积：2（扇形面积-三角形面积）</b></font></td> 
+  </tr> 
+</table> 
+    
+<p align="center"><font size="4"><b><img src="images4_5/4_5.ht13.jpg" alt="wpe6.jpg (12231 字节)" width="314" height="187">&nbsp;&nbsp;</b></font></p>       
+    
+<p align="center"><font size="4"><b><img src="images4_5/4_5.ht14.jpg" alt="wpe7.jpg (24561 字节)" width="591" height="229"></b></font></p>    
+    
+<p align="center"><font size="4"><b><img src="images4_5/4_5.ht15.jpg" alt="wpe9.jpg (25429 字节)" width="533" height="267"></b></font></p>    
+    
+<p><font size="4"><b>&nbsp; 由此可知（见图）：</b></font></p>         
+    
+<table border="0" cellpadding="0" cellspacing="0" width="100%"> 
+  <tr> 
+    <td nowrap> 
+      <p align="center"><font size="4"><b><img border="0" src="images4_5/4_5.HT22.jpg" width="506" height="239"></b></font></p>
+    </td>
+    <td nowrap>
+      <p align="center"><font size="4"><b><img border="0" src="images4_5/4_5.HT13.gif" align="middle" width="159" height="197"></b></font></td>
+  </tr>
+</table>
+  
+<p align="center"><font size="4"><b><img src="images4_5/4_5.ht17.jpg" alt="wpeC.jpg (34292 字节)" width="700" height="244"></b></font></p>  
+  
+<p><font size="4"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></font> </p>  
+  
+<p align="center"><a href="4_4.htm"><b><font size="4">上一节</font></b></a><b><font size="4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<a href="index1.htm">目录</a>         
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="4_6.htm">下一节</a></font></b> </p>   
+ 
+ 
+<form>              
+  <p><font size="4"><b>第<select name="zhang" size="1">             
+    <option value="1">1</option>   
+    <option value="2">2</option>   
+    <option value="3">3</option>   
+    <option value="4">4</option>   
+    <option value="5">5</option>   
+    <option value="6">6</option>   
+    <option value="7">7</option>   
+  </select>章&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 第<select name="jie" size="1">                 
+    <option value="0">0</option>              
+    <option value="1">1</option>              
+    <option value="2">2</option>              
+    <option value="3">3</option>              
+    <option value="4">4</option>              
+    <option value="5">5</option>              
+    <option value="6">6</option>              
+    <option value="7">7</option>              
+    <option value="8">8</option>              
+    <option value="9">9</option>              
+  </select>节<input type="button" value="转到" name="B1" onclick="location.assign(this.form.zhang.value+'_'+this.form.jie.value+'.htm')"></b></font></p>              
+</form>     
+ 
+ 
+ 
+　<!--msnavigation--></td></tr><!--msnavigation--></table></body>    
+</html>    

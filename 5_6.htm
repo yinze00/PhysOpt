@@ -1,0 +1,374 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>第六节　偏振的矩阵表示</title>
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<script language="JavaScript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+// -->
+</script>
+</head>
+
+<body background="5_6/0226.jpg" topmargin="0" leftmargin="0">
+<div id="KBStatic" style="position:absolute; left:650px; top:350px; width:41px; height:59px; z-index:25"><a href="#head">
+  <dd align="left">&nbsp;</dd>
+  </a><a href="#head"><img src="images/back-top.gif" width="45" height="57" border="0"></a> 
+</div>
+<div id="Layer1" style="position:absolute; left:452px; top:2987px; width:260px; height:180px; z-index:26"><img src="5_6/5_6.50.gif" width="260" height="180"></div>
+<div id="Layer2" style="position:absolute; left:524px; top:1084px; width:230; height:81px; z-index:27"><b><font face="宋体" size="5">——矩阵两元素表示相互垂直的光矢量</font></b></div>
+<div id="Layer3" style="position:absolute; left:503px; top:7337px; width:34px; height:32px; z-index:28"><b><font face="宋体" size="5">快轴</font></b></div>
+<div id="Layer4" style="position:absolute; left:456px; top:6008px; width:300px; height:270px; z-index:29"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0" width="300" height="300">
+    <param name=movie value="5_6/Movie4.swf">
+    <param name=quality value=high>
+    <embed src="5_6/Movie4.swf" quality=high pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="300" height="300">
+    </embed> 
+  </object></div>
+<script language="JavaScript">
+function KB_keepItInIE(theName,theWantTop,theWantLeft) {
+theRealTop=parseInt(document.body.scrollTop)
+theTrueTop=theWantTop+theRealTop
+document.all[theName].style.top=theTrueTop
+theRealLeft=parseInt(document.body.scrollLeft)
+theTrueLeft=theWantLeft+theRealLeft
+document.all[theName].style.left=theTrueLeft
+}
+function KB_keepItInNN(theName,theWantX,theWantY) {
+theRealLay=document.layers[theName]
+theBadX=self.pageYOffset
+theBadY=self.pageXOffset
+theRealX=theBadX+theWantX
+theRealY=theBadY+theWantY
+theRealLay.moveTo(theRealY,theRealX)
+}
+IE4=(document.all)?1:0
+NN4=(document.layers)?1:0
+if (IE4)
+setInterval('KB_keepItInIE("KBStatic",350,650)',1)
+if (NN4)
+setInterval('KB_keepItInNN("KBStatic",350,650)',1)
+</script>
+
+<table border="0" cellspacing="0" width="794" cellpadding="0">
+  <tr> 
+    <td width="794">
+      <p align="left"><a name="top" href="#first"><font size="5"><b>一、偏振光的琼斯矢量表示</b></font></a><br>
+        <a href="#second"><font size="5"><b>二、正交偏振</b></font></a><br>
+        <a href="#third"><font size="5"><b>三、偏振器件的琼斯矩阵表示</b></font><br>
+        </a><a href="#forth"><font size="5"><b>四、琼斯表示法的应用</b></font></a></p>
+      <hr width="97%">
+      <p align="left"><font face="宋体">　</font></p>
+      <center>
+        <p align="center"><font size="6" face="宋体"><b>第六节　偏振的矩阵表示</b></font></p>
+      </center>
+      <blockquote> 
+        <p><font face="宋体">&nbsp;&nbsp;&nbsp;<b><font size="5">介绍偏振光及偏振器件矩阵形式的表示方法。</font></b> 
+          </font></p>
+      </blockquote>
+      <p align="left"><font face="宋体"><b><a name="first"></a><font size="5">一、偏振光的琼斯矢量表示</font></b></font></p>
+      <blockquote> 
+        <p><font face="宋体"><b><font size="5">任一偏振光表示如下：</font></b></font></p>
+        <p><font face="宋体"><b>　　　</b><img border="0" src="5_6/5_6.1.gif" width="244" height="96"></font></p>
+        <p><font face="宋体"><b><font size="5">用复振幅表示时：　　　　　　　</font></b></font></p>
+        <p><font face="宋体"><b>　　　</b><img border="0" src="5_6/5_6.2.gif" width="313" height="96"></font></p>
+        <p><font face="宋体"><b><font size="5">其中，</font></b></font></p>
+        <ul>
+          <blockquote> 
+            <p><font face="宋体"><b><font size="5">●<img border="0" src="5_6/5_6.3.gif" width="80" height="79" align="absmiddle">，<img border="0" src="5_6/5_6.4.gif" width="139" height="37" align="absmiddle">，</font></b></font></p>
+            <p><font face="宋体"><b><font size="5">●<img border="0" src="5_6/5_6.5.gif" width="369" height="77" align="absmiddle"></font></b></font></p>
+            <p><font face="宋体"><b><font size="5">●决定合成波偏振态。</font></b></font></p>
+          </blockquote>
+        </ul>
+        <p><font size="5" face="宋体"><b>可以用一个矩阵来表示一个矢量（琼斯矢量）</b></font></p>
+        <p><font face="宋体"><b><font size="5">即： <img border="0" src="5_6/5_6.6.gif" width="419" height="91" align="absmiddle"></font></b></font></p>
+        <table width="75%" border="2" cellspacing="2" cellpadding="2" bordercolor="#0000FF">
+          <tr> 
+            <td bordercolor="#0000FF"> 
+              <p><font face="宋体"><b><font size="5">归一化琼斯矢量：</font></b></font></p>
+              <p><font face="宋体">&nbsp;<img border="0" src="5_6/5_6.7.gif" width="613" height="123"></font></p>
+            </td>
+          </tr>
+        </table>
+        <p><font size="5" face="宋体"><b>可由两分振动的振幅比及相位差决定合成波偏振态。</b></font></p>
+        <p><font face="宋体"><b><font size="5">例：①光矢量在<font face="Times New Roman, Times, serif">y</font>轴方向振动的线偏振光</font></b></font></p>
+        <p><font face="宋体"><b><font size="5" color="#FF00FF">注意</font><font size="5">：</font></b><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0" width="550" height="300" align="top">
+            <param name=movie value="5_6/Movie1.swf">
+            <param name=quality value=high>
+            <embed src="5_6/Movie1.swf" quality=high pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="550" height="300" align="top">
+            </embed> 
+          </object></font></p>
+      </blockquote>
+  </table>
+		
+<div id="KB1Parent" class="parent"> </div>
+<div id="KB1Child" class="child"> 
+  <blockquote> 
+    <p><font face="宋体"><b><font size="5"> 有</font></b><img border="0" src="5_6/5_6.8.gif" width="83" height="40" align="absmiddle">　　　　　　　&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      <img border="0" src="5_6/5_6.10.gif" width="337" height="56" align="absmiddle"> 
+      </font></p>
+    <p><font size="5" face="宋体">　</font><font face="宋体"><img border="0" src="5_6/5_6.9.gif" width="161" height="47" align="absmiddle"> 
+      </font>
+  </blockquote>
+</div>
+<div id="KB2Child" class="child"></div>
+<p><font face="宋体"><b><font size="5">因此：归一化琼斯矢量：</font></b></font></p>
+<p><font face="宋体">　　　　<img border="0" src="5_6/5_6.11.gif" width="455" height="105"></font></p>
+<p><font size="5" face="宋体"><b>②光矢量与<font face="Times New Roman, Times, serif">x</font>轴成<font face="Times New Roman, Times, serif">θ</font>角的线偏振光</b></font></p>
+<blockquote> 
+  <blockquote> 
+    <blockquote> 
+      <blockquote> 
+        <blockquote> 
+          <blockquote> 
+            <blockquote> 
+              <p><font face="宋体"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0" width="260" height="240">
+                  <param name=movie value="5_6/Movie2.swf">
+                  <param name=quality value=high>
+                  <embed src="5_6/Movie2.swf" quality=high pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="260" height="240">
+                  </embed> 
+                </object></font></p>
+            </blockquote>
+          </blockquote>
+        </blockquote>
+      </blockquote>
+    </blockquote>
+  </blockquote>
+</blockquote>
+<p><font face="宋体"><img border="0" src="5_6/5_6.12.gif" width="159" height="91">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+  <img border="0" src="5_6/5_6.10.gif" width="337" height="56" align="absmiddle"></font></p>
+<p><font face="宋体"><b><font size="5">归一化琼斯矢量：</font></b></font></p>
+<p><font face="宋体"><img border="0" src="5_6/5_6.13.gif" width="287" height="83" align="absmiddle"><b><font size="5">　——线偏振光的一般形式</font></b></font></p>
+<p><font face="宋体"><b><font size="5">如：<font face="Times New Roman, Times, serif">θ=0　</font>　（<font face="Times New Roman, Times, serif">x</font>向线偏光），　</font></b><img border="0" src="5_6/5_6.14.gif" width="93" height="83" align="absmiddle"></font></p>
+<p><font face="宋体"><b><font size="5">　　<font face="Times New Roman, Times, serif">θ=90°</font>（<font face="Times New Roman, Times, serif">y</font>向线偏光），</font></b> 
+  　　　<img border="0" src="5_6/5_6.15.gif" width="93" height="83" align="absmiddle"></font></p>
+<p><font face="宋体"><b><font size="5">　　<font face="Times New Roman, Times, serif">θ=45°</font>（<font face="Times New Roman, Times, serif">45°</font>向线偏光），　</font></b><img border="0" src="5_6/5_6.16.gif" width="272" height="83" align="absmiddle"></font></p>
+<p><font face="宋体"><b><font size="5">③导出长短轴之比为<font face="Times New Roman, Times, serif">2∶1</font>，长轴沿<font face="Times New Roman, Times, serif">x</font>的左旋和右旋椭圆偏振光的琼斯矩阵矢量，并计算两个偏振态相加后的结果。</font></b></font></p>
+<p><font face="宋体"><b><font size="5">取正椭圆的特殊情况：</font></b></font></p>
+<p><font face="宋体"><img border="0" src="5_6/5_6.17.gif" width="136" height="112">　　　<img border="0" src="5_6/5_6.18.gif" width="183" height="36" align="absmiddle"></font></p>
+<p><font face="宋体"><img border="0" src="5_6/5_6.19.gif" width="324" height="96"></font></p>
+<p><font face="宋体"><img border="0" src="5_6/5_6.20.gif" width="352" height="96"></font></p>
+<p><font face="宋体"><img border="0" src="5_6/5_6.21.gif" width="531" height="85"></font></p>
+<p><font face="宋体"><b><font size="5">合成波为x方向振动的线偏振光，其振幅为椭偏光<font face="Times New Roman, Times, serif">x</font>向分振幅的2倍。</font></b></font></p>
+<p><font face="宋体"><b><a name="second"></a><font size="5">二、正交偏振</font></b></font></p>
+<p><font face="宋体"><b><font size="5">（一）<font size="5"><u><font color="#0000FF">正交偏振态</font></u></font></font></b></font></p>
+<blockquote> 
+  <p align="left"><font face="宋体"><b><font size="5">若任意两个偏振态的琼斯矢量为：</font></b></font></p>
+  <p align="left"><font face="宋体"><img border="0" src="5_6/5_6.22.gif" width="468" height="91"></font></p>
+  <p align="left"><font face="宋体"><b><font size="5">当满足</font></b><img border="0" src="5_6/5_6.23.gif" width="131" height="43" align="absmiddle"><b>,<font size="5">即</font><img border="0" src="5_6/5_6.24.gif" width="252" height="47" align="absmiddle"></b><font size="5"><b>时，偏振态<img border="0" src="5_6/5_6.49.gif" width="77" height="40" align="absmiddle">为一对正交偏振态。</b></font></font></p>
+  <p align="left"><font face="宋体"><b><font size="5">例：<img src="5_6/5_6.53.gif" width="525" height="377" align="top"></font></b></font></p>
+  <p align="left"><font face="宋体"><b><font size="5">（二）<font size="5"><font size="5"><u><font color="#0000FF">任何一种偏振态都可以用一组特定正交态的两个琼斯矢量的线性组合来表示。</font></u></font></font></font> 
+    </b></font> 
+</blockquote>
+<ul>
+  <li><font face="宋体">&nbsp;<img border="0" src="5_6/5_6.25.gif" width="235" height="83" align="absmiddle">　　<b><font size="5">（一对正交线偏振光）</font></b></font></li>
+  <li><font face="宋体"><img border="0" src="5_6/5_6.26.gif" width="444" height="83" align="absmiddle"><b><font size="5">　（一对正交圆偏振光）</font></b></font></li>
+</ul>
+<blockquote> 
+  <p align="left"><font face="宋体"><b><font size="5">例：<img border="0" src="5_6/5_6.27.gif" width="632" height="173" align="top"></font> 
+    </b></font> 
+  <p align="left"><font face="宋体">　　　<img border="0" src="5_6/5_6.28.gif" width="583" height="264"> 
+    </font>
+</blockquote>
+<p align="left"><font face="宋体"><b>　<font size="5">▲易知，一个偏振光，可以用①琼斯矢量表示，</font></b></font> 
+<blockquote> 
+  <blockquote> 
+    <blockquote> 
+      <blockquote> 
+        <blockquote> 
+          <blockquote> 
+            <blockquote> 
+              <blockquote> 
+                <blockquote> 
+                  <blockquote> 
+                    <blockquote> 
+                      <p><font face="宋体"><b> <img border="0" src="5_6/5_6.29.gif" width="295" height="105">　</b></font> 
+                      </p>
+                    </blockquote>
+                  </blockquote>
+                </blockquote>
+              </blockquote>
+            </blockquote>
+          </blockquote>
+        </blockquote>
+      </blockquote>
+    </blockquote>
+  </blockquote>
+</blockquote>
+<p align="left"><font face="宋体"><b><font size="5">　　　　　　　　　　　　　　②用一对正交偏振态的线性组合表示</font></b> 
+  </font>
+<blockquote> 
+  <p align="left"> 
+</blockquote>
+<p><font face="宋体"><b><a name="third"></a><font size="5">三、偏振器件的琼斯矩阵表示</font></b></font></p>
+<p><font face="宋体"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0" width="410" height="80">
+    <param name=movie value="5_6/Movie3.swf">
+    <param name=quality value=high>
+    <embed src="5_6/Movie3.swf" quality=high pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="410" height="80">
+    </embed> 
+  </object></font></p>
+<table width="75%" border="3" cellspacing="0" cellpadding="0" bordercolor="#FF0000">
+  <tr> 
+    <td><font face="宋体">&nbsp;<img border="0" src="5_6/5_6.30.gif" width="292" height="83"></font></td>
+  </tr>
+</table>
+<table width="75%" border="3" cellspacing="0" cellpadding="0" bordercolor="#0000FF">
+  <tr> 
+    <td><font face="宋体"><b><font size="5"><img border="0" src="5_6/5_6.31.gif" width="191" height="83" align="absmiddle">——琼斯矩阵（线性变换作用）</font></b></font></td>
+  </tr>
+</table>
+<table width="75%" border="3" cellspacing="0" cellpadding="0" bordercolor="#FF0000">
+  <tr> 
+    <td><font face="宋体"><b><font size="5">或表示成<img border="0" src="5_6/5_6.32.gif" width="257" height="83" align="absmiddle"></font></b></font></td>
+  </tr>
+</table>
+<table width="75%" border="3" cellspacing="0" cellpadding="0" bordercolor="#0000FF">
+  <tr> 
+    <td> 
+      <p align="left"><font size="5" face="宋体"><b>表明：</b></font> 
+      <ul>
+        <li> 
+          <p align="left"><font face="宋体"><b><font size="5">偏振器件在偏振态转换中起着线性变换作用。</font> 
+            </b></font> 
+        </li>
+        <li> 
+          <p align="left"><font face="宋体"><b><font size="5">新的偏振态的两个分量是原来偏振态两分量的线性组合。</font> 
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></font> 
+        </li>
+      </ul>
+    </td>
+  </tr>
+</table>
+<blockquote> 
+  <p align="left"><font face="宋体"><b><font size="5">求取琼斯矩阵的例子：</font></b></font> 
+  <p><font face="宋体"><b><font size="5"><u><font color="#FF0000">1、透光轴与<font face="Times New Roman, Times, serif">x</font>轴成<font face="Times New Roman, Times, serif">θ</font>角的线偏振器的琼斯矩阵 
+    </font></u></font></b></font></p>
+  <p><font face="宋体"><b><font size="5">①作图示意</font> </b></font>
+  <p><font face="宋体"><b><font size="5">②入射线偏振光表示成<font face="Times New Roman, Times, serif">x</font>、<font face="Times New Roman, Times, serif">y</font>轴上分量</font></b></font>
+  <p><font face="宋体"><b>　　 </b> <img border="0" src="5_6/5_6.33.gif" width="128" height="83"> 
+    </font>
+  <p><font face="宋体"><b><font size="5">③写出出射光在<font face="Times New Roman, Times, serif">x</font>、<font face="Times New Roman, Times, serif">y</font>轴上分量（见图），</font></b></font> 
+  <blockquote> 
+    <p><font face="宋体"><b><font size="5">将<img border="0" src="5_6/5_6.51.gif" width="36" height="37" align="absmiddle">、<img border="0" src="5_6/5_6.52.gif" width="33" height="37" align="absmiddle">在透光轴上投影，</font></b></font></p>
+    <p><font face="宋体"><b><font size="5">再分别投在<font face="Times New Roman, Times, serif">x</font>、<font face="Times New Roman, Times, serif">y</font>轴上，得</font></b></font> 
+    </p>
+  </blockquote>
+  <p><font face="宋体"><b>　　<img border="0" src="5_6/5_6.34.gif" width="469" height="184"> 
+    </b></font> 
+  <p><font face="宋体"><b><font size="5">对照</font></b><img border="0" src="5_6/5_6.32.gif" width="257" height="83" align="top"> 
+    </font>
+  <p><font face="宋体"><img border="0" src="5_6/5_6.35.gif" width="477" height="141"> 
+    </font>
+  <p><font face="宋体"><b>　　 </b></font> 
+  <p><font face="宋体"><b><font size="5"><u><font color="#FF0000">2、快轴在y轴的1/4波片的琼斯矩阵</font></u></font> 
+    </b></font> 
+  <p><font face="宋体"><b><font size="5">①建立<font face="Times New Roman, Times, serif">x</font>、<font face="Times New Roman, Times, serif">y</font>坐标，标上快轴及入射线偏光（见图）方位</font> 
+    </b></font> 
+  <p><font face="宋体"><b><font size="5">　且</font></b><img border="0" src="5_6/5_6.36.gif" width="265" height="83" align="top"> 
+    　　　　<img src="5_6/5_6.54.gif" width="180" height="163" align="top"> </font>
+  <p><font face="宋体"><b><font size="5">②写出<img border="0" src="5_6/5_6.51.gif" width="36" height="37" align="absmiddle">、<img border="0" src="5_6/5_6.52.gif" width="33" height="37" align="absmiddle">经波片后分量在<font face="Times New Roman, Times, serif">x</font>、<font face="Times New Roman, Times, serif">y</font>轴上的再投影，注意波片产生的<font face="Times New Roman, Times, serif">δ</font>。</font> 
+    </b></font> 
+  <p><font face="宋体"><img border="0" src="5_6/5_6.37.gif" width="361" height="104" align="absbottom"> 
+    <b><font size="5">（y为快轴故y向超前x向π/2）</font></b> </font>
+  <p><font face="宋体"><img border="0" src="5_6/5_6.38.gif" width="156" height="83"> 
+    </font>
+  <p><font size="5" face="宋体"><font color="#FF6666"><u><b><font color="#FF0000">3、快轴与<font face="Times New Roman, Times, serif">x</font>轴成<font face="Times New Roman, Times, serif">±45°</font>角的半波片的琼斯矩阵</font></b></u></font></font> 
+  <blockquote> 
+    <blockquote> 
+      <blockquote> 
+        <blockquote> 
+          <p><font face="宋体"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0" width="350" height="350">
+              <param name=movie value="5_6/Movie5.swf">
+              <param name=quality value=high>
+              <embed src="5_6/Movie5.swf" quality=high pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="350" height="350">
+              </embed> 
+            </object> </font></p>
+        </blockquote>
+      </blockquote>
+    </blockquote>
+  </blockquote>
+  <p><font face="宋体"><b><font size="5" color="#FF00FF">注意</font><font size="5">：</font> 
+    </b></font> 
+  <ul>
+    <li> 
+      <p align="left"><font face="宋体"><b><font size="5">取为<font face="Times New Roman, Times, serif">x</font>、<font face="Times New Roman, Times, serif">y</font>坐标系定好快、慢轴。</font> 
+        </b></font> 
+    </li>
+    <li> 
+      <p align="left"><font face="宋体"><b><font size="5">波片的相位延迟作用。</font> </b></font> 
+    </li>
+  </ul>
+  <p><font face="宋体"><img border="0" src="5_6/5_6.39.gif" width="128" height="83"> 
+    </font>
+  <p><font face="宋体"><b><font size="5">②<img border="0" src="5_6/5_6.51.gif" width="36" height="37" align="absmiddle">、<img border="0" src="5_6/5_6.52.gif" width="33" height="37" align="absmiddle">在快、慢轴上投影，且考虑半波片<font face="Times New Roman, Times, serif">δ=π</font>。</font> 
+    </b></font> 
+  <p><font face="宋体"><b><font size="5">快轴：</font></b> <img border="0" src="5_6/5_6.40.gif" width="269" height="37" align="absmiddle"> 
+    </font>
+  <p><font face="宋体"><b><font size="5">慢轴：</font></b> <img border="0" src="5_6/5_6.41.gif" width="320" height="43" align="absmiddle"> 
+    </font>
+  <p><font size="5" face="宋体"><b>③过半波片分量再投影在<font face="Times New Roman, Times, serif">x</font>、<font face="Times New Roman, Times, serif">y</font>轴上，得：</b></font> 
+  <p><font face="宋体"><b><font size="5" face="Times New Roman, Times, serif">x</font><font size="5">轴：<img border="0" src="5_6/5_6.42.gif" width="493" height="167" align="top"></font> 
+    </b></font> 
+  <p><font face="宋体"><b><font size="5" face="Times New Roman, Times, serif">y</font><font size="5">轴：<img border="0" src="5_6/5_6.43.gif" width="517" height="167" align="top"></font> 
+    </b></font> 
+  <p><font face="宋体"><img border="0" src="5_6/5_6.44.gif" width="140" height="83"> 
+    </font>
+  <pre><font face="宋体"><b><a name="forth"></a><font size="5">四、琼斯表示法的应用
+<font color="#FF6666"><u><font color="#FF0000">1、易得到新的偏振态</font></u></font></font></b></font></pre>
+  <p><font face="宋体"><b><font size="5">例：<img border="0" src="5_6/5_6.45.gif" width="213" height="83" align="top"></font></b></font></p>
+  <blockquote> 
+    <p><font face="宋体"><b><font size="5">右、左旋圆偏光合成得<font face="Times New Roman, Times, serif">x</font>向振动线偏光。</font></b></font></p>
+  </blockquote>
+  <p><font face="宋体"><b><font size="5"><font color="#FF6666"><u><font color="#FF0000">2、计算偏振态变化</font></u></font></font> 
+    </b></font> 
+  <p><font face="宋体">&nbsp;<img border="0" src="5_6/5_6.46.gif" width="268" height="41"> 
+    </font>
+  <p><font size="5" face="宋体"><b>例：</b></font> <font face="宋体"><b><font size="5">自然光→线偏振器（<font face="Times New Roman, Times, serif">θ=45°</font>）→<font face="Times New Roman, Times, serif">1/4</font>片→<font face="Times New Roman, Times, serif">1/2</font>片→<font face="Times New Roman, Times, serif">1/8</font>片（快轴均在<font face="Times New Roman, Times, serif">y</font>轴）。求出射线光偏振态。</font></b></font> 
+  <p><font face="宋体"><img border="0" src="5_6/5_6.47.gif" width="513" height="200"> 
+    </font>
+  <p><font face="宋体"><b><font size="5"><font color="#FF6666"><u><font color="#FF0000">3、利用<img border="0" src="5_6/5_6.48.gif" width="292" height="83" align="absmiddle"> 
+    关系，可求取其中任一项</font></u></font></font> </b></font> 
+  <p>&nbsp; 
+  <p align="left"><font face="宋体">　 </font>
+</blockquote>
+<p align="center"><font size="5" face="宋体"><a href="5_5.htm">上一节</a>　<a href="index1.htm">目录</a>　　<a href="5_7.htm">下一节</a></font> 
+<form>
+  <p align="center"><font face="宋体">第 
+    <select name="zhang" size="1">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+    </select>
+    章&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 第 
+    <select name="jie" size="1">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      <option value="8">8</option>
+      <option value="9">9</option>
+    </select>
+    节 
+    <input type="button" value="转到" name="B1"    
+  onclick="location.assign(this.form.zhang.value+'_'+this.form.jie.value+'.htm')">
+    </font></p>
+      </form>
+              
+              
+            
+      
+</body>          
+          
+</html>          

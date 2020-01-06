@@ -1,0 +1,82 @@
+.mstheme
+{
+	nav-banner-image: url(citbanna.gif);
+	separator-image: url(citsepa.gif);
+	list-image-1: url(citbul1a.gif);
+	list-image-2: url(citbul2a.gif);
+	list-image-3: url(citbul3a.gif);
+	navbutton-horiz-pushed: url(citnavhp.gif);
+	navbutton-horiz-normal: url(citnavha.gif);
+	navbutton-horiz-hovered: url(citnavhh.gif);
+	navbutton-vert-pushed: url(citnavhp.gif);
+	navbutton-vert-normal: url(citnavha.gif);
+	navbutton-vert-hovered: url(citnavhh.gif);
+	navbutton-home-normal: url(cithomea.gif);
+	navbutton-home-hovered: url(cithomeh.gif);
+	navbutton-home-pushed: url(cithomep.gif);
+	navbutton-up-normal: url(citupa.gif);
+	navbutton-up-hovered: url(cituph.gif);
+	navbutton-up-pushed: url(citupp.gif);
+	navbutton-prev-normal: url(citbacka.gif);
+	navbutton-prev-hovered: url(citbackh.gif);
+	navbutton-prev-pushed: url(citbackp.gif);
+	navbutton-next-normal: url(citnexta.gif);
+	navbutton-next-hovered: url(citnexth.gif);
+	navbutton-next-pushed: url(citnextp.gif);
+}
+.mstheme-bannertxt
+{
+	font-family: Verdana, Arial, Helvetica;
+	font-size: 6;
+	color: rgb(0,0,0);
+}
+.mstheme-horiz-navtxt
+{
+	font-family: Verdana, Arial, Helvetica;
+	font-size: 2;
+	font-weight: bold;
+	color: rgb(0,0,0);
+}
+.mstheme-vert-navtxt
+{
+	font-family: Verdana, Arial, Helvetica;
+	font-size: 2;
+	font-weight: bold;
+	color: rgb(0,0,0);
+}
+.mstheme-navtxthome
+{
+	font-family: Arial, Helvetica;
+	font-size: 1;
+	color: rgb(0,0,0);
+}
+.mstheme-navtxtup
+{
+	font-family: Arial, Helvetica;
+	font-size: 1;
+	color: rgb(0,0,0);
+}
+.mstheme-navtxtprev
+{
+	font-family: Arial, Helvetica;
+	font-size: 1;
+	color: rgb(0,0,0);
+}
+.mstheme-navtxtnext
+{
+	font-family: Arial, Helvetica;
+	font-size: 1;
+	color: rgb(0,0,0);
+}
+UL
+{ 
+	list-style-image: url(citbul1a.gif);
+}
+UL UL
+{
+	list-style-image: url(citbul2a.gif);
+}
+UL UL UL
+{
+	list-style-image: url(citbul3a.gif);
+}

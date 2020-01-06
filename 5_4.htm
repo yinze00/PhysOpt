@@ -1,0 +1,335 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+
+<title>第四节　光波在晶体表面的折射和反射</title>
+</head>
+
+<body topmargin="0" leftmargin="0" bgproperties="fixed" bgcolor="#00FF00">
+<div id="KBStatic" style="position:absolute; left:650px; top:350px; width:41px; height:59px; z-index:25"> 
+  <dd align="left">　</dd>
+</div>
+<script language="JavaScript1.2">
+NS4 = (document.layers) ? 1 : 0;
+IE4 = (document.all) ? 1 : 0;
+ver4 = (NS4 || IE4) ? 1 : 0;
+if (ver4) {
+  with (document) {
+      write("<STYLE TYPE='text/css'>");
+      if (NS4) {
+          write(".parent {position:absolute; visibility:visible}");
+          write(".child {position:absolute; visibility:visible}");
+          write(".regular {position:absolute; visibility:visible}")
+      }
+      else {
+          write(".child {display:none}")
+      }
+      write("</STYLE>");
+  }
+}
+function getIndex(el) {
+  ind = null;
+  for (i=0; i<document.layers.length; i++) {
+      whichEl = document.layers[i];
+      if (whichEl.id == el) {
+          ind = i;
+          break;
+      }
+  }
+  return ind;
+}
+function arrange() {
+  nextY = document.layers[firstInd].pageY +document.layers[firstInd].document.height;
+  for (i=firstInd+1; i<document.layers.length; i++) {
+      whichEl = document.layers[i];
+      if (whichEl.visibility != "hide") {
+          whichEl.pageY = nextY;
+          nextY += whichEl.document.height;
+      }
+  }
+}
+function initIt(){
+  if (!ver4) return;
+  if (NS4) {
+      for (i=0; i<document.layers.length; i++) {
+          whichEl = document.layers[i];
+          if (whichEl.id.indexOf("Child") != -1) whichEl.visibility = "hide";
+     }
+      arrange();
+  }
+  else {
+      divColl = document.all.tags("DIV");
+      for (i=0; i<divColl.length; i++) {
+          whichEl = divColl(i);
+          if (whichEl.className == "child") whichEl.style.display = "none";
+      }
+  }
+}
+function expandIt(el) {
+  if (!ver4) return;
+  if (IE4) {
+      whichEl = eval(el + "Child");
+      if (whichEl.style.display == "none") {
+          whichEl.style.display = "block";
+      }
+      else {
+          whichEl.style.display = "none";
+      }
+  }
+  else {
+      whichEl = eval("document." + el + "Child");
+      if (whichEl.visibility == "hide") {
+          whichEl.visibility = "show";
+      }
+      else {
+          whichEl.visibility = "hide";
+      }
+      arrange();
+  }
+}
+onload = initIt;
+</script>
+<table border="0" cellpadding="0" cellspacing="0" width="775">
+  <tr> 
+    <td width="100%"> 
+      <p><a name="top"></a><font face="楷体_GB2312" size="5"><a name="head" href="#no1"><b><font face="宋体">一、光在晶体表面的反射和折射定律</font></b></a></font></p>
+      <p><font face="宋体" size="5"><b><a href="#no2">二、光在单轴晶体中传播方向的确定</a></b></font></p>
+      <hr>
+      <h1 align="center"><font face="宋体"><b>第四节　光波在晶体表面的折射和反射</b></font></h1>
+      <p><font face="宋体"><b><font size="5">讨论光波入射晶体表面时，光在晶体中的波法线和光线方向的确定。</font></b></font></p>
+      <p><font face="宋体"><b><b><font size="5"><a name="no1"></a></font></b><font size="5">一、光在晶体表面的反射和折射定律&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></b></font></p>
+      <blockquote> 
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr> 
+            <td valign="top"><font face="宋体"><b><font size="5">▲</font></b></font></td>
+            <td> 
+              <table border="2" cellpadding="0" cellspacing="0" bordercolor="#FF00FF">
+                <tr> 
+                  <td><font face="宋体"><b><font size="5">普遍形式的反射和折射定律依然成立，即：<br>
+                    <img border="0" src="images5_3/5_4.ht6.gif" width="345" height="41" align="absmiddle"></font></b></font></td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr> 
+            <td></td>
+            <td> 
+              <ul>
+                <li><font face="宋体"><b><img border="0" src="images5_3/5_4.ht7.gif" align="absmiddle" width="97" height="41"><font size="5">在入射面内，并与界面法线共面</font></b></font></li>
+                <li><font face="宋体"><b><font size="5">有<img border="0" src="images5_3/5_4.ht8.gif" align="absmiddle" width="229" height="41">，<br>
+                  即：<img border="0" src="images5_3/5_4.ht9.gif" align="absmiddle" width="228" height="84">　——类似各向同性媒质时形式</font></b></font></li>
+              </ul>
+            </td>
+          </tr>
+          <tr> 
+            <td valign="top"><font face="宋体"><b><font size="5">▲</font></b></font></td>
+            <td> 
+              <table border="0" cellpadding="0" cellspacing="0" width="665">
+                <tr> 
+                  <td valign="top" width="75"><font face="宋体"><b><font size="5" color="#0000FF"><span style="background-color: #FFFF00">注意：</span></font></b></font></td>
+                  <td width="586"> 
+                    <table border="2" cellpadding="0" cellspacing="0" bordercolor="#FF00FF">
+                      <tr> 
+                        <td><font face="宋体"><b><font size="5">①波法线服从折、反定律，<img border="0" src="images5_4/5_4.ht10.gif" align="absmiddle" width="99" height="36">分别为波法线与界面法线夹角。一般地光线不服从折、反定律</font> 
+                          </b> </font> 
+                          <p><font face="宋体"><b><font size="5">②比值<img border="0" src="images5_4/5_4.ht11.gif" align="absmiddle" width="143" height="36">，或<img border="0" src="images5_4/5_4.ht12.gif" align="absmiddle" width="145" height="36">，一般不为常数。存在双反射或双折射现象。</font></b></font> 
+                          <p><font face="宋体"><b><font size="5">③对应一个<img border="0" src="images5_4/5_4.ht27.gif" width="31" height="37" align="absmiddle">，晶体中有<img border="0" src="images5_4/5_4.28.gif" width="287" height="39" align="absmiddle">双折射，反射现象。</font></b></font></p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+        <p><font face="宋体"><b><font size="5">▲斯涅耳作图法——折、反定律的一种表示形式。</font></b></font></p>
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr> 
+            <td><font face="宋体"><b><embed width="270" height="280" src="images5_4/5_4_01.swf">
+ </b></font></td>
+            <td valign="top"><font face="宋体"><b><embed width="270" height="280" src="images5_4/5_4_02.swf">
+ </b></font></td>
+          </tr>
+          <tr> 
+            <td colspan="2"><font face="宋体"><b><font size="5">由折反定律，对于界面上位置矢量<img border="0" src="images5_4/5_4.ht13.gif" align="absmiddle" width="19" height="25">，有<img border="0" src="images5_4/5_4.ht14.gif" align="absmiddle" width="229" height="41">，其投影分量不变，从而可求取<img border="0" src="images5_4/5_4.ht15.gif" align="absmiddle" width="28" height="41">或<img border="0" src="images5_4/5_4.ht16.gif" align="absmiddle" width="29" height="41">之方向</font></b></font></td>
+          </tr>
+        </table>
+        <p><font face="宋体"><b>　</b></font></p>
+      </blockquote>
+      <p><font face="宋体"><b><font size="5"><a name="no2"></a>二、光在单轴晶体中传播方向的确定</font></b></font></p>
+      <blockquote> 
+        <p><font face="宋体"><b><font size="5">观察从各向同性媒质向单轴晶体入射的平行光束的行径</font></b></font></p>
+        <p><font face="宋体"><b><font size="5">(一).计算法</font></b></font></p>
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr> 
+            <td> 
+              <table border="2" cellpadding="0" cellspacing="0" bordercolor="#FF00FF">
+                <tr> 
+                  <td><font face="宋体"><b><font size="5">由反射、折射定律<br>
+                    得波法线方向</font></b></font></td>
+                </tr>
+              </table>
+            </td>
+            <td><font face="宋体"><b><font size="5">——→</font></b></font></td>
+            <td> 
+              <table border="2" cellpadding="0" cellspacing="0" bordercolor="#FF00FF">
+                <tr> 
+                  <td><font face="宋体"><b><font size="5">相应光线的方向</font></b></font></td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+        <p><font face="宋体"><b>●<font size="5" color="#FF0000"><u>相应关系式：</u></font></b></font></p>
+        <blockquote> 
+          <table border="2" cellpadding="0" cellspacing="0" bordercolor="#800000">
+            <tr> 
+              <td><font face="宋体"><b><img border="0" src="images5_4/5_4.ht1.gif" width="561" height="463"></b></font></td>
+            </tr>
+          </table>
+        </blockquote>
+        <p><font face="宋体"><b><font size="5">●<u><font color="#FF0000">注意：</font></u></font></b></font></p>
+        <p><font face="宋体"><b><font size="5">①<img border="0" src="images5_4/5_4.ht2.gif" align="absmiddle" width="61" height="36">及<img border="0" src="images5_4/5_4.ht3.gif" align="absmiddle" width="29" height="36">是波法线的折射角</font></b></font></p>
+        <p><font face="宋体"><b><font size="5">②<img border="0" src="images5_4/5_4.ht4.gif" align="absmiddle" width="53" height="33">分别为波法线、光线与光轴的夹角</font></b></font></p>
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr> 
+            <td> 
+              <p><font face="宋体"><b><font size="5">例1.平行钠光正入射到一片方解石（负单轴晶体）上，光轴取向（如图）。在图面内，并与晶体表面成<font face="Times New Roman, Times, serif">30°</font>角。求：①晶体内<font face="Times New Roman, Times, serif">o</font>,<font face="Times New Roman, Times, serif">e</font>光线的夹角；②晶片厚度<font face="Times New Roman, Times, serif">d=1mm</font>时，<font face="Times New Roman, Times, serif">o</font>,<font face="Times New Roman, Times, serif">e</font>光射出晶片后的相位差</font></b></font></p>
+            </td>
+            <td><font face="宋体"><b><font size="5"><img border="0" src="images5_4/5_4_04.gif" width="220" height="220"></font></b></font></td>
+          </tr>
+        </table>
+        <p><font face="宋体"><b><font size="5">解：</font></b></font></p>
+        <div id="KB1Parent" class="parent"> 
+          <p><font face="宋体"><b><a href="#"
+onClick="expandIt('KB1'); return false"><big><big>第一步</big></big></a></b></font></p>
+        </div>
+        <div id="KB1Child" class="child"> 
+          <blockquote> 
+            <p><font face="宋体"><b><font size="5">●用斯涅耳作图法给出图<img border="0" src="images5_4/5_4.ht5.gif" align="absmiddle" width="65" height="41">与<img border="0" src="images5_4/5_4.ht6.gif" align="absmiddle" width="25" height="41">平行</font></b></font></p>
+            <p><font face="宋体"><b><font size="5"><img border="0" src="images5_4/5_4.ht7.gif" align="absmiddle" width="69" height="41">平行，<img border="0" src="images5_4/5_4.ht8.gif" align="absmiddle" width="28" height="41">与<img border="0" src="images5_4/5_4.ht9.gif" align="absmiddle" width="29" height="40">不一致</font></b></font></p>
+          </blockquote>
+        </div>
+        <div id="KB2Parent" class="parent"> 
+          <p><font face="宋体"><b><a href="#"
+onClick="expandIt('KB2'); return false"><big><big>第二步</big></big></a></b></font></p>
+        </div>
+        <div id="KB2Child" class="child" style="width: 693; height: 418"> 
+          <blockquote> 
+            <p><font face="宋体"><b><img border="0" src="images5_4/5_4.ht17.gif" width="435" height="304"> 
+              </b></font> 
+            <p><font face="宋体"><b><font size="5"><img border="0" src="images5_4/5_4.ht18.gif" align="absmiddle" width="211" height="29">(负号表示<font face="Times New Roman, Times, serif">e</font>光线较其波法线远离光轴）</font> 
+              </b></font> 
+            <p><font face="宋体"><b><font size="5"><img border="0" src="images5_4/5_4.ht19.gif" align="absmiddle" width="23" height="20">即为<font face="Times New Roman, Times, serif">o</font>,<font face="Times New Roman, Times, serif">e</font>光线之夹角</font> 
+              </b></font> 
+          </blockquote>
+        </div>
+        <div id="KB3Parent" class="parent"> 
+          <p><font face="宋体"><b><a href="#"
+onClick="expandIt('KB3'); return false"><big><big>第三步</big></big></a></b></font></p>
+        </div>
+        <div id="KB3Child" class="child"> 
+          <blockquote> 
+            <p><font face="宋体"><b><font size="5">●两出射光的相位差</font></b></font></p>
+            <p><font face="宋体"><b><img border="0" src="images5_4/5_4.ht20.gif" width="341" height="71"></b></font></p>
+            <p><font face="宋体"><b><font size="5" face="Times New Roman, Times, serif">e</font><font size="5">光波法线方向折射率为：</font></b></font></p>
+            <p><font face="宋体"><b><img border="0" src="images5_4/5_4.ht21.gif" width="544" height="177"></b></font></p>
+            <p><font face="宋体"><b><font size="5" face="Times New Roman, Times, serif">o</font><font size="5">,<font face="Times New Roman, Times, serif">e</font>光波的光程差为：</font></b></font></p>
+            <p><font face="宋体"><b><img border="0" src="images5_4/5_4.ht22.gif" width="453" height="72"></b></font></p>
+          </blockquote>
+        </div>
+        <p><font face="宋体"><b><font size="5">例2.略</font></b></font></p>
+        <p><font face="宋体"><b><font size="5">(二).作图法求取光线方向</font></b></font></p>
+        <p><font face="宋体"><b><font size="5">1.<font color="#FF0000">斯涅耳作图法</font>由<u>波矢面</u>得反射、折射波法线方向，结合解析法得光线方向</font></b></font></p>
+        <p><font face="宋体"><b><font size="5">2.<font color="#FF0000">惠更斯作图法</font>由<u>光线面</u>直接给出光线方向</font></b></font></p>
+        <p><font face="宋体"><b><font size="5">▲<font color="#FF00FF">斜光轴、斜入射的一般情况</font>（以单轴正晶体为例，见图）</font></b></font></p>
+        <p align="center"><font face="宋体"><b><embed width="300" height="300" src="images5_4/5_4_03.swf">
+ </b></font></p>
+        <blockquote> 
+          <p><font face="宋体"><b><font size="5">●结论：光轴与晶面斜交（光轴在入射面内）且光波斜入射时，<font face="Times New Roman, Times, serif">o</font>,<font face="Times New Roman, Times, serif">e</font>光线分离，<font face="Times New Roman, Times, serif">o</font>,<font face="Times New Roman, Times, serif">e</font>光波法线不一致，发生双折射</font></b></font></p>
+        </blockquote>
+        <p><font face="宋体"><b><font size="5">▲<font color="#FF00FF">平面波垂直入射的几种特殊情况：</font></font></b></font></p>
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr> 
+            <td rowspan="4"><font face="宋体"><b><img border="0" src="images5_4/5_4_05.gif" width="300" height="570"></b></font></td>
+            <td><font face="宋体"><b><font size="5" face="Times New Roman, Times, serif">a)o</font><font size="5">,<font face="Times New Roman, Times, serif">e</font>光线传播方向一致，传播速度不同，发生双折射</font></b></font></td>
+          </tr>
+          <tr> 
+            <td><font face="宋体"><b><font size="5" face="Times New Roman, Times, serif">b)</font><font size="5">沿光轴方向传播，<font face="Times New Roman, Times, serif">o</font>,<font face="Times New Roman, Times, serif">e</font>光的传播方向传播速度相同，无双折射</font></b></font></td>
+          </tr>
+          <tr> 
+            <td><font face="宋体"><b><font size="5" face="Times New Roman, Times, serif">c)o</font><font size="5">,<font face="Times New Roman, Times, serif">e</font>光线方向不一致，其波法线方向一致</font></b></font></td>
+          </tr>
+          <tr> 
+            <td>
+              <p><font face="宋体"><b><font size="5" face="Times New Roman, Times, serif">d)</font><font size="5">光轴垂直入射面时，如同各向同性介质一样，<font face="Times New Roman, Times, serif">o</font>,<font face="Times New Roman, Times, serif">e</font>光线服从折射定律</font></b></font></p>
+              <p><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0" width="400" height="320">
+                  <param name=movie value="images5_4/Movie1.swf">
+                  <param name=quality value=high>
+                  <embed src="images5_4/Movie1.swf" quality=high pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="400" height="320">
+                  </embed> 
+                </object></p>
+            </td>
+          </tr>
+        </table>
+        <p><font face="宋体"><b><font size="5">&nbsp;▲<font color="#FF00FF">界面上的全反射（见右上图）</font></font></b></font></p>
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr> 
+            <td width="10"><font face="宋体"></font></td>
+            <td width="705"> 
+              <ul>
+                <li><font face="宋体"><b><font size="5">由<font face="Times New Roman, Times, serif">B</font>点向<img border="0" src="images5_4/5_4.ht23.gif" align="absmiddle" width="63" height="36">引切线，得<font face="Times New Roman, Times, serif">o</font>,<font face="Times New Roman, Times, serif">e</font>光线</font></b></font></li>
+                <li><font face="宋体"><b><font size="5">由<img border="0" src="images5_4/image002.gif" width="32" height="33" align="absmiddle">无法向<img border="0" src="images5_4/5_4.ht24.gif" align="absmiddle" width="27" height="36">或<img border="0" src="images5_4/5_4.ht25.gif" align="absmiddle" width="28" height="36">面引切线，发生全反射</font></b></font></li>
+                <li><font face="宋体"><b><font size="5">临界角<img border="0" src="images5_4/5_4.ht26.gif" align="absmiddle" width="195" height="77"></font></b></font></li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+        <blockquote> 
+          <blockquote> 
+            <blockquote>&nbsp;</blockquote>
+          </blockquote>
+        </blockquote>
+        <p align="center"><font size="5" face="宋体"><a href="5_3.htm">上一节</a>　<a href="index1.htm">目录</a>　　<a href="5_5.htm">下一节</a></font> 
+        <form>
+          <p align="center">第 
+            <select name="zhang" size="1">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+            </select>
+            章&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 第 
+            <select name="jie" size="1">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+            </select>
+            节 
+            <input type="button" value="转到" name="B1"    
+  onClick="location.assign(this.form.zhang.value+'_'+this.form.jie.value+'.htm')">
+          </p>
+        </form>
+        <p>&nbsp;</p>
+        <p><font face="宋体"><b>　</b></font></p>
+        <p><font face="宋体"><b>　</b></font></p>
+      </blockquote>
+    </td>
+  </tr>
+</table>
+
+</body>
+
+</html>

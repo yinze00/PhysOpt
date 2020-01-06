@@ -1,0 +1,1412 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>4_3 透镜的付里叶变换性质和成像性质</title>
+<!--mstheme--><link rel="stylesheet" type="text/css" href="_themes/expeditn/expe1111-106.css"><meta name="Microsoft Theme" content="expeditn 1111">
+<meta name="Microsoft Border" content="tl, default">
+</head>
+
+<body><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+<p align="center">　</p> 
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td valign="top" width="1%">
+
+
+
+</td><td valign="top" width="24"></td><!--msnavigation--><td valign="top">
+
+<p><a name="head"><font size="3"><b></b></font></a></p>
+<div id="KBStatic" style="position:absolute; left:650px; top:350px; width:41px; height:59px; z-index:25">
+<dd align="left"><a href="#head"><font size="4"><b><img src="images/back-top.gif" border="0" width="45" height="57"></b></font></a></dd>
+</div><script language="JavaScript">
+function KB_keepItInIE(theName,theWantTop,theWantLeft) {
+theRealTop=parseInt(document.body.scrollTop)
+theTrueTop=theWantTop+theRealTop
+document.all[theName].style.top=theTrueTop
+theRealLeft=parseInt(document.body.scrollLeft)
+theTrueLeft=theWantLeft+theRealLeft
+document.all[theName].style.left=theTrueLeft
+}
+function KB_keepItInNN(theName,theWantX,theWantY) {
+theRealLay=document.layers[theName]
+theBadX=self.pageYOffset
+theBadY=self.pageXOffset
+theRealX=theBadX+theWantX
+theRealY=theBadY+theWantY
+theRealLay.moveTo(theRealY,theRealX)
+}
+IE4=(document.all)?1:0
+NN4=(document.layers)?1:0
+if (IE4)
+setInterval('KB_keepItInIE("KBStatic",350,650)',1)
+if (NN4)
+setInterval('KB_keepItInNN("KBStatic",350,650)',1)
+</script>
+
+
+<p><font size="4"><b><a href="#first">一、透镜的透射系数</a><br>
+<a href="#second">
+二、透镜的傅里叶变换性质</a><br>
+<a href="#third">
+三、透镜得成像性质</a></b></font></p>
+
+<hr>
+<div align="center">
+  <center>
+<table border="0" cellpadding="0" cellspacing="5">
+  <tr>
+    <td width="100%">
+      <p align="center"><b><font size="5">第三节 &nbsp; 透镜的傅里叶变换性质和成像性质</font></b></td>        
+  </tr> 
+  <tr> 
+    <td width="100%"><span style="mso-text-raise: -16.0pt; mso-bidi-font-size: 12.0pt; font-family: Times New Roman; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA" lang="EN-US"><font size="4"><b><img src="images4_3/4_3.ht1.gif" v:shapes="_x0000_i1025" width="600" height="64"></b></font>       
+</span></td>
+  </tr>
+</table>
+  </center>
+</div>
+<table border="0" cellpadding="0" cellspacing="5" width="100%" height="208">
+  <tr>
+    <td width="646" colspan="2" height="20"><font size="4"><b><a name="first"></a>一、透镜的透射系数</b></font></td>
+  </tr>
+  <tr>
+    <td height="37">
+      <p align="left"><font size="4"><b>              
+&nbsp;&nbsp;&nbsp; 透镜可视为相位型衍射屏，能改变入射光波的空间相位分布。</b></font></td>    
+    <td width="190" rowspan="3" height="176"> 
+      <p align="center"><font size="4"><b><img border="0" src="images4_3/4_3.tu1.gif" width="325" height="136"></b></font></td>
+  </tr>
+  <tr>
+    <td valign="top" height="58"><font size="4"><b> 设透镜的振幅透射系数为：</b></font>
+      <p align="center"> <span lang="EN-US" style="mso-bidi-font-size: 12.0pt; font-family: Times New Roman; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA"><font size="4"><b><span style="mso-text-raise:-15.0pt"><!--[if gte vml 1]><v:shapetype
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:126pt;
+ height:46.5pt' o:ole="">
+ <v:imagedata src="file:///C:/WINDOWS/TEMP/msoclip1/01/clip_image001.wmz"
+  o:title=""/>
+</v:shape><![endif]-->
+      <img src="images4_3/4_3.HT2.gif" v:shapes="_x0000_i1025" align="baseline" width="168" height="62"></span><!--[if gte mso 9]><xml> 
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1025" 
+  DrawAspect="Content" ObjectID="_1082735405"> 
+ </o:OLEObject> 
+</xml><![endif]--> 
+      </b></font> 
+      </span></p> 
+    </td> 
+  </tr> 
+  <tr> 
+    <td height="69"> 
+      <p align="center"><font size="4"><b>考察<span style="mso-text-raise:-5.0pt"><!--[if gte vml 1]><v:shapetype       
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"       
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">       
+ <v:stroke joinstyle="miter"/>       
+ <v:formulas>       
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>       
+  <v:f eqn="sum @0 1 0"/>       
+  <v:f eqn="sum 0 0 @1"/>       
+  <v:f eqn="prod @2 1 2"/>       
+  <v:f eqn="prod @3 21600 pixelWidth"/>       
+  <v:f eqn="prod @3 21600 pixelHeight"/>       
+  <v:f eqn="sum @0 0 1"/>       
+  <v:f eqn="prod @6 1 2"/>       
+  <v:f eqn="prod @7 21600 pixelWidth"/>       
+  <v:f eqn="sum @8 21600 0"/>       
+  <v:f eqn="prod @7 21600 pixelHeight"/>       
+  <v:f eqn="sum @10 21600 0"/>       
+ </v:formulas>       
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>       
+ <o:lock v:ext="edit" aspectratio="t"/>       
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:45pt;       
+ height:17.25pt' o:ole="">       
+ <v:imagedata src="file:///C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/msoclip1/08/clip_image001.wmz"       
+  o:title=""/>       
+</v:shape><![endif]-->       
+ <!--[if gte vml 1]><v:shapetype       
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"      
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">      
+ <v:stroke joinstyle="miter"/>      
+ <v:formulas>      
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>      
+  <v:f eqn="sum @0 1 0"/>      
+  <v:f eqn="sum 0 0 @1"/>      
+  <v:f eqn="prod @2 1 2"/>      
+  <v:f eqn="prod @3 21600 pixelWidth"/>      
+  <v:f eqn="prod @3 21600 pixelHeight"/>      
+  <v:f eqn="sum @0 0 1"/>      
+  <v:f eqn="prod @6 1 2"/>      
+  <v:f eqn="prod @7 21600 pixelWidth"/>      
+  <v:f eqn="sum @8 21600 0"/>      
+  <v:f eqn="prod @7 21600 pixelHeight"/>      
+  <v:f eqn="sum @10 21600 0"/>      
+ </v:formulas>      
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>      
+ <o:lock v:ext="edit" aspectratio="t"/>      
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:45pt;      
+ height:17.25pt' o:ole="">      
+ <v:imagedata src="file:///C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/msoclip1/11/clip_image001.wmz"      
+  o:title=""/>      
+</v:shape><![endif]-->      
+      <span lang="EN-US" style="font-size:10.5pt;mso-bidi-font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:宋体;mso-font-kerning:
+1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:
+AR-SA"><!--[if gte vml 1]><v:shapetype
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:57pt;
+ height:21.75pt' o:ole="">
+ <v:imagedata src="file:///C:/WINDOWS/TEMP/msoclip1/01/clip_image001.wmz"
+  o:title=""/>
+</v:shape><![endif]-->
+      <img src="images4_3/4_3.HT3.gif" v:shapes="_x0000_i1025" align="middle" width="76" height="29"><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1025"
+  DrawAspect="Content" ObjectID="_1082737867">
+ </o:OLEObject>
+</xml><![endif]-->
+      </span><!--[if gte mso 9]><xml>      
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1025"      
+  DrawAspect="Content" ObjectID="_1080385577">      
+ </o:OLEObject>      
+</xml><![endif]--></span>的具体形式&nbsp;</b></font>
+      <p align="center"><font size="4"><b>&nbsp; （以会聚透镜对点光源成像为例）</b></font></p>    
+    </td> 
+  </tr> 
+</table> 
+<table border="0" cellpadding="0" cellspacing="5" width="100%"> 
+  <tr> 
+    <td nowrap><font size="4"><b>      
+ 傍轴近似下，写出紧靠透镜前、后表面的光波的复振幅：</b></font></td> 
+  </tr>
+  <tr>
+    <td>
+      <p align="center"><font size="4"><b><img border="0" src="images4_3/4_3.HT13.gif" width="532" height="75"></b></font></td> 
+  </tr>
+  <tr>
+    <td nowrap><font size="4"><b> 略去常量相位因子，得：</b></font></td>
+  </tr>
+  <tr>
+    <td>
+      <p align="center"><span lang="EN-US" style="mso-bidi-font-size: 12.0pt; font-family: Times New Roman; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA"><font size="4"><b><span style="mso-text-raise:-16.0pt"><!--[if gte vml 1]><v:shapetype
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:4in;
+ height:48pt' o:ole="">
+ <v:imagedata src="file:///C:/WINDOWS/TEMP/msoclip1/01/clip_image001.wmz"
+  o:title=""/>
+</v:shape><![endif]-->
+      <img src="images4_3/4_3.HT14.gif" v:shapes="_x0000_i1025" width="384" height="64"></span><!--[if gte mso 9]><xml> 
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1025" 
+  DrawAspect="Content" ObjectID="_1082735461"> 
+ </o:OLEObject> 
+</xml><![endif]--> 
+      </b></font> 
+      </span></td> 
+  </tr> 
+  <tr> 
+    <td> 
+      <p align="center"><span style="mso-bidi-font-size: 12.0pt; font-family: Times New Roman; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA" lang="EN-US"><b><font size="4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></b></span> 
+      <b><font size="4">   
+      即：<span lang="EN-US" style="font-size:10.5pt;mso-bidi-font-size:              
+12.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:宋体;mso-font-kerning:        
+1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:        
+AR-SA"><!--[if gte vml 1]><v:shapetype     
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"     
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">     
+ <v:stroke joinstyle="miter"/>     
+ <v:formulas>     
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>     
+  <v:f eqn="sum @0 1 0"/>     
+  <v:f eqn="sum 0 0 @1"/>     
+  <v:f eqn="prod @2 1 2"/>     
+  <v:f eqn="prod @3 21600 pixelWidth"/>     
+  <v:f eqn="prod @3 21600 pixelHeight"/>     
+  <v:f eqn="sum @0 0 1"/>     
+  <v:f eqn="prod @6 1 2"/>     
+  <v:f eqn="prod @7 21600 pixelWidth"/>     
+  <v:f eqn="sum @8 21600 0"/>     
+  <v:f eqn="prod @7 21600 pixelHeight"/>     
+  <v:f eqn="sum @10 21600 0"/>     
+ </v:formulas>     
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>     
+ <o:lock v:ext="edit" aspectratio="t"/>     
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:128.25pt;     
+ height:33.75pt' o:ole="" o:bordertopcolor="red" o:borderleftcolor="red"     
+ o:borderbottomcolor="red" o:borderrightcolor="red">     
+ <v:imagedata src="file:///C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/msoclip1/01/clip_image001.wmz"     
+  o:title=""/>     
+ <w:bordertop type="single" width="12"/>     
+ <w:borderleft type="single" width="12"/>     
+ <w:borderbottom type="single" width="12"/>     
+ <w:borderright type="single" width="12"/>     
+</v:shape><![endif]-->     
+      <span style="mso-text-raise:-9.0pt"><!--[if gte vml 1]><v:shapetype
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:153pt;
+ height:46.5pt' o:ole="" o:bordertopcolor="red" o:borderleftcolor="red"
+ o:borderbottomcolor="red" o:borderrightcolor="red">
+ <v:imagedata src="file:///C:/WINDOWS/TEMP/msoclip1/01/clip_image001.wmz"
+  o:title=""/>
+ <w:bordertop type="single" width="12"/>
+ <w:borderleft type="single" width="12"/>
+ <w:borderbottom type="single" width="12"/>
+ <w:borderright type="single" width="12"/>
+</v:shape><![endif]-->
+      <img src="images4_3/4_3.HT7.gif" v:shapes="_x0000_i1025" align="middle" width="208" height="66"></span><!--[if gte mso 9]><xml> 
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1025" 
+  DrawAspect="Content" ObjectID="_1082735489"> 
+ </o:OLEObject> 
+</xml><![endif]--> 
+      <!--[if gte mso 9]><xml>        
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1025"    
+  DrawAspect="Content" ObjectID="_1080480461">    
+ </o:OLEObject>    
+</xml><![endif]--> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;</span>式中：&nbsp;<span style="mso-bidi-font-size: 12.0pt; font-family: Times New Roman; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA" lang="EN-US"><span style="mso-text-raise: -9.0pt; mso-bidi-font-size: 12.0pt; font-family: Times New Roman; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA" lang="EN-US">&nbsp;&nbsp;  
+      <span style="mso-text-raise:-15.0pt"><!--[if gte vml 1]><v:shapetype        
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"        
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">        
+ <v:stroke joinstyle="miter"/>        
+ <v:formulas>        
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>        
+  <v:f eqn="sum @0 1 0"/>        
+  <v:f eqn="sum 0 0 @1"/>        
+  <v:f eqn="prod @2 1 2"/>        
+  <v:f eqn="prod @3 21600 pixelWidth"/>        
+  <v:f eqn="prod @3 21600 pixelHeight"/>        
+  <v:f eqn="sum @0 0 1"/>        
+  <v:f eqn="prod @6 1 2"/>        
+  <v:f eqn="prod @7 21600 pixelWidth"/>        
+  <v:f eqn="sum @8 21600 0"/>        
+  <v:f eqn="prod @7 21600 pixelHeight"/>        
+  <v:f eqn="sum @10 21600 0"/>        
+ </v:formulas>        
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>        
+ <o:lock v:ext="edit" aspectratio="t"/>        
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:62.25pt;        
+ height:33.75pt' o:ole="">        
+ <v:imagedata src="file:///C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/msoclip1/09/clip_image001.wmz"        
+  o:title=""/>        
+</v:shape><![endif]-->        
+      <!--[if gte vml 1]><v:shapetype
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:87.75pt;
+ height:48pt' o:ole="">
+ <v:imagedata src="file:///C:/WINDOWS/TEMP/msoclip1/01/clip_image001.wmz"
+  o:title=""/>
+</v:shape><![endif]-->
+      <img src="images4_3/4_3.HT4.gif" v:shapes="_x0000_i1025" align="middle" width="117" height="64"><!--[if gte mso 9]><xml> 
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1025" 
+  DrawAspect="Content" ObjectID="_1082735543"> 
+ </o:OLEObject> 
+</xml><![endif]--> 
+      </span><!--[if gte mso 9]><xml>         
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1025"       
+  DrawAspect="Content" ObjectID="_1080386392">       
+ </o:OLEObject>       
+</xml><![endif]-->       
+      </span><!--[if gte mso 9]><xml>           
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1025"        
+  DrawAspect="Content" ObjectID="_1080386284">        
+ </o:OLEObject>        
+</xml><![endif]-->        
+      </span><span style="mso-text-raise:-16.0pt"><!--[if gte vml 1]><v:shapetype            
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"         
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">         
+ <v:stroke joinstyle="miter"/>         
+ <v:formulas>         
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>         
+  <v:f eqn="sum @0 1 0"/>         
+  <v:f eqn="sum 0 0 @1"/>         
+  <v:f eqn="prod @2 1 2"/>         
+  <v:f eqn="prod @3 21600 pixelWidth"/>         
+  <v:f eqn="prod @3 21600 pixelHeight"/>         
+  <v:f eqn="sum @0 0 1"/>         
+  <v:f eqn="prod @6 1 2"/>         
+  <v:f eqn="prod @7 21600 pixelWidth"/>         
+  <v:f eqn="sum @8 21600 0"/>         
+  <v:f eqn="prod @7 21600 pixelHeight"/>         
+  <v:f eqn="sum @10 21600 0"/>         
+ </v:formulas>         
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>         
+ <o:lock v:ext="edit" aspectratio="t"/>         
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:219pt;         
+ height:36.75pt' o:ole="" o:bordertopcolor="red" o:borderleftcolor="red"         
+ o:borderbottomcolor="red" o:borderrightcolor="red">         
+ <v:imagedata src="file:///C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/msoclip1/01/clip_image001.wmz"         
+  o:title=""/>         
+ <w:bordertop type="single" width="12"/>         
+ <w:borderleft type="single" width="12"/>         
+ <w:borderbottom type="single" width="12"/>         
+ <w:borderright type="single" width="12"/>         
+</v:shape><![endif]-->         
+</span></font></b></td> 
+  </tr> 
+</table> 
+<table border="0" cellpadding="0" cellspacing="5" width="100%"> 
+  <tr> 
+    <td nowrap><font size="4"><b>        
+&nbsp;&nbsp; 上式表明，透镜具有相位调制作用，类似一相位型衍射屏。</b></font></td>   
+  </tr> 
+  <tr> 
+    <td width="705"><font size="4"><b>&nbsp;&nbsp; 根本上讲，透镜厚度变化引起不同位置相位的超前和滞后，略去中心厚度 引入的常数相位因子，上式即表示透镜的<font color="#FF00FF">振幅透射系数</font>。</b></font></td>    
+  </tr> 
+</table> 
+<table border="0" cellpadding="0" cellspacing="5" width="100%"> 
+  <tr> 
+    <td> 
+      <p align="center"><font color="#FF0000" size="4"><b>注意：</b></font></p> 
+    </td> 
+    <td colspan="2" valign="top"><font color="#FF0000" size="4"><b>（1）</b></font></td> 
+    <td><font size="4"><b>透镜为有限大小时，引入光瞳函数</b></font></td>
+  </tr>
+  <tr>
+    <td>
+    </td>
+    <td colspan="2">
+    </td>
+    <td>
+      <font size="4"><b><span style="mso-text-raise: -15.0pt; mso-bidi-font-size: 12.0pt; font-family: Times New Roman; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA" lang="EN-US">则：<span lang="EN-US" style="font-size:10.5pt;mso-bidi-font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:宋体;mso-font-kerning:
+1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:
+AR-SA"><span style="mso-text-raise:-15.0pt"><!--[if gte vml 1]><v:shapetype
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:126pt;
+ height:42pt' o:ole="">
+ <v:imagedata src="file:///C:/WINDOWS/TEMP/msoclip1/01/clip_image001.wmz"
+  o:title=""/>
+</v:shape><![endif]-->
+      <img src="images4_3/4_3.HT5.gif" v:shapes="_x0000_i1025" align="middle" width="168" height="56"></span><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1025"
+  DrawAspect="Content" ObjectID="_1082735611">
+ </o:OLEObject>
+</xml><![endif]-->
+      </span></span><span style="mso-bidi-font-size: 12.0pt; font-family: Times New Roman; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA" lang="EN-US">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
+      </span><span style="mso-text-raise: -9.0pt; font-size: 10.5pt; mso-bidi-font-size: 12.0pt; font-family: Times New Roman; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA" lang="EN-US"><!--[if gte vml 1]><v:shapetype
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:243pt;
+ height:45pt' o:ole="">
+ <v:imagedata src="file:///C:/WINDOWS/TEMP/msoclip1/01/clip_image001.wmz"
+  o:title=""/>
+</v:shape><![endif]-->
+      <img src="images4_3/4_3.HT6.gif" v:shapes="_x0000_i1025" align="middle" width="324" height="60"></span></b></font></td>
+  </tr>
+  <tr>
+    <td></td>    
+    <td valign="top"><font color="#FF0000" size="4">    
+      <b>    
+      （2）</b></font></td>    
+    <td colspan="2"><font size="4"><b> 对任一形式的入射光波，透镜给出相同形式的相位影响</b></font></td>    
+  </tr>
+  <tr>
+    <td></td>
+    <td valign="top"><font color="#FF0000" size="4">     
+      <b>     
+      （3）</b></font></td>
+    <td colspan="2" valign="top"><font size="4"><b>具有与透镜相同形式<span lang="EN-US" style="font-size:10.5pt;mso-bidi-font-size:       
+12.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:宋体;mso-font-kerning:       
+1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:       
+AR-SA"><span style="mso-text-raise:-5.0pt"><!--[if gte vml 1]><v:shapetype       
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"       
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">       
+ <v:stroke joinstyle="miter"/>       
+ <v:formulas>       
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>       
+  <v:f eqn="sum @0 1 0"/>       
+  <v:f eqn="sum 0 0 @1"/>       
+  <v:f eqn="prod @2 1 2"/>       
+  <v:f eqn="prod @3 21600 pixelWidth"/>       
+  <v:f eqn="prod @3 21600 pixelHeight"/>       
+  <v:f eqn="sum @0 0 1"/>       
+  <v:f eqn="prod @6 1 2"/>       
+  <v:f eqn="prod @7 21600 pixelWidth"/>       
+  <v:f eqn="sum @8 21600 0"/>       
+  <v:f eqn="prod @7 21600 pixelHeight"/>       
+  <v:f eqn="sum @10 21600 0"/>       
+ </v:formulas>       
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>       
+ <o:lock v:ext="edit" aspectratio="t"/>       
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:45pt;       
+ height:17.25pt' o:ole="">       
+ <v:imagedata src="file:///C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/msoclip1/04/clip_image001.wmz"       
+  o:title=""/>       
+</v:shape><![endif]-->       
+      <!--[if gte vml 1]><v:shapetype
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:57pt;
+ height:21.75pt' o:ole="">
+ <v:imagedata src="file:///C:/WINDOWS/TEMP/msoclip1/01/clip_image001.wmz"
+  o:title=""/>
+</v:shape><![endif]-->
+      <img src="images4_3/4_3.HT19.gif" v:shapes="_x0000_i1025" align="middle" width="76" height="29"><!--[if gte mso 9]><xml> 
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1025" 
+  DrawAspect="Content" ObjectID="_1082735718"> 
+ </o:OLEObject> 
+</xml><![endif]--> 
+      </span><!--[if gte mso 9]><xml>       
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1025"       
+  DrawAspect="Content" ObjectID="_1080386999">       
+ </o:OLEObject>       
+</xml><![endif]-->       
+</span>的透明片，其作用类似于相同焦距的透镜</b></font></td> 
+  </tr> 
+  <tr> 
+    <td> 
+    </td>     
+    <td> 
+      <font color="#FF0000" size="4"><b>（4）</b></font></td>     
+    <td colspan="2"> 
+      <span style="mso-text-raise: -15.0pt; mso-bidi-font-size: 12.0pt; font-family: Times New Roman; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA" lang="EN-US"><font size="4"><b><img src="images4_3/4_3.HT20.gif" v:shapes="_x0000_i1025" align="middle" width="588" height="69"></b></font></span></td>    
+  </tr>
+</table>
+<div align="center">
+  <center>
+<table border="0" cellpadding="0" cellspacing="5" width="100 %">
+  <tr>
+    <td nowrap><font size="4"><b><a name="second"></a>二、透镜的傅里叶变换性质</b></font></td>
+  </tr>
+  <tr>
+    <td nowrap>
+      <p align="center"><font color="#FF0000" size="4"><b>透镜的傅里叶变换作用与物体、透镜间的相对位置、照明光性质有关。</b></font></td>
+  </tr>
+  <tr>
+    <td nowrap><font size="4"><b> 以下讨论平面波正入射情况：</b></font></td>
+  </tr>
+  <tr>
+    <td nowrap><font color="#800000" size="4"><b>1、衍射屏紧靠透镜前表面</b></font></td>
+  </tr>
+</table>
+  </center>
+</div>
+<table border="0" cellspacing="1" cellpadding="0" width="100%">             
+  <tr>             
+    <td><p align="center"><font size="4"><b>&nbsp;&nbsp;&nbsp;&nbsp; 如图，透过透镜后的光场分布：&nbsp;&nbsp;  
+      <span style="mso-text-raise:-9.0pt"><!--[if gte vml 1]><v:shapetype       
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"       
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">       
+ <v:stroke joinstyle="miter"/>       
+ <v:formulas>       
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>       
+  <v:f eqn="sum @0 1 0"/>       
+  <v:f eqn="sum 0 0 @1"/>       
+  <v:f eqn="prod @2 1 2"/>       
+  <v:f eqn="prod @3 21600 pixelWidth"/>       
+  <v:f eqn="prod @3 21600 pixelHeight"/>       
+  <v:f eqn="sum @0 0 1"/>       
+  <v:f eqn="prod @6 1 2"/>       
+  <v:f eqn="prod @7 21600 pixelWidth"/>       
+  <v:f eqn="sum @8 21600 0"/>       
+  <v:f eqn="prod @7 21600 pixelHeight"/>       
+  <v:f eqn="sum @10 21600 0"/>       
+ </v:formulas>       
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>       
+ <o:lock v:ext="edit" aspectratio="t"/>       
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:272.25pt;       
+ height:36pt' o:ole="">       
+ <v:imagedata src="file:///C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/msoclip1/06/clip_image001.wmz"       
+  o:title=""/>       
+</v:shape><![endif]-->       
+      <span lang="EN-US" style="font-size:10.5pt;mso-bidi-font-size: 
+12.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:宋体;mso-font-kerning: 
+1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language: 
+AR-SA"><!--[if gte vml 1]><v:shapetype 
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t" 
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f"> 
+ <v:stroke joinstyle="miter"/> 
+ <v:formulas> 
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/> 
+  <v:f eqn="sum @0 1 0"/> 
+  <v:f eqn="sum 0 0 @1"/> 
+  <v:f eqn="prod @2 1 2"/> 
+  <v:f eqn="prod @3 21600 pixelWidth"/> 
+  <v:f eqn="prod @3 21600 pixelHeight"/> 
+  <v:f eqn="sum @0 0 1"/> 
+  <v:f eqn="prod @6 1 2"/> 
+  <v:f eqn="prod @7 21600 pixelWidth"/> 
+  <v:f eqn="sum @8 21600 0"/> 
+  <v:f eqn="prod @7 21600 pixelHeight"/> 
+  <v:f eqn="sum @10 21600 0"/> 
+ </v:formulas> 
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/> 
+ <o:lock v:ext="edit" aspectratio="t"/> 
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:351pt; 
+ height:46.5pt' o:ole=""> 
+ <v:imagedata src="file:///C:/WINDOWS/TEMP/msoclip1/01/clip_image001.wmz" 
+  o:title=""/> 
+</v:shape><![endif]--> 
+      <img src="images4_3/4_3.HT21.gif" v:shapes="_x0000_i1025" width="468" height="62"><!--[if gte mso 9]><xml> 
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1025" 
+  DrawAspect="Content" ObjectID="_1082735833"> 
+ </o:OLEObject> 
+</xml><![endif]--> 
+      </span></span></b></font></p>                
+    <p align="center"><font size="4"><b>然后至后焦面上是一个菲涅耳衍射，于是：<span lang="EN-US" style="font-size:10.5pt;mso-bidi-font-size:       
+12.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:宋体;mso-font-kerning:       
+1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:       
+AR-SA"><!--[if gte mso 9]><xml>       
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1025"       
+  DrawAspect="Content" ObjectID="_1080387658">       
+ </o:OLEObject>       
+</xml><![endif]-->       
+    </span></b></font></td>            
+    <td>
+      <p align="center"><font size="4"><b><img border="0" src="images4_3/4_3.tu2.gif" width="223" height="126"></b></font></p>
+    </td>           
+  </tr>           
+</table>
+<div align="center">
+<table border="0" cellpadding="5" cellspacing="5" width="100%">
+  <tr>
+    <td valign="middle">
+      <p align="center"><span lang="EN-US" style="mso-bidi-font-size: 12.0pt; font-family: Times New Roman; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA"><font size="4"><b><img src="images4_3/4_3.ht22.gif" v:shapes="_x0000_i1025" width="380" height="142"> </b></font></span></td>
+  </tr>
+  <center>
+  <tr>
+    <td>            
+            
+<p><font color="#FF0000" size="4"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 表明，后焦面上的光场分布是衍射屏平面复振幅分布的一个傅里叶变换，后焦面上某点振幅和相位取决于透过屏某一(u,v)分量的振幅和相位。</b></font></p>                   
+            
+    </td>
+  </tr>
+</table>
+  </center>
+</div>
+<table border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="100%">            
+            
+<p><font color="#800000" size="4"><b>2、衍射屏置于透镜前一定距离</b></font></p>            
+    </td>
+  </tr>
+</table>
+<table border="0" cellspacing="5" cellpadding="0" width="100%">            
+  <tr>            
+    <td valign="top"><font size="4"><b>&nbsp; 如图，先求出<span lang="EN-US" style="font-size:10.5pt;mso-bidi-font-size:             
+12.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:宋体;mso-font-kerning:      
+1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:      
+AR-SA"><span style="mso-text-raise:-5.0pt"><!--[if gte vml 1]><v:shapetype      
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"      
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">      
+ <v:stroke joinstyle="miter"/>      
+ <v:formulas>      
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>      
+  <v:f eqn="sum @0 1 0"/>      
+  <v:f eqn="sum 0 0 @1"/>      
+  <v:f eqn="prod @2 1 2"/>      
+  <v:f eqn="prod @3 21600 pixelWidth"/>      
+  <v:f eqn="prod @3 21600 pixelHeight"/>      
+  <v:f eqn="sum @0 0 1"/>      
+  <v:f eqn="prod @6 1 2"/>      
+  <v:f eqn="prod @7 21600 pixelWidth"/>      
+  <v:f eqn="sum @8 21600 0"/>      
+  <v:f eqn="prod @7 21600 pixelHeight"/>      
+  <v:f eqn="sum @10 21600 0"/>      
+ </v:formulas>      
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>      
+ <o:lock v:ext="edit" aspectratio="t"/>      
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:48pt;      
+ height:18.75pt' o:ole="">      
+ <v:imagedata src="file:///C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/msoclip1/01/clip_image001.wmz"      
+  o:title=""/>      
+</v:shape><![endif]-->      
+      <!--[if gte vml 1]><v:shapetype
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:69pt;
+ height:26.25pt' o:ole="">
+ <v:imagedata src="file:///C:/WINDOWS/TEMP/msoclip1/01/clip_image001.wmz"
+  o:title=""/>
+</v:shape><![endif]-->
+      <img src="images4_3/4_3.HT23.gif" v:shapes="_x0000_i1025" align="middle" width="92" height="35"><!--[if gte mso 9]><xml> 
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1025" 
+  DrawAspect="Content" ObjectID="_1082735976"> 
+ </o:OLEObject> 
+</xml><![endif]--> 
+      </span><!--[if gte mso 9]><xml>       
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1025"     
+  DrawAspect="Content" ObjectID="_1080388857">     
+ </o:OLEObject>     
+</xml><![endif]-->     
+      </span>，再得<span style="mso-text-raise:-5.0pt"><!--[if gte vml 1]><v:shapetype      
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"      
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">      
+ <v:stroke joinstyle="miter"/>      
+ <v:formulas>      
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>      
+  <v:f eqn="sum @0 1 0"/>      
+  <v:f eqn="sum 0 0 @1"/>      
+  <v:f eqn="prod @2 1 2"/>      
+  <v:f eqn="prod @3 21600 pixelWidth"/>      
+  <v:f eqn="prod @3 21600 pixelHeight"/>      
+  <v:f eqn="sum @0 0 1"/>      
+  <v:f eqn="prod @6 1 2"/>      
+  <v:f eqn="prod @7 21600 pixelWidth"/>      
+  <v:f eqn="sum @8 21600 0"/>      
+  <v:f eqn="prod @7 21600 pixelHeight"/>      
+  <v:f eqn="sum @10 21600 0"/>      
+ </v:formulas>      
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>      
+ <o:lock v:ext="edit" aspectratio="t"/>      
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:36.75pt;      
+ height:18.75pt' o:ole="">      
+ <v:imagedata src="file:///C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/msoclip1/03/clip_image001.wmz"      
+  o:title=""/>      
+</v:shape><![endif]-->      
+      <!--[if gte vml 1]><v:shapetype
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:51.75pt;
+ height:26.25pt' o:ole="">
+ <v:imagedata src="file:///C:/WINDOWS/TEMP/msoclip1/01/clip_image001.wmz"
+  o:title=""/>
+</v:shape><![endif]-->
+      <img src="images4_3/4_3.HT24.gif" v:shapes="_x0000_i1025" align="middle" width="69" height="35"><!--[if gte mso 9]><xml> 
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1025" 
+  DrawAspect="Content" ObjectID="_1082736006"> 
+ </o:OLEObject> 
+</xml><![endif]--></span>。</b></font>    
+      <p><font size="4"><b>&nbsp;&nbsp;&nbsp;&nbsp; 自衍射屏出来的是不同(u,v)，即不同方向传播的平面波，对某一(u,v)分量，传播到相距d0的平面上应产生一个与频率(u,v)及距离d0相关的相位因子。</b></font></p>            
+    </td>           
+    <td><font size="4"><b><img border="0" src="images4_3/4_3.tu3.gif" width="233" height="126"></b></font></td>          
+  </tr>          
+</table>
+<div align="center">
+  <center>
+<table border="0" cellpadding="0" cellspacing="5" width="100%">
+  <tr>
+    <td nowrap>
+      <p align="center"><span lang="EN-US" style="mso-bidi-font-size: 12.0pt; font-family: Times New Roman; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA"><font size="4"><b><span style="mso-text-raise:-7.0pt"><!--[if gte vml 1]><v:shapetype
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:336.75pt;
+ height:39pt' o:ole="">
+ <v:imagedata src="file:///C:/WINDOWS/TEMP/msoclip1/01/clip_image001.wmz"
+  o:title=""/>
+</v:shape><![endif]-->
+      <img src="images4_3/4_3.HT25.gif" v:shapes="_x0000_i1025" width="449" height="52"></span><!--[if gte mso 9]><xml> 
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1025" 
+  DrawAspect="Content" ObjectID="_1082736089"> 
+ </o:OLEObject> 
+</xml><![endif]--> 
+      </b></font> 
+      </span></td> 
+  </tr> 
+  <tr> 
+    <td nowrap> 
+      <p align="center"><font size="4"><b>于是：<span lang="EN-US" style="font-size:10.5pt;mso-bidi-font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:宋体;mso-font-kerning:
+1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:
+AR-SA"><span style="mso-text-raise:-7.0pt"><!--[if gte vml 1]><v:shapetype
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:261pt;
+ height:36.75pt' o:ole="">
+ <v:imagedata src="file:///C:/WINDOWS/TEMP/msoclip1/01/clip_image001.wmz"
+  o:title=""/>
+</v:shape><![endif]-->
+      <img src="images4_3/4_3.HT26.gif" v:shapes="_x0000_i1025" width="348" height="49"></span><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1025"
+  DrawAspect="Content" ObjectID="_1082736104">
+ </o:OLEObject>
+</xml><![endif]-->
+      </span></b></font></td> 
+  </tr>
+  <tr>
+    <td nowrap>
+      <p align="center"><font size="4"><b>易知：<span lang="EN-US" style="font-size:10.5pt;mso-bidi-font-size:       
+12.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:宋体;mso-font-kerning:       
+1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:       
+AR-SA"><span style="mso-text-raise:-16.0pt"><!--[if gte vml 1]><v:shapetype       
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"       
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">       
+ <v:stroke joinstyle="miter"/>       
+ <v:formulas>       
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>       
+  <v:f eqn="sum @0 1 0"/>       
+  <v:f eqn="sum 0 0 @1"/>       
+  <v:f eqn="prod @2 1 2"/>       
+  <v:f eqn="prod @3 21600 pixelWidth"/>       
+  <v:f eqn="prod @3 21600 pixelHeight"/>       
+  <v:f eqn="sum @0 0 1"/>       
+  <v:f eqn="prod @6 1 2"/>       
+  <v:f eqn="prod @7 21600 pixelWidth"/>       
+  <v:f eqn="sum @8 21600 0"/>       
+  <v:f eqn="prod @7 21600 pixelHeight"/>       
+  <v:f eqn="sum @10 21600 0"/>       
+ </v:formulas>       
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>       
+ <o:lock v:ext="edit" aspectratio="t"/>       
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:284.25pt;       
+ height:39.75pt' o:ole="">       
+ <v:imagedata src="file:///C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/msoclip1/06/clip_image001.wmz"       
+  o:title=""/>       
+</v:shape><![endif]-->       
+      <!--[if gte vml 1]><v:shapetype
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:369pt;
+ height:51.75pt' o:ole="">
+ <v:imagedata src="file:///C:/WINDOWS/TEMP/msoclip1/01/clip_image001.wmz"
+  o:title=""/>
+</v:shape><![endif]-->
+      <img src="images4_3/4_3.HT27.gif" v:shapes="_x0000_i1025" align="middle" width="492" height="69"><!--[if gte mso 9]><xml> 
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1025" 
+  DrawAspect="Content" ObjectID="_1082736120"> 
+ </o:OLEObject> 
+</xml><![endif]--> 
+      </span><!--[if gte mso 9]><xml>          
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1025"       
+  DrawAspect="Content" ObjectID="_1080389294">       
+ </o:OLEObject>       
+</xml><![endif]-->       
+</span><span lang="EN-US" style="font-size: 10.5pt; mso-bidi-font-size: 12.0pt; font-family: Times New Roman; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA; mso-text-raise: -7.0pt"><!--[if gte mso 9]><xml>            
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1025"        
+  DrawAspect="Content" ObjectID="_1080389242">        
+ </o:OLEObject>        
+</xml><![endif]-->        
+</span></b></font></td> 
+  </tr> 
+  <tr> 
+    <td nowrap> 
+      <p align="center"><font size="4"><b> 显然，<font color="#FF0000">透镜后焦面上得到的也是衍射屏平面复振幅分布的傅里叶变换</font></b></font></p>
+    </td>
+  </tr>
+</table>
+          
+  </center>
+</div>
+          
+<p><font size="4"><b>&nbsp;以上<img border="0" src="images4_3/4_3.ht29.gif" align="absmiddle" width="72" height="23">：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+　<span style="mso-text-raise:-7.0pt"><!--[if gte vml 1]><v:shapetype
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:279.75pt;
+ height:32.25pt' o:ole="">
+ <v:imagedata src="file:///C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/msoclip1/04/clip_image001.wmz"
+  o:title=""/>
+</v:shape><![endif]-->
+&nbsp;</span></b></font></p>             
+      
+<table border="0" cellpadding="0" cellspacing="5" width="100%"> 
+  <tr> 
+    <td valign="top" align="right"><font color="#0000FF" size="4"><b>1、<span lang="EN-US" style="font-size:10.5pt;mso-bidi-font-size:             
+12.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:宋体;mso-font-kerning:       
+1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:       
+AR-SA"><span lang="EN-US" style="font-size: 10.5pt; mso-bidi-font-size: 12.0pt; font-family: Times New Roman; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA; mso-text-raise: -5.0pt"> 
+      </span><!--[if gte mso 9]><xml>          
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1025"        
+  DrawAspect="Content" ObjectID="_1080389712">        
+ </o:OLEObject>        
+</xml><![endif]--></span></b></font></td>   
+    <td valign="top"><font color="#0000FF" size="4"><b> 单色平面波正入射时，不论衍射屏置于透镜何处，在透镜后焦面上将得到其频谱， 当<span lang="EN-US" style="font-size: 10.5pt; mso-bidi-font-size: 12.0pt; font-family: Times New Roman; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA; mso-text-raise: -5.0pt"><img src="images4_3/4_3.HT28.gif" v:shapes="_x0000_i1025" align="middle" width="60" height="29"></span>时，得到衍射屏得正确得傅里叶频谱。</b></font></td>   
+    <td valign="middle" rowspan="3"> 
+      <p align="center"><a href="images4_3/4_3_1.swf"><font size="4"><b><embed src="images4_3/4_3_1.swf" loop="true" quality="high" bgcolor="#FFFF00" WIDTH="219" HEIGHT="263"></b></font></a></td>  
+  </tr>
+  <tr>
+    <td valign="top" align="right"><font color="#0000FF" size="4"><b>2、</b></font></td>      
+    <td valign="top"><font color="#0000FF" size="4"><b>当球面波照明时，物置于任何位置，透镜</b></font><font color="#0000FF" size="4"><b>均起到傅里叶变换作用，但其频谱面在点源像面位置上。</b></font></td>      
+  </tr>
+  <tr>
+    <td valign="middle" align="right">
+      <p align="right"><font color="#0000FF" size="4"><b>3、</b></font></td>      
+    <td valign="middle"><span style="mso-text-raise: -16.0pt; mso-bidi-font-size: 12.0pt; font-family: 宋体; mso-bidi-font-family: Times New Roman; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA" lang="EN-US"><b><font size="4">
+      <img border="0" src="images4_3/4_3.HT40.gif" align="middle" width="558" height="61"></font></b></span></td>      
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="5" width="100%">
+  <tr>
+    <td colspan="2"><font size="4"><b><a name="third"></a>三、透镜得成像性质</b></font></td>
+  </tr>
+  <tr>
+    <td><font color="#FF8000" size="4"><b>&nbsp;1、点物置于无穷远</b></font></td>
+    <td rowspan="4"><font size="4"><b><embed src="images4_3/4_3_2.swf" loop="true" quality="high" bgcolor="#FFFF00" WIDTH="312" HEIGHT="193" align="left"></b></font></td>
+  </tr>
+  <tr>
+    <td><font size="4"><b> 如图，<span lang="EN-US" style="font-size:10.5pt;mso-bidi-font-size:       
+12.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:宋体;mso-font-kerning:    
+1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:    
+AR-SA"><span style="mso-text-raise:-5.0pt">   <!--[if gte vml 1]><v:shapetype
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:61.5pt;
+ height:25.5pt' o:ole="">
+ <v:imagedata src="file:///C:/WINDOWS/TEMP/msoclip1/01/clip_image001.wmz"
+  o:title=""/>
+</v:shape><![endif]-->
+      <img src="images4_3/4_3.HT31.gif" v:shapes="_x0000_i1025" align="middle" width="82" height="34"><!--[if gte mso 9]><xml> 
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1025" 
+  DrawAspect="Content" ObjectID="_1082736458"> 
+ </o:OLEObject> 
+</xml><![endif]--> 
+      </span><!--[if gte mso 9]><xml>     
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1025"   
+  DrawAspect="Content" ObjectID="_1080391832">   
+ </o:OLEObject>   
+</xml><![endif]-->   
+</span>为无穷远点物发出的平面波在透镜              
+      前表面的复振幅分布。</b></font></td> 
+  </tr> 
+  <tr> 
+    <td> 
+      <p align="center"><font size="4"><b> 显然：<span lang="EN-US" style="font-size:10.5pt;mso-bidi-font-size:
+12.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:宋体;mso-font-kerning:
+1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:
+AR-SA"><img src="images4_3/4_3.HT32.gif" v:shapes="_x0000_i1025" align="middle" width="372" height="53">
+        </span></b></font></td>
+  </tr>
+  <tr>
+    <td>
+      <p align="center"><font size="4"><b><img border="0" src="images4_3/4_3.ht33.gif" align="absmiddle" width="364" height="26"></b></font></td>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="5" width="100%">
+  <tr>
+    <td colspan="3" nowrap><font size="4"><b>&nbsp; </b></font><font color="#FF8000" size="4"><b>2、物置透镜前有限距离远的轴外</b></font></td>       
+  </tr>
+  <tr>
+    <td nowrap>
+      <p align="center"><font size="4"><b> 如图，可写出</b></font></td>
+    <td rowspan="4" nowrap>
+      <p align="center"><font size="4"><b><img border="0" src="images4_3/4_3.ht34.gif" width="438" height="186"></b></font></td>
+    <td rowspan="4" nowrap>
+      <p align="center"><font size="4"><b><embed src="images4_3/4_3_3.swf" loop="true" quality="high" bgcolor="#FFFF00" WIDTH="253" HEIGHT="210"></b></font></p>
+    </td>
+  </tr>
+  <tr>
+    <td nowrap>
+    </td>
+  </tr>
+  <tr>
+    <td nowrap>
+    </td>
+  </tr>
+  <tr>
+    <td nowrap>
+    </td>
+  </tr>
+</table>
+<div align="center">
+  <table border="0" cellpadding="0" cellspacing="5" height="221">
+    <tr>
+      <td width="100%" height="95">
+        <p align="left"><font size="4"><b>易知，<img border="0" src="images4_3/4_3.ht35.gif" align="top" width="373" height="93"></b></font></td>
+    </tr>
+    <center>
+    <tr>
+      <td width="100%" height="46"><font size="4"><b>&nbsp;注意：&nbsp;      
+        物像面上满足： <span lang="EN-US" style="mso-bidi-font-size: 12.0pt; font-family: Times New Roman; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA"><span style="mso-text-raise:-12.0pt"><!--[if gte vml 1]><v:shapetype            
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"       
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">       
+ <v:stroke joinstyle="miter"/>       
+ <v:formulas>       
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>       
+  <v:f eqn="sum @0 1 0"/>       
+  <v:f eqn="sum 0 0 @1"/>       
+  <v:f eqn="prod @2 1 2"/>       
+  <v:f eqn="prod @3 21600 pixelWidth"/>       
+  <v:f eqn="prod @3 21600 pixelHeight"/>       
+  <v:f eqn="sum @0 0 1"/>       
+  <v:f eqn="prod @6 1 2"/>       
+  <v:f eqn="prod @7 21600 pixelWidth"/>       
+  <v:f eqn="sum @8 21600 0"/>       
+  <v:f eqn="prod @7 21600 pixelHeight"/>       
+  <v:f eqn="sum @10 21600 0"/>       
+ </v:formulas>       
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>       
+ <o:lock v:ext="edit" aspectratio="t"/>       
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:39.75pt;       
+ height:32.25pt' o:ole="">       
+ <v:imagedata src="file:///C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/msoclip1/09/clip_image001.wmz"       
+  o:title=""/>       
+</v:shape><![endif]-->       
+        <!--[if gte vml 1]><v:shapetype
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:50.25pt;
+ height:42pt' o:ole="">
+ <v:imagedata src="file:///C:/WINDOWS/TEMP/msoclip1/01/clip_image001.wmz"
+  o:title=""/>
+</v:shape><![endif]-->
+        <img src="images4_3/4_3.HT36.gif" v:shapes="_x0000_i1025" align="middle" width="67" height="56"><!--[if gte mso 9]><xml> 
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1025" 
+  DrawAspect="Content" ObjectID="_1082736835"> 
+ </o:OLEObject> 
+</xml><![endif]--> 
+        </span><!--[if gte mso 9]><xml>         
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1025"      
+  DrawAspect="Content" ObjectID="_1080393881">      
+ </o:OLEObject>      
+</xml><![endif]-->&nbsp;&nbsp;&nbsp; <span style="mso-text-raise:-12.0pt"><!--[if gte vml 1]><v:shapetype           
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"       
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">       
+ <v:stroke joinstyle="miter"/>       
+ <v:formulas>       
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>       
+  <v:f eqn="sum @0 1 0"/>       
+  <v:f eqn="sum 0 0 @1"/>       
+  <v:f eqn="prod @2 1 2"/>       
+  <v:f eqn="prod @3 21600 pixelWidth"/>       
+  <v:f eqn="prod @3 21600 pixelHeight"/>       
+  <v:f eqn="sum @0 0 1"/>       
+  <v:f eqn="prod @6 1 2"/>       
+  <v:f eqn="prod @7 21600 pixelWidth"/>       
+  <v:f eqn="sum @8 21600 0"/>       
+  <v:f eqn="prod @7 21600 pixelHeight"/>       
+  <v:f eqn="sum @10 21600 0"/>       
+ </v:formulas>       
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>       
+ <o:lock v:ext="edit" aspectratio="t"/>       
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:41.25pt;       
+ height:32.25pt' o:ole="">       
+ <v:imagedata src="file:///C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/msoclip1/10/clip_image001.wmz"       
+  o:title=""/>       
+</v:shape><![endif]-->  <!--[if gte vml 1]><v:shapetype
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:56.25pt;
+ height:43.5pt' o:ole="">
+ <v:imagedata src="file:///C:/WINDOWS/TEMP/msoclip1/01/clip_image001.wmz"
+  o:title=""/>
+</v:shape><![endif]-->
+        <img src="images4_3/4_3.HT37.gif" v:shapes="_x0000_i1025" align="middle" width="75" height="58"><!--[if gte mso 9]><xml> 
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1025" 
+  DrawAspect="Content" ObjectID="_1082736862"> 
+ </o:OLEObject> 
+</xml><![endif]--> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      
+        且令&nbsp;&nbsp; <span style="mso-text-raise:-14.0pt"><!--[if gte vml 1]><v:shapetype           
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"       
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">       
+ <v:stroke joinstyle="miter"/>       
+ <v:formulas>       
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>       
+  <v:f eqn="sum @0 1 0"/>       
+  <v:f eqn="sum 0 0 @1"/>       
+  <v:f eqn="prod @2 1 2"/>       
+  <v:f eqn="prod @3 21600 pixelWidth"/>       
+  <v:f eqn="prod @3 21600 pixelHeight"/>       
+  <v:f eqn="sum @0 0 1"/>       
+  <v:f eqn="prod @6 1 2"/>       
+  <v:f eqn="prod @7 21600 pixelWidth"/>       
+  <v:f eqn="sum @8 21600 0"/>       
+  <v:f eqn="prod @7 21600 pixelHeight"/>       
+  <v:f eqn="sum @10 21600 0"/>       
+ </v:formulas>       
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>       
+ <o:lock v:ext="edit" aspectratio="t"/>       
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:56.25pt;       
+ height:33pt' o:ole="">       
+ <v:imagedata src="file:///C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/msoclip1/01/clip_image001.wmz"       
+  o:title=""/>       
+</v:shape><![endif]-->       
+        <!--[if gte vml 1]><v:shapetype
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:76.5pt;
+ height:47.25pt' o:ole="">
+ <v:imagedata src="file:///C:/WINDOWS/TEMP/msoclip1/01/clip_image001.wmz"
+  o:title=""/>
+</v:shape><![endif]-->
+        <img src="images4_3/4_3.HT38.gif" v:shapes="_x0000_i1025" align="middle" width="102" height="63"><!--[if gte mso 9]><xml> 
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1025" 
+  DrawAspect="Content" ObjectID="_1082736889"> 
+ </o:OLEObject> 
+</xml><![endif]--> 
+        </span></span></span></b></font></td>   
+    </tr> 
+    <tr> 
+      <td width="100%" height="62"><span style="mso-text-raise: -12.0pt; mso-bidi-font-size: 12.0pt; font-family: Times New Roman; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA" lang="EN-US"><font size="4"><b>&nbsp;得：&nbsp;      
+        <span lang="EN-US" style="font-size:10.5pt;mso-bidi-font-size:       
+12.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:宋体;mso-font-kerning:       
+1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:       
+AR-SA"><!--[if gte vml 1]><v:shapetype       
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"       
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">       
+ <v:stroke joinstyle="miter"/>       
+ <v:formulas>       
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>       
+  <v:f eqn="sum @0 1 0"/>       
+  <v:f eqn="sum 0 0 @1"/>       
+  <v:f eqn="prod @2 1 2"/>       
+  <v:f eqn="prod @3 21600 pixelWidth"/>       
+  <v:f eqn="prod @3 21600 pixelHeight"/>       
+  <v:f eqn="sum @0 0 1"/>       
+  <v:f eqn="prod @6 1 2"/>       
+  <v:f eqn="prod @7 21600 pixelWidth"/>       
+  <v:f eqn="sum @8 21600 0"/>       
+  <v:f eqn="prod @7 21600 pixelHeight"/>       
+  <v:f eqn="sum @10 21600 0"/>       
+ </v:formulas>       
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>       
+ <o:lock v:ext="edit" aspectratio="t"/>       
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:222.75pt;       
+ height:33.75pt' o:ole="">       
+ <v:imagedata src="file:///C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/msoclip1/02/clip_image001.wmz"       
+  o:title=""/>       
+</v:shape><![endif]-->       
+</span><img border="0" src="images4_3/4_3.ht39.gif" align="absmiddle" width="594" height="55">&nbsp;             
+<!--[if gte mso 9]><xml>       
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1025"       
+  DrawAspect="Content" ObjectID="_1080394179">       
+ </o:OLEObject>       
+</xml><![endif]-->       
+        <!--[if gte mso 9]><xml>           
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1025"       
+  DrawAspect="Content" ObjectID="_1080393943">       
+ </o:OLEObject>       
+</xml><![endif]-->       
+        &nbsp;</b></font>           
+</span></td> 
+    </tr> 
+    </table> 
+  </center> 
+</div> 
+            
+<p><font size="4"><b><span style="mso-text-raise: -12.0pt; mso-bidi-font-size: 12.0pt; font-family: Times New Roman; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA" lang="EN-US">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       
+</span><span lang="EN-US" style="font-size:10.5pt;mso-bidi-font-size:      
+12.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:宋体;mso-font-kerning:      
+1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:      
+AR-SA"><!--[if gte mso 9]><xml>      
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1025"      
+  DrawAspect="Content" ObjectID="_1080393898">      
+ </o:OLEObject>      
+</xml><![endif]-->      
+</span></b></font></p>           
+           
+<p align="center"><font size="4"><b>&nbsp; <a href="4_2.htm">上一节</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="index1.htm">目录</a>                    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="4_4.htm">下一节</a></b></font></p>              
+              
+<form>              
+  <p>　</p>              
+  <p><font size="4"><b>第<select name="zhang" size="1">             
+    <option value="1">1</option>   
+    <option value="2">2</option>   
+    <option value="3">3</option>   
+    <option value="4">4</option>   
+    <option value="5">5</option>   
+    <option value="6">6</option>   
+    <option value="7">7</option>   
+  </select>章&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 第<select name="jie" size="1">                
+    <option value="0">0</option>              
+    <option value="1">1</option>              
+    <option value="2">2</option>              
+    <option value="3">3</option>              
+    <option value="4">4</option>              
+    <option value="5">5</option>              
+    <option value="6">6</option>              
+    <option value="7">7</option>              
+    <option value="8">8</option>              
+    <option value="9">9</option>              
+  </select>节<input type="button" value="转到" name="B1" onclick="location.assign(this.form.zhang.value+'_'+this.form.jie.value+'.htm')"></b></font></p>              
+</form>              
+             
+　<!--msnavigation--></td></tr><!--msnavigation--></table></body>              
+</html>              

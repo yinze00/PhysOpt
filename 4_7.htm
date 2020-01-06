@@ -1,0 +1,1229 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>4_7</title>
+<!--mstheme--><link rel="stylesheet" type="text/css" href="_themes/expeditn/expe1111-106.css"><meta name="Microsoft Theme" content="expeditn 1111">
+<meta name="Microsoft Border" content="tl, default">
+</head>
+
+<body><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+<p align="center">　</p> 
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td valign="top" width="1%">
+
+
+
+</td><td valign="top" width="24"></td><!--msnavigation--><td valign="top">
+
+<p><a name="head"></a></p>
+<div id="KBStatic"
+style="position:absolute; left:600px; top:350px; width:41px; height:59px; z-index:25"><a
+href="#head">
+<dd align="left"><b><font color="#000000" size="4"><img src="images/back-top.gif" border="0" width="45" height="57"></font></b></a></dd>
+</div><script language="JavaScript">
+function KB_keepItInIE(theName,theWantTop,theWantLeft) {
+theRealTop=parseInt(document.body.scrollTop)
+theTrueTop=theWantTop+theRealTop
+document.all[theName].style.top=theTrueTop
+theRealLeft=parseInt(document.body.scrollLeft)
+theTrueLeft=theWantLeft+theRealLeft
+document.all[theName].style.left=theTrueLeft
+}
+function KB_keepItInNN(theName,theWantX,theWantY) {
+theRealLay=document.layers[theName]
+theBadX=self.pageYOffset
+theBadY=self.pageXOffset
+theRealX=theBadX+theWantX
+theRealY=theBadY+theWantY
+theRealLay.moveTo(theRealY,theRealX)
+}
+IE4=(document.all)?1:0
+NN4=(document.layers)?1:0
+if (IE4)
+setInterval('KB_keepItInIE("KBStatic",350,600)',1)
+if (NN4)
+setInterval('KB_keepItInNN("KBStatic",350,600)',1)
+</script>
+
+
+<p><b><a href="#mark1"><font color="#000000" size="4">一、相干光学信息处理</font></a><font color="#000000" size="4"><br>
+<a href="#mark2">
+二、非相干光学处理</a><br>
+<a href="#mark3">
+三、白光信息处理</a></font></b></p>
+
+<hr>
+<table border="0" cellpadding="0" cellspacing="0" width="96%">
+  <tr>
+    <td width="100%">
+      <p align="center"><b><font color="#000000" size="5">第七节&nbsp;&nbsp;&nbsp;            
+      光学信息处理</font></b></td>  
+  </tr>  
+</table>  
+                          
+<p>　</p>  
+                          
+<div align="center">  
+  <center>  
+  <table border="0" cellpadding="0" cellspacing="5" width="100%">  
+    <tr>  
+      <td colspan="2" height="18" width="724"><b><font color="#000000" size="4">光学信息处理——用光学方法实现对输入信息的各种变换和处理</font></b></td>  
+    </tr>  
+    <tr>  
+      <td colspan="2" height="79" width="724">  
+        <p align="center"><b><span style="mso-text-raise: -26.0pt; mso-bidi-font-size: 12.0pt; font-family: Times New Roman; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA" lang="EN-US"><font color="#000000" size="4"><img src="images4_7/4_7.ht1.gif" v:shapes="_x0000_i1025" width="535" height="77">     
+</font></span>     
+        </b>     
+      </td>  
+    </tr>  
+    <tr>  
+      <td colspan="2" height="27" width="724"><b><font color="#000000" size="4">光学方法实现变换或模拟运算：</font></b></td>  
+    </tr>  
+    <tr>  
+      <td height="18" width="42">  
+        <ul>  
+        </ul>  
+      </td>  
+      <td height="18" width="680">  
+        <ul>  
+          <li><b><font color="#000000" size="4">菲涅耳变换或傅里叶变换等</font></b></li>  
+        </ul>  
+      </td>  
+    </tr>  
+    <tr>  
+      <td height="18" width="42">  
+        <ul>  
+        </ul>  
+      </td>  
+      <td height="18" width="680">  
+        <ul>  
+          <li><b><font color="#000000" size="4">加、减、乘、除、微分、积分、卷积、相关等</font></b></li>  
+        </ul>  
+      </td>  
+    </tr>  
+    <tr>  
+      <td height="18" width="42">  
+        <ul>  
+        </ul>  
+      </td>  
+      <td height="18" width="680">  
+        <ul>  
+          <li><b><font color="#000000" size="4">编码，解码</font></b></li>  
+        </ul>  
+      </td>  
+    </tr>  
+    <tr>  
+      <td colspan="2" height="18" width="724"><b><font color="#000000" size="4">光学信息处理类型（视光源时、空相干性）：</font>     
+     
+        </b>     
+     
+      </td>  
+    </tr>  
+    <tr>  
+      <td height="12" width="42"></td>  
+      <td height="12" width="680">  
+        <ul>  
+          <li><b><font color="#000000" size="4">相干光学信息处理——相干光照明，复振幅分布信息</font></b></li>  
+        </ul>  
+      </td>  
+    </tr>  
+    <tr>  
+      <td height="12" width="42"></td>  
+      <td height="12" width="680">  
+        <ul>  
+          <li><b><font color="#000000" size="4">非相干光学信息处理——非相干光照明，强度分布信息</font></b></li>  
+        </ul>  
+      </td>  
+    </tr>  
+    <tr>  
+      <td height="9" width="42"></td>  
+      <td height="9" width="680">  
+        <ul>  
+          <li><b><font color="#000000" size="4">白光信息处理——白光照明</font></b></li>  
+        </ul>  
+      </td>  
+    </tr>  
+    <tr>  
+      <td height="21" colspan="2" width="724">     
+<b>     
+<font color="#000000" size="4">光学处理特点（与数字图象处理比较）：</font>     
+</b>     
+      </td>  
+    </tr>  
+    <tr>  
+      <td height="21" width="42"></td>  
+      <td height="21">  
+        <ul>  
+          <li><b><font color="#000000" size="4">并行处理，所有信息同时输入进行处理，适合图象的快速，实时处理</font></b></li>  
+        </ul>  
+      </td>  
+    </tr>  
+    <tr>  
+      <td height="19" width="42"></td>  
+      <td height="19">  
+        <ul>  
+          <li><b><font color="#000000" size="4">抗干扰能力强，以光速运算，操作方便，适合光学神经网络，光通信，     
+            光存储，光互连， 光计算等</font></b></li>    
+        </ul>  
+      </td>  
+    </tr>  
+    <tr>  
+      <td colspan="2" height="21" width="724"><b><a name="mark1"><font color="#000000" size="4"></font></a><font color="#000000" size="4">一、相干光学信息处理</font></b>     
+     
+      </td>  
+    </tr>  
+    <tr>  
+      <td colspan="2" height="21" width="724"><b><font color="#000000" size="4">（一） 相干光学处理系统</font></b></td>    
+    </tr>  
+    <tr>  
+      <td height="21" width="42"></td>  
+      <td height="21" width="680">  
+        <ul>  
+          <li><b><font color="#000000" size="4">相干光照明</font></b></li>  
+        </ul>  
+      </td>  
+    </tr>  
+    <tr>  
+      <td height="21" width="42"></td>  
+      <td height="21" width="680">  
+        <ul>  
+          <li><b><font color="#000000" size="4">复振幅分布形式的信息&nbsp;</font></b></li>  
+        </ul>  
+      </td>  
+    </tr>  
+    <tr>  
+      <td height="21" width="42"></td>  
+      <td height="21" width="680">  
+        <ul>  
+          <li><b><font color="#000000" size="4">系统对复振幅分布呈线性&nbsp;</font></b></li>  
+        </ul>  
+      </td>  
+    </tr>  
+    <tr>  
+      <td height="21" width="42"></td>  
+      <td height="21" width="680">  
+        <ul>  
+          <li><b><font color="#000000" size="4">一般在频谱面作处理&nbsp;</font></b></li>  
+        </ul>  
+      </td>  
+    </tr>  
+  </table>  
+  </center>  
+</div>  
+<table border="0" cellpadding="0" cellspacing="0" width="100%">  
+  <tr>  
+    <td width="450"><b><font color="#000000" size="4">1、典型系统（如下图）</font></b></td>  
+  </tr>  
+  <tr>  
+    <td nowrap><b><font color="#000000" size="4">&nbsp;&nbsp; ① 4f 系统（三透镜系统）：</font></b></td>                
+  </tr>  
+  <tr>  
+      <td nowrap>                       
+<p align="center">                      
+<b>                      
+<font color="#000000" size="4">                      
+<EMBED src="images4_7/4_7_1.swf" quality=high bgcolor=#00FFFF  WIDTH=690 HEIGHT=276>                     
+                     
+        </font>                     
+                     
+</b>                     
+                     
+</p> 
+                     
+      </td>                  
+  </tr> 
+  <tr> 
+    <td align="left" nowrap> 
+      <ul> 
+        <li><b><font color="#000000" size="4">s为单位点光源</font> 
+          </b></li> 
+      </ul> 
+    </td> 
+  </tr> 
+  <tr> 
+    <td align="left" nowrap> 
+      <ul> 
+        <li><b><font color="#000000" size="4">L0，L1，L2分别为准直，变换，成像透镜</font> 
+          </b></li> 
+      </ul> 
+    </td> 
+  </tr> 
+  <tr> 
+    <td align="left" nowrap> 
+      <ul> 
+        <li><b><font color="#000000" size="4">滤波器置于变换面（即频谱面）</font></b></li> 
+      </ul> 
+    </td> 
+  </tr> 
+  <tr> 
+    <td align="left" nowrap> 
+      <ul> 
+        <li><b><font color="#000000" size="4">像面上得到处理后图像</font></b></li> 
+      </ul> 
+    </td> 
+  </tr> 
+</table> 
+     
+<p><b><font color="#000000" size="4">可以看到，两次傅里叶变换后，得到物体的像：</font></b></p>                      
+                      
+<p align="center"><img border="0" src="images4_7/4_7.HT22.jpg" width="676" height="171"><b><font color="#000000" size="4"><span lang="EN-US" style="mso-bidi-font-size: 12.0pt; font-family: Times New Roman; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA"><!--[if gte vml 1]><v:shapetype id="_x0000_t75" coordsize="21600,21600"    
+ o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe" filled="f"    
+ stroked="f">    
+ <v:stroke joinstyle="miter"/>    
+ <v:formulas>    
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>    
+  <v:f eqn="sum @0 1 0"/>    
+  <v:f eqn="sum 0 0 @1"/>    
+  <v:f eqn="prod @2 1 2"/>    
+  <v:f eqn="prod @3 21600 pixelWidth"/>    
+  <v:f eqn="prod @3 21600 pixelHeight"/>    
+  <v:f eqn="sum @0 0 1"/>    
+  <v:f eqn="prod @6 1 2"/>    
+  <v:f eqn="prod @7 21600 pixelWidth"/>    
+  <v:f eqn="sum @8 21600 0"/>    
+  <v:f eqn="prod @7 21600 pixelHeight"/>    
+  <v:f eqn="sum @10 21600 0"/>    
+ </v:formulas>    
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>    
+ <o:lock v:ext="edit" aspectratio="t"/>    
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:414.75pt;    
+ height:48.75pt' o:ole="" o:bordertopcolor="red" o:borderleftcolor="red"    
+ o:borderbottomcolor="red" o:borderrightcolor="red">    
+ <v:imagedata src="file:///C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/msoclip1/01/clip_image001.png"    
+  o:title=""/>    
+ <w:bordertop type="single" width="12"/>    
+ <w:borderleft type="single" width="12"/>    
+ <w:borderbottom type="single" width="12"/>    
+ <w:borderright type="single" width="12"/>    
+</v:shape><![endif]-->    
+ &nbsp;&nbsp;</span></font></b></p>                                   
+                        
+<p align="center"><b><span style="mso-bidi-font-size: 12.0pt; font-family: Times New Roman; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA" lang="EN-US"><font color="#000000" size="4">则：&nbsp;&nbsp;&nbsp; <img src="images4_7/4_7.ht4.gif" v:shapes="_x0000_i1025" align="absmiddle" width="557" height="69"><!--[if gte mso 9]><xml>                     
+ <o:OLEObject Type="Embed" ProgID="Paint.Picture" ShapeID="_x0000_i1025"     
+  DrawAspect="Content" ObjectID="_1080979277">     
+ </o:OLEObject>     
+</xml><![endif]-->     
+</font>     
+</span></b></p>                        
+                        
+<p align="left"><b><font color="#000000" size="4">&nbsp; 上述过程可表示为：</font></b></p>                         
+                        
+<p align="center"><b><font color="#000000" size="4">                                       
+ <span lang="EN-US" style="font-size:10.5pt;mso-bidi-font-size:            
+12.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:宋体;mso-font-kerning:     
+1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:     
+AR-SA">     
+<img src="images4_7/4_7.ht5.gif" v:shapes="_x0000_i1025" width="537" height="67"><!--[if gte mso 9]><xml>     
+ <o:OLEObject Type="Embed" ProgID="Paint.Picture" ShapeID="_x0000_i1025"     
+  DrawAspect="Content" ObjectID="_1080979760">     
+ </o:OLEObject>     
+</xml><![endif]-->     
+</span></font></b></p>                        
+                        
+<p align="center"><span lang="EN-US" style="font-size:10.5pt;mso-bidi-font-size:  
+12.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:宋体;mso-font-kerning:  
+1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:  
+AR-SA"><!--[if gte vml 1]><v:shapetype id="_x0000_t75" coordsize="21600,21600"  
+ o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe" filled="f"  
+ stroked="f">  
+ <v:stroke joinstyle="miter"/>  
+ <v:formulas>  
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>  
+  <v:f eqn="sum @0 1 0"/>  
+  <v:f eqn="sum 0 0 @1"/>  
+  <v:f eqn="prod @2 1 2"/>  
+  <v:f eqn="prod @3 21600 pixelWidth"/>  
+  <v:f eqn="prod @3 21600 pixelHeight"/>  
+  <v:f eqn="sum @0 0 1"/>  
+  <v:f eqn="prod @6 1 2"/>  
+  <v:f eqn="prod @7 21600 pixelWidth"/>  
+  <v:f eqn="sum @8 21600 0"/>  
+  <v:f eqn="prod @7 21600 pixelHeight"/>  
+  <v:f eqn="sum @10 21600 0"/>  
+ </v:formulas>  
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>  
+ <o:lock v:ext="edit" aspectratio="t"/>  
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:529.5pt;  
+ height:93pt' o:ole="" o:bordertopcolor="red" o:borderleftcolor="red"  
+ o:borderbottomcolor="red" o:borderrightcolor="red">  
+ <v:imagedata src="file:///C:/WINDOWS/TEMP/msoclip1/01/clip_image001.png"  
+  o:title=""/>  
+ <w:bordertop type="dashDotStroked" width="24" shadow="t"/>  
+ <w:borderleft type="dashDotStroked" width="24" shadow="t"/>  
+ <w:borderbottom type="dashDotStroked" width="24" shadow="t"/>  
+ <w:borderright type="dashDotStroked" width="24" shadow="t"/>  
+</v:shape><![endif]-->  
+<img src="images4_7/4_7.HT11.gif" v:shapes="_x0000_i1025" width="722" height="140"><!--[if gte mso 9]><xml>  
+ <o:OLEObject Type="Embed" ProgID="Paint.Picture" ShapeID="_x0000_i1025"  
+  DrawAspect="Content" ObjectID="_1082796507">  
+ </o:OLEObject>  
+</xml><![endif]-->  
+</span></p>                        
+                        
+<p align="center"><img border="0" src="images4_7/4_7.HT2.gif" width="555" height="41"><b><font size="4"><span lang="EN-US" style="font-size:10.5pt;mso-bidi-font-size:    
+12.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:宋体;mso-font-kerning:    
+1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:    
+AR-SA"><!--[if gte mso 9]><xml>    
+ <o:OLEObject Type="Embed" ProgID="Paint.Picture" ShapeID="_x0000_i1025"    
+  DrawAspect="Content" ObjectID="_1081058692">    
+ </o:OLEObject>    
+</xml><![endif]-->    
+</span></font></b></p>                        
+                        
+<p><b><font color="#000000" size="4">② 二透镜系统<span lang="EN-US" style="font-size:10.5pt;mso-bidi-font-size:     
+12.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:宋体;mso-font-kerning:  
+1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:  
+AR-SA"><span style="mso-text-raise:-14.0pt"><span style="mso-text-raise:-5.0pt"><!--[if gte vml 1]><v:shapetype  
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"  
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">  
+ <v:stroke joinstyle="miter"/>  
+ <v:formulas>  
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>  
+  <v:f eqn="sum @0 1 0"/>  
+  <v:f eqn="sum 0 0 @1"/>  
+  <v:f eqn="prod @2 1 2"/>  
+  <v:f eqn="prod @3 21600 pixelWidth"/>  
+  <v:f eqn="prod @3 21600 pixelHeight"/>  
+  <v:f eqn="sum @0 0 1"/>  
+  <v:f eqn="prod @6 1 2"/>  
+  <v:f eqn="prod @7 21600 pixelWidth"/>  
+  <v:f eqn="sum @8 21600 0"/>  
+  <v:f eqn="prod @7 21600 pixelHeight"/>  
+  <v:f eqn="sum @10 21600 0"/>  
+ </v:formulas>  
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>  
+ <o:lock v:ext="edit" aspectratio="t"/>  
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:117pt;  
+ height:24.75pt' o:ole="">  
+ <v:imagedata src="file:///C:/WINDOWS/TEMP/msoclip1/01/clip_image001.wmz"  
+  o:title=""/>  
+</v:shape><![endif]-->  
+</span><!--[if gte mso 9]><xml>  
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1025"  
+  DrawAspect="Content" ObjectID="_1082796166">  
+ </o:OLEObject>  
+</xml><![endif]-->  
+<!--[if gte vml 1]><v:shapetype  
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"  
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">  
+ <v:stroke joinstyle="miter"/>  
+ <v:formulas>  
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>  
+  <v:f eqn="sum @0 1 0"/>  
+  <v:f eqn="sum 0 0 @1"/>  
+  <v:f eqn="prod @2 1 2"/>  
+  <v:f eqn="prod @3 21600 pixelWidth"/>  
+  <v:f eqn="prod @3 21600 pixelHeight"/>  
+  <v:f eqn="sum @0 0 1"/>  
+  <v:f eqn="prod @6 1 2"/>  
+  <v:f eqn="prod @7 21600 pixelWidth"/>  
+  <v:f eqn="sum @8 21600 0"/>  
+  <v:f eqn="prod @7 21600 pixelHeight"/>  
+  <v:f eqn="sum @10 21600 0"/>  
+ </v:formulas>  
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>  
+ <o:lock v:ext="edit" aspectratio="t"/>  
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:158.25pt;  
+ height:36.75pt' o:ole="">  
+ <v:imagedata src="file:///C:/WINDOWS/TEMP/msoclip1/01/clip_image001.wmz"  
+  o:title=""/>  
+</v:shape><![endif]-->  
+</span><!--[if gte mso 9]><xml>  
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1025"  
+  DrawAspect="Content" ObjectID="_1082796102">  
+ </o:OLEObject>  
+</xml><![endif]-->  
+</span></font></b></p>                                     
+                         
+<div align="left">                    
+  <table border="0" width="100%" cellspacing="3">                    
+    <tr>                    
+      <td width="443" height="172">   
+        <p align="center"> <b> <font color="#000000" size="4"> <img src="images4_7/4_7.tu3.jpg" alt="wpeB.jpg (9479 字节)" width="396" height="168"></font></b></p> 
+      </td>                  
+      <td width="428" height="172"> 
+        <ul> 
+          <li><b><font color="#000000" size="4">单位点光源s与频谱面共轭</font></b></li> 
+          <li><b><font color="#000000" size="4">物面－L1前焦面；像面－L2后焦面</font></b></li> 
+          <li><b><font color="#000000" size="4">滤波在频谱面进行</font></b></li> 
+          <li><b><font color="#000000" size="4">系统放大率M=f2/f1</font></b></li> 
+        </ul> 
+      </td>                  
+    </tr>                  
+  </table>                  
+</div>                  
+<div align="left">                  
+  <table border="0" width="100%">                  
+    <tr>                  
+      <td width="299" height="93"><font size="4"><img border="0" src="images4_7/4_7.HT23.jpg" width="445" height="159"></font></td>                 
+      <td width="434" height="93"> 
+        <ul> 
+          <li><b><font color="#000000" size="4">S与频谱面共轭</font></b></li> 
+          <li><b><font color="#000000" size="4">物紧靠L1后；谱面紧靠L2前</font></b></li> 
+          <li><b><font color="#000000" size="4">物面与像面相对L2共轭</font></b></li> 
+        </ul> 
+      </td>                 
+    </tr>                 
+  </table>                 
+</div>                 
+                 
+<p><b><font color="#000000" size="4">2、空间滤波的傅里叶分析</font></b></p>                 
+                 
+<p><b><font color="#000000" size="4">&nbsp; 利用4f系统进行计算</font></b></p>                                         
+                         
+<p><b><font color="#000000" size="4">&nbsp; * 例：如图a，一维矩形光栅（缝宽为a，缝间距为d，总长度为L）</font></b></p>                                         
+                         
+<p><b><font color="#000000">&nbsp;&nbsp;&nbsp;&nbsp; </font> </b><font size="4"><b><font color="#800080">光栅的振幅透射系数表示为：</font></b></font></p>                                      
+                        
+<p><b><font color="#000000">&nbsp;&nbsp;&nbsp; <img src="images4_7/4_7.ht3.jpg" alt="wpe7.jpg (6984 字节)"                                         
+WIDTH="332" HEIGHT="112"><br>                         
+&nbsp;&nbsp;&nbsp;&nbsp; </font> </b><font size="4"><b><font color="#800080">频谱面上得到其傅里叶变换：</font><font color="#000000"><br>                                      
+&nbsp;&nbsp;&nbsp; <img src="images4_7/4_7.ht4.jpg" alt="wpe8.jpg (27090 字节)"                                         
+WIDTH="609" HEIGHT="298"></font></b></font></p>                         
+                         
+<table border="0" cellpadding="0" cellspacing="0" width="100%">  
+  <tr>  
+    <td width="100%"><b><font color="#FF0000" size="4">表示频谱面上是一系列呈 sinc                                          
+函数的谱点组成光栅的夫朗和费衍射图样</font></b></td>  
+  </tr>  
+</table>  
+                         
+<p><b><font color="#000000">&nbsp; </font> </b><font size="4"><b><font color="#800080">频谱面滤波处理：</font></b></font></p>                                     
+                       
+<p><b><font color="#000000" size="4">&nbsp;&nbsp;&nbsp; 1） 滤波器为一通光狭缝，只让零波谱通过，&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></b></p>                                        
+                        
+<div align="left">                   
+  <table border="0" width="100%">                   
+    <tr>                   
+      <td valign="top" align="center">   
+        <p align="center"> <b> <font color="#000000" size="4"> <img src="images4_7/4_7.ht5.jpg"                      
+alt="wpeA.jpg (9569 字节)" width="255" height="212">    &nbsp;</font></b></p> 
+        <p> <b> <font color="#000000" size="4">    得到强度均匀的亮区（宽度为L),</font></b></p> 
+        <p> <b> <font color="#000000" size="4"> 栅状结构消失</font></b></p> 
+      </td>                              
+      <td align="center"> 
+        <p align="center"><b><font color="#000000" size="4"><embed width="475" height="503" src="images4_7/4_7_2.swf"></font></b></p> 
+      </td>                 
+    </tr>                 
+  </table>                 
+</div>                 
+                      
+<p><b><font color="#000000" size="4">&nbsp;&nbsp;&nbsp; 2） 滤波器为仅通过0，±1级谱的狭缝</font></b></p>                                         
+                         
+<p><b><font color="#000000" size="4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="images4_7/4_7.ht6.jpg"                                         
+alt="wpeB.jpg (18663 字节)" WIDTH="651" HEIGHT="177">                          
+<br>                    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                          
+像面上是周期与物相同的余弦光栅，呈现物之大致轮廓。</font></b></p>                         
+                         
+<p><b><font color="#000000" size="4">&nbsp;&nbsp;&nbsp; 3） 滤波器为仅通过±2级的双缝</font></b></p>                                         
+                         
+<p><b><font color="#000000" size="4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="images4_7/4_7.ht7.jpg"                                         
+alt="wpeC.jpg (13361 字节)" width="465" height="156"></font></b></p>                         
+                         
+<p><b><font color="#000000" size="4">（二）、应用举例</font></b></p>                        
+                        
+<table border="0" cellpadding="0" cellspacing="3" width="100%" height="85">    
+  <tr>    
+    <td>                       
+                       
+<p><b><font color="#000000" size="4">1、激光输出处理</font></b></p>                                       
+                        
+    </td>    
+    <td rowspan="3"> <b> <font color="#000000" size="4"> <img src="images4_7/4_7.tu4.jpg" alt="wpeB.jpg (5451 字节)" width="316" height="159"></font></b></td>    
+  </tr>    
+  <tr> 
+    <td>                       
+                       
+<b><font color="#000000" size="4">&nbsp;&nbsp;&nbsp; 用针孔作低通滤波器，于透镜后焦面（频谱面）&nbsp;  
+上，滤去高频的相干噪声成分，得到均匀的光斑。</font></b></td>   
+  </tr>
+  <tr>
+    <td>                      
+                      
+<p align="center"><b><font color="#000000" size="4"> 用于全息技术和干涉计量中。</font></b></td>   
+  </tr>
+</table>   
+                      
+<p><b><font color="#000000" size="4">2、图象加减</font></b></p>                       
+                       
+<div align="center">
+  <center>                       
+                       
+<table border="0" cellpadding="0" cellspacing="0">   
+  <tr>   
+    <td bgcolor="#FF00FF" nowrap><b><font color="#000000" size="4">①                     
+      正弦光栅作滤波器，作实时图 象加减运算</font>                    
+      </b>           
+      <p><b><font color="#000000" size="4">&nbsp; <img border="0" src="images4_7/BD14792_.GIF" width="12" height="12">                     
+      4f系统输入面上的图像A,B（如图）。</font></b></p>                    
+      <p><b><font color="#000000" size="4">&nbsp;&nbsp;&nbsp;&nbsp;                     
+      其中心与光轴相距均为b</font></b></p>    
+      <p><b><font color="#000000" size="4">&nbsp; <img border="0" src="images4_7/BD14792_.GIF" width="12" height="12">                     
+      正弦光栅置于频谱面，光栅空间频率<span style="mso-text-raise:-6.0pt"><!--[if gte vml 1]><v:shapetype                 
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"    
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">    
+ <v:stroke joinstyle="miter"/>    
+ <v:formulas>    
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>    
+  <v:f eqn="sum @0 1 0"/>    
+  <v:f eqn="sum 0 0 @1"/>    
+  <v:f eqn="prod @2 1 2"/>    
+  <v:f eqn="prod @3 21600 pixelWidth"/>    
+  <v:f eqn="prod @3 21600 pixelHeight"/>    
+  <v:f eqn="sum @0 0 1"/>    
+  <v:f eqn="prod @6 1 2"/>    
+  <v:f eqn="prod @7 21600 pixelWidth"/>    
+  <v:f eqn="sum @8 21600 0"/>    
+  <v:f eqn="prod @7 21600 pixelHeight"/>    
+  <v:f eqn="sum @10 21600 0"/>    
+ </v:formulas>    
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>    
+ <o:lock v:ext="edit" aspectratio="t"/>    
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:20.25pt;    
+ height:26.25pt' o:ole="">    
+ <v:imagedata src="file:///C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/msoclip1/01/clip_image001.wmz"    
+  o:title=""/>    
+</v:shape><![endif]-->    
+      </span></font></b></p>    
+      <p><b><font color="#000000">&nbsp;&nbsp;&nbsp;&nbsp;<span style="mso-text-raise:-6.0pt">    
+      </span></font></b><font size="4"><b><span lang="EN-US" style="font-size:10.5pt;mso-bidi-font-size:   
+12.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:宋体;mso-font-kerning:   
+1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:   
+AR-SA"><span style="mso-text-raise:-6.0pt"><!--[if gte vml 1]><v:shapetype   
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"   
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">   
+ <v:stroke joinstyle="miter"/>   
+ <v:formulas>   
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>   
+  <v:f eqn="sum @0 1 0"/>   
+  <v:f eqn="sum 0 0 @1"/>   
+  <v:f eqn="prod @2 1 2"/>   
+  <v:f eqn="prod @3 21600 pixelWidth"/>   
+  <v:f eqn="prod @3 21600 pixelHeight"/>   
+  <v:f eqn="sum @0 0 1"/>   
+  <v:f eqn="prod @6 1 2"/>   
+  <v:f eqn="prod @7 21600 pixelWidth"/>   
+  <v:f eqn="sum @8 21600 0"/>   
+  <v:f eqn="prod @7 21600 pixelHeight"/>   
+  <v:f eqn="sum @10 21600 0"/>   
+ </v:formulas>   
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>   
+ <o:lock v:ext="edit" aspectratio="t"/>   
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:20.25pt;   
+ height:26.25pt' o:ole="">   
+ <v:imagedata src="file:///C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/msoclip1/01/clip_image001.wmz"   
+  o:title=""/>   
+</v:shape><![endif]-->   
+      <img src="images4_7/4_7.ht3.gif" v:shapes="_x0000_i1025" align="absmiddle" width="27" height="35"></span><!--[if gte mso 9]><xml>   
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1025"   
+  DrawAspect="Content" ObjectID="_1081147708">   
+ </o:OLEObject>   
+</xml><![endif]-->   
+      </span><span style="mso-text-raise: -6.0pt; mso-bidi-font-size: 12.0pt; font-family: Times New Roman; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA" lang="EN-US"><font color="#000000">与b满足关系：<span style="mso-text-raise:-6.0pt"><!--[if gte vml 1]><v:shapetype    
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"    
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">    
+ <v:stroke joinstyle="miter"/>    
+ <v:formulas>    
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>    
+  <v:f eqn="sum @0 1 0"/>    
+  <v:f eqn="sum 0 0 @1"/>    
+  <v:f eqn="prod @2 1 2"/>    
+  <v:f eqn="prod @3 21600 pixelWidth"/>    
+  <v:f eqn="prod @3 21600 pixelHeight"/>    
+  <v:f eqn="sum @0 0 1"/>    
+  <v:f eqn="prod @6 1 2"/>    
+  <v:f eqn="prod @7 21600 pixelWidth"/>    
+  <v:f eqn="sum @8 21600 0"/>    
+  <v:f eqn="prod @7 21600 pixelHeight"/>    
+  <v:f eqn="sum @10 21600 0"/>    
+ </v:formulas>    
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>    
+ <o:lock v:ext="edit" aspectratio="t"/>    
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:1in;    
+ height:25.5pt' o:ole="">    
+ <v:imagedata src="file:///C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/msoclip1/01/clip_image001.wmz"    
+  o:title=""/>    
+</v:shape><![endif]-->    
+      <img src="images4_7/4_7.ht6.gif" v:shapes="_x0000_i1025" align="absmiddle" width="96" height="34"></span></font></span></b></font></p>     
+      <p><b><span style="mso-text-raise: -6.0pt; mso-bidi-font-size: 12.0pt; font-family: Times New Roman; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA" lang="EN-US"><font color="#000000">&nbsp;                     
+      <img border="0" src="images4_7/BD14792_.GIF" width="12" height="12">&nbsp;            
+      输入面坐标中心得图像加减</font></span><font color="#000000" size="4"><span lang="EN-US" style="mso-bidi-font-size: 12.0pt; font-family: Times New Roman; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA"><!--[if gte mso 9]><xml>   
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1025"   
+  DrawAspect="Content" ObjectID="_1081084088">   
+ </o:OLEObject>   
+</xml><![endif]-->   
+      <!--[if gte mso 9]><xml>   
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1025"   
+  DrawAspect="Content" ObjectID="_1081083927">   
+ </o:OLEObject>   
+</xml><![endif]-->   
+      </span></font></b></td>   
+    <td width="411"> <b> <font color="#000000" size="4"> <img src="images4_7/4_7.tu5.jpg" alt="wpeC.jpg (14499 字节)" width="411" height="323"></font></b></td>   
+  </tr>   
+</table></center> 
+</div> 
+<p align="center"><b><font color="#000000" size="4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                    
+<span lang="EN-US" style="font-size:10.5pt;mso-bidi-font-size:   
+12.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:宋体;mso-font-kerning:   
+1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:   
+AR-SA"><!--[if gte vml 1]><v:shapetype id="_x0000_t75" coordsize="21600,21600"   
+ o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe" filled="f"   
+ stroked="f">   
+ <v:stroke joinstyle="miter"/>   
+ <v:formulas>   
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>   
+  <v:f eqn="sum @0 1 0"/>   
+  <v:f eqn="sum 0 0 @1"/>   
+  <v:f eqn="prod @2 1 2"/>   
+  <v:f eqn="prod @3 21600 pixelWidth"/>   
+  <v:f eqn="prod @3 21600 pixelHeight"/>   
+  <v:f eqn="sum @0 0 1"/>   
+  <v:f eqn="prod @6 1 2"/>   
+  <v:f eqn="prod @7 21600 pixelWidth"/>   
+  <v:f eqn="sum @8 21600 0"/>   
+  <v:f eqn="prod @7 21600 pixelHeight"/>   
+  <v:f eqn="sum @10 21600 0"/>   
+ </v:formulas>   
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>   
+ <o:lock v:ext="edit" aspectratio="t"/>   
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:414.75pt;   
+ height:51pt' o:ole="" o:bordertopcolor="#930" o:borderleftcolor="#930"   
+ o:borderbottomcolor="#930" o:borderrightcolor="#930">   
+ <v:imagedata src="file:///C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/msoclip1/01/clip_image001.png"   
+  o:title=""/>   
+ <w:bordertop type="dashedSmall" width="4"/>   
+ <w:borderleft type="dashedSmall" width="4"/>   
+ <w:borderbottom type="dashedSmall" width="4"/>   
+ <w:borderright type="dashedSmall" width="4"/>   
+</v:shape><![endif]-->   
+<img src="images4_7/4_7.ht7.gif" v:shapes="_x0000_i1025" width="555" height="70"><!--[if gte mso 9]><xml>   
+ <o:OLEObject Type="Embed" ProgID="Paint.Picture" ShapeID="_x0000_i1025"   
+  DrawAspect="Content" ObjectID="_1081150043">   
+ </o:OLEObject>   
+</xml><![endif]-->   
+</span>&nbsp;&nbsp;&nbsp;</font></b></p>                       
+                       
+<p><b><font color="#000000" size="4">具体运算：</font></b></p>                       
+                       
+<p><b><font color="#000000" size="4">&nbsp;&nbsp; <img border="0" src="images4_7/4_7.HT11.jpg" width="451" height="139"><br>                            
+&nbsp;&nbsp; <img src="images4_7/4_7.ht9.jpg" alt="wpeE.jpg (16138 字节)" width="526" height="190"><br>                             
+&nbsp;&nbsp; <img src="images4_7/4_7.ht10.jpg" alt="wpeF.jpg (15197 字节)" WIDTH="404"                                         
+HEIGHT="215"></font></b></p>                         
+                         
+<p><b><font color="#000000" size="4">于是，</font></b></p>                         
+                         
+<table border="0" cellpadding="0" cellspacing="0" width="100%">  
+  <tr>  
+    <td width="100%">  
+      <ul>  
+        <li><b><font color="#000000" size="4">当φ=0，即光栅最大透射率与频谱面坐标原点一致时，在像面中心得两图象相加；</font></b></li>  
+      </ul>  
+    </td>  
+  </tr>  
+  <tr>  
+    <td width="100%">  
+      <ul>  
+        <li><b><font color="#000000" size="4"> 当φ=π/2，即光栅最大透射率偏离原点&frac14;周期时，在像面中心得两图象相减。</font></b></li>  
+      </ul>  
+    </td>  
+  </tr>  
+</table>  
+                         
+<p><b><font color="#000000" size="4">② 相位板空域调制</font></b></p>                                         
+                         
+<div align="left">                   
+  <table border="0">                   
+    <tr>                   
+      <td valign="middle" nowrap>  
+        <p align="center"><b><font color="#000000" size="4">图象P</font><font color="#000000" size="2">1</font><font color="#000000" size="4">，P</font><font color="#000000" size="2">2</font><font color="#000000" size="4">光场分布为<span lang="EN-US" style="font-size:10.5pt;mso-bidi-font-size:  
+12.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:宋体;mso-font-kerning:  
+1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:  
+AR-SA"><span style="mso-text-raise:-5.0pt"><!--[if gte vml 1]><v:shapetype  
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"  
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">  
+ <v:stroke joinstyle="miter"/>  
+ <v:formulas>  
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>  
+  <v:f eqn="sum @0 1 0"/>  
+  <v:f eqn="sum 0 0 @1"/>  
+  <v:f eqn="prod @2 1 2"/>  
+  <v:f eqn="prod @3 21600 pixelWidth"/>  
+  <v:f eqn="prod @3 21600 pixelHeight"/>  
+  <v:f eqn="sum @0 0 1"/>  
+  <v:f eqn="prod @6 1 2"/>  
+  <v:f eqn="prod @7 21600 pixelWidth"/>  
+  <v:f eqn="sum @8 21600 0"/>  
+  <v:f eqn="prod @7 21600 pixelHeight"/>  
+  <v:f eqn="sum @10 21600 0"/>  
+ </v:formulas>  
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>  
+ <o:lock v:ext="edit" aspectratio="t"/>  
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:117pt;  
+ height:23.25pt' o:ole="">  
+ <v:imagedata src="file:///C:/WINDOWS/TEMP/msoclip1/01/clip_image001.wmz"  
+  o:title=""/>  
+</v:shape><![endif]-->  
+        <img src="images4_7/4_7.HT16.gif" v:shapes="_x0000_i1025" align="absbottom" width="156" height="31"></span><!--[if gte mso 9]><xml>  
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1025"  
+  DrawAspect="Content" ObjectID="_1082797370">  
+ </o:OLEObject>  
+</xml><![endif]-->  
+        </span>&nbsp;&nbsp;</font></b></p>  
+                       
+      </td>                  
+      <td width="252" height="121" rowspan="5"><b><font size="4"><img border="0" src="images4_7/4_7.HT33.gif" width="258" height="209"></font></b></td>                 
+    </tr>                 
+    <tr>  
+      <td valign="middle">  
+        <b><font color="#000000" size="4">&nbsp;&nbsp;&nbsp;&nbsp; 相位板                                          
+G 转动时，产生相位变化φ，P1，P2通过L 同时成像在P面上，其上光场分布为：</font></b>                           
+                       
+      </td>                  
+    </tr>  
+    <tr>  
+      <td valign="middle" nowrap align="center">  
+        <b><font color="#000000" size="4"> A(x,y) = g1(x,y)+g2(x,y)exp(iφ)</font></b>                           
+                       
+      </td>                  
+    </tr>  
+    <tr>  
+      <td valign="middle" nowrap align="left">  
+        <b><font color="#000000" size="4">&nbsp;&nbsp; 当φ=2mπ时，得两图象之和；</font></b>                          
+                       
+      </td>                  
+    </tr>  
+    <tr>  
+      <td valign="middle" nowrap align="left">  
+        <b><font color="#000000" size="4">&nbsp;&nbsp; 当φ=(2m+1)π时，得两图象之差</font></b>                          
+                       
+      </td>                  
+    </tr>  
+  </table>                 
+</div>                 
+                      
+<p><b><font color="#000000" size="4">3、图象微分</font></b></p>                      
+                      
+<p><b><font color="#000000" size="4">&nbsp;&nbsp; 图象微分即使低对比像边缘增强，可用光学手段来实现</font></b></p>                                         
+                         
+<p><b><font color="#000000" size="4">&nbsp;&nbsp; 设输入图象g(x)，作微分运算：</font></b></p>                                        
+                         
+<p align="center"><b><font color="#000000" size="4"> <img src="images4_7/4_7.ht12.jpg"                                
+alt="wpe11.jpg (5350 字节)" width="410" height="65"></font></b></p>                         
+                         
+<p align="center"><b><font color="#000000" size="4">上式表示，对i2πuG(u)                                          
+作傅氏逆变换，则在输出面上得到图象的微分</font></b></p>                         
+                         
+<table border="0" cellpadding="0" cellspacing="0" width="100%">  
+  <tr>  
+    <td width="50%">  
+      <p align="center"><b><font color="#000000" size="4"> ●图示光学微分的例子</font></b></td>  
+    <td width="50%"><b><font color="#000000" size="4"><img border="0" src="images4_7/4_7_4.gif" width="400" height="200"></font></b></td>  
+  </tr>  
+</table>  
+                     
+<div align="left">               
+  <table border="0" width="100%">               
+    <tr>               
+      <td>  
+        <b><font color="#000000" size="4">&nbsp;●复合正弦光栅作滤波器的图像微分例子</font></b>  
+        <p>　</p>  
+        <ul>  
+          <li><b><font color="#000000" size="4">复合正弦光栅由两组频率接近的正弦光栅组成</font></b></li>  
+        </ul>  
+        <p>　</p>  
+        <ul>  
+          <li><b><font color="#000000" size="4">输出面上得到图像与光栅三个衍射像的卷积像</font></b></li>  
+        </ul>  
+        <p>　</p>  
+        <ul>  
+          <li><b><font color="#000000" size="4">两组错开的图像且相位相反，使重迭部分相消，错开部分构成微分图形</font></b></li>  
+        </ul>  
+      </td>               
+      <td rowspan="2"><b><font color="#000000" size="4"><embed width="298" height="430" src="images4_7/4_7_5.swf"></font></b></td>               
+    </tr>               
+    <tr> 
+      <td>  
+        <b><font color="#000000" size="4">4、图象识别</font>    
+</b>    
+      </td>               
+    </tr> 
+  </table>               
+</div>               
+                     
+<ul>  
+  <li><b><font color="#000000" size="4">图象识别指用光学方法检测和判断图象中是否包含某一特定信息</font></b></li>  
+  <li><b><font color="#000000" size="4">在 4f 系统的频谱面上放上匹配滤波器，用光学相关实现图象识别</font></b></li>               
+  <li><b><font color="#000000" size="4">匹配滤波器——其复振幅透射系数与输入图象的频谱成复数共轭的滤波器<br>                        
+    即 <img src="images4_7/4_7.ht13.jpg" alt="wpe13.jpg (4267 字节)" align="center"                                         
+    WIDTH="434" HEIGHT="43"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></b></li>               
+</ul>  
+                         
+<p align="left"><b><font color="#000000" size="4">&nbsp;&nbsp;&nbsp; 讨论： </font></b></p>                          
+                         
+<p align="center"><b><font color="#000000" size="4">                                       
+&nbsp;&nbsp; </font></b><span lang="EN-US" style="font-size:10.5pt;mso-bidi-font-size:     
+12.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:宋体;mso-font-kerning:  
+1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:  
+AR-SA"><!--[if gte vml 1]><v:shapetype id="_x0000_t75" coordsize="21600,21600"  
+ o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe" filled="f"  
+ stroked="f">  
+ <v:stroke joinstyle="miter"/>  
+ <v:formulas>  
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>  
+  <v:f eqn="sum @0 1 0"/>  
+  <v:f eqn="sum 0 0 @1"/>  
+  <v:f eqn="prod @2 1 2"/>  
+  <v:f eqn="prod @3 21600 pixelWidth"/>  
+  <v:f eqn="prod @3 21600 pixelHeight"/>  
+  <v:f eqn="sum @0 0 1"/>  
+  <v:f eqn="prod @6 1 2"/>  
+  <v:f eqn="prod @7 21600 pixelWidth"/>  
+  <v:f eqn="sum @8 21600 0"/>  
+  <v:f eqn="prod @7 21600 pixelHeight"/>  
+  <v:f eqn="sum @10 21600 0"/>  
+ </v:formulas>  
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>  
+ <o:lock v:ext="edit" aspectratio="t"/>  
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:413.25pt;  
+ height:227.25pt' o:bordertopcolor="red" o:borderleftcolor="red"  
+ o:borderbottomcolor="red" o:borderrightcolor="red">  
+ <v:imagedata src="file:///C:/WINDOWS/TEMP/msoclip1/01/clip_image001.png"  
+  o:title=""/>  
+ <w:bordertop type="thickBetweenThinLarge" width="24" shadow="t"/>  
+ <w:borderleft type="thickBetweenThinLarge" width="24" shadow="t"/>  
+ <w:borderbottom type="thickBetweenThinLarge" width="24" shadow="t"/>  
+ <w:borderright type="thickBetweenThinLarge" width="24" shadow="t"/>  
+</v:shape><![endif]-->  
+<img src="images4_7/4_7.HT15.gif" v:shapes="_x0000_i1025" width="599" height="351"></span></p>                         
+                         
+<table border="0" cellpadding="0" cellspacing="3" width="100%">  
+  <tr>  
+    <td width="100%"><b><font color="#000000" size="4">&nbsp;&nbsp;&nbsp; 上式第一项为输入图象<img src="images4_7/4_7.ht17.jpg"                                        
+alt="wpe16.jpg (1324 字节)" align="center" WIDTH="73" HEIGHT="34">的自相关函数，由自相关函数性质，可知像面上出现自相关峰值亮点</font></b></td>  
+  </tr>  
+  <tr>  
+    <td width="100%"><b><font color="#000000" size="4">&nbsp;&nbsp;&nbsp; 上式第二项为<img src="images4_7/4_7.ht16.jpg"                                        
+alt="wpe17.jpg (1285 字节)" align="center" WIDTH="73" HEIGHT="31">与<img                         
+src="images4_7/4_7.ht17.jpg" alt="wpe16.jpg (1324 字节)" align="center" width="73" height="34">的互相关函数，由于能量弥散，得不到峰值亮点</font></b></td>  
+  </tr>  
+</table>  
+                         
+<p><b><font color="#000000">&nbsp;&nbsp; </font> </b><font size="4"><b><font color="#FF00FF">据亮点存在与否，可从大量输入信号中识别待测图象。</font></b></font></p>                                      
+                        
+<div align="center">
+  <center>                                    
+                       
+<table border="0" cellpadding="0" cellspacing="0"> 
+  <tr> 
+    <td nowrap> 
+      <p align="center"><b><font size="4"> <img border="0" src="images4_7/4_7.ht8.gif" width="305" height="105"></font></b></p>         
+    </td>        
+    <td nowrap><b><font color="#000000" size="4">a)用来制作匹配滤波器的目标</font> 
+      </b> 
+      <p><b><font color="#000000" size="4">b)输入图像</font></b></p> 
+      <p><b><font color="#000000" size="4">c)相关结果</font></b></td> 
+  </tr> 
+</table> 
+                       
+  </center>
+</div>
+                       
+<p><b><a name="mark2"><font color="#000000" size="4"></font></a><font color="#000000" size="4">二、非相干光学处理</font></b>   
+<ul> 
+  <li><b><font color="#000000" size="4">非相干光照明<br>                     
+    </font>                     
+    </b>                     
+  </li> 
+  <li><b><font color="#000000" size="4">强度分布的信息<br>                     
+    </font>                     
+    </b>                     
+  </li> 
+  <li><b><font color="#000000" size="4">系统对强度分布呈线性<br>                     
+    </font>                     
+    </b>                     
+  </li> 
+  <li><b><font size="4"><font color="#000000">处理形式： </font></font></b> 
+    <table border="0" cellpadding="0" cellspacing="5"> 
+      <tr> 
+        <td width="100%"><b><font size="4"><font color="#FF00FF"> Δ</font><font color="#000000"> 物面上处理 （相关，调制，变换） </font></font></b></td>           
+      </tr>  
+      <tr>  
+        <td width="100%"><b><font size="4"><font color="#FF00FF">Δ</font><font color="#000000">                                 
+    瞳面上处理 （切趾术，变迹等）</font></font></b></td>           
+      </tr>  
+    </table>  
+  </li>      
+</ul>  
+<table border="0" cellpadding="0" cellspacing="0" width="300">  
+  <tr>  
+    <td bgcolor="#FF00FF"><b><font color="#000000">&nbsp;&nbsp; </font> </b><font size="4"><b><font color="#FFFF00">物面处理例子---相关运算</font></b></font></td>                
+  </tr>  
+</table>  
+                        
+<p><b><font color="#000000" size="4">1、图示系统（成像法）</font></b></p>                       
+                       
+<p><b><font color="#000000" size="4">&nbsp; 透明片 t1，t2                                          
+，其强度透过率分别为 f(x,y)，h(x,y)，S为非相干光源，L2是成像透镜，L3为积分透镜，把透射光会聚于探测器D上。</font></b></p>                                         
+                         
+<p align="center"><b><font size="4"><embed width="590" height="209" src="images4_7/8-38.swf"></font></b></p>                       
+                       
+<p><b><font color="#000000" size="4">&nbsp; 得透明片 t2                                          
+后的光强分布为：&nbsp;&nbsp; I(x,y)&middot;h(x,y)&nbsp;&nbsp; <br>                                        
+<img src="images4_7/4_7.ht18.jpg" alt="wpe1D.jpg (18337 字节)" WIDTH="712" HEIGHT="157"></font></b></p>                        
+                        
+<p><b><font color="#000000" size="4">&nbsp; 将 t1 匀速一维移动，则输出 I(vt) 将随 t 变化</font></b></p>                                         
+                         
+<p><b><font color="#000000" size="4">&nbsp; 此系统可用于使模糊图象复原，特征识别等。</font></b></p>                                         
+                         
+<p><b><font color="#000000" size="4">2、图示系统（投影法）求取图象相关</font></b></p>                        
+                        
+<p align="center"><b><font color="#000000" size="4"><img border="0" src="images4_7/4_7_7.gif" width="461" height="199"></font></b></p>                       
+                       
+<p><b><font color="#000000" size="4">&nbsp;&nbsp;&nbsp;&nbsp; 强度透过率为 I(x,y)，h(x,y) 相距为 d                                          
+的透明片如图放置，扩展光源S上一点 (-x0,-y0)                                          
+发出的光照射、投射后，第二透明片后的光强分布为：</font></b></p>                         
+                         
+<p><b><font color="#000000" size="4">&nbsp;&nbsp;&nbsp;&nbsp; I(x-d/f &middot;x0,y-d/f                                          
+&middot;y0)&middot;h(x,y)</font></b></p>                         
+                         
+<p><b><font color="#000000" size="4">&nbsp;&nbsp;&nbsp; 输出面 (x0,y0)点处的输出光强为：&nbsp;&nbsp;&nbsp;  
+<img src="images4_7/4_7.ht19.jpg" alt="wpe1E.jpg (4294 字节)" align="middle" width="379" height="51"></font></b></p>                                       
+                        
+<p><b><font color="#000000" size="4">&nbsp; 于是在输出面上得到两个图象的相关分布。</font></b></p>                                         
+                         
+<p><b><font color="#000000" size="4">&nbsp; 此系统可用于图象识别、图象增强等非相干处理</font></b></p>                                         
+                         
+<p><b><font color="#000000" size="4">&nbsp;                                          
+以上两方法均在空间域中进行，按几何光学原理须考虑同时存在的衍射影响。</font></b></p>                         
+                         
+<p><b><font color="#000000" size="4">&nbsp;<span style="background-color: #FF0000"><img border="0" src="images4_7/4_7.HT20.gif" width="301" height="35"><br>                        
+</span>                        
+<br>                        
+1、切趾术：</font></b></p>                        
+                        
+<table border="0" cellpadding="0" cellspacing="5" width="100%">  
+  <tr>  
+    <td width="95%"><b><font color="#000000" size="4">&nbsp;&nbsp; 改变光瞳面的振幅分布，以改变点扩散函数的形状使抑制次极大，但分辨率下降，用于观察高对比细节。</font></b></td>     
+  </tr>  
+</table>  
+<table border="0" cellpadding="0" cellspacing="5" width="100%">  
+  <tr>  
+    <td nowrap> 
+      <p align="right"><b><font size="4">如图：</font></b></p>
+    </td> 
+    <td nowrap><b><font size="4">b)光瞳产生的点扩展函数</font></b></td> 
+    <td rowspan="3" nowrap>
+      <p align="center"><embed width="403" height="218" src="images4_7/4_7_3.SWF"></p>
+    </td> 
+  </tr> 
+  <tr> 
+    <td nowrap></td> 
+    <td nowrap><b><font size="4">a)处理系统 光瞳面</font></b>     
+      <p><b><font size="4">&nbsp;（加呈高斯分布的掩膜）</font></b></td> 
+  </tr> 
+  <tr> 
+    <td nowrap></td> 
+    <td nowrap><b><font size="4">b)得曲线2分布</font></b></td> 
+  </tr> 
+</table> 
+                        
+<table border="0" cellpadding="0" cellspacing="5" width="100%"> 
+  <tr> 
+    <td nowrap><b><font color="#000000" size="4">2、</font></b></td> 
+    <td nowrap><b><font color="#000000" size="4">变迹术</font></b></td> 
+    <td rowspan="3" nowrap>
+      <p align="center"><embed width="234" height="225" src="images4_7/4_7_4.SWF"></p>
+    </td> 
+  </tr> 
+  <tr>
+    <td nowrap></td> 
+    <td nowrap><b><font color="#000000" size="4"> 改变光瞳形状，以改变其衍射分布，能提高分辨率</font></b></td> 
+  </tr>
+  <tr> 
+    <td nowrap></td> 
+    <td nowrap><b><font color="#000000" size="4"> 在光瞳面上放一圆环孔径，其衍射图样如图：</font></b></td> 
+  </tr> 
+</table> 
+                        
+<p><b><a name="mark3"><font color="#000000" size="4"></font></a><font color="#000000" size="4">三、白光信息处理</font></b></p>                     
+                     
+<p><b><font color="#000000" size="4">&nbsp; 兼有相干和非相干光学处理的特点，适用于彩色图象处理</font>                      
+</b>             
+<ul>  
+  <li><b><font color="#000000" size="4">采用 4f 系统，在频谱面上处理<br>                                        
+    <br>                        
+    </font>                        
+    </b>                        
+  </li>  
+  <li><b><font color="#000000" size="4">用宽谱带白光源，物函数均用光栅调制，频谱面上得色散频谱<br>                       
+    <br>                       
+    </font>                       
+    </b>                       
+  </li>  
+  <li><b><font color="#000000" size="4">对某一色光，输出面上是滤波后个波长输出像的非相干叠加</font></b></li>  
+</ul>  
+                       
+<p><b><font color="#000000" size="4"><br>                       
+<img src="images4_7/4_7.ht21.jpg" alt="wpe20.jpg (3120 字节)" width="193" height="59"></font></b></p>                       
+                       
+<p><b><font color="#000000" size="4">▲ θ调制：</font>                      
+</b>             
+<ul>  
+  <li><b><font color="#000000" size="4">对图象的不同区域分别用不同取向（不同方位角θ）的光栅调制<br>                       
+    </font>                       
+    </b>                       
+  </li>  
+  <li><b><font color="#000000" size="4">频谱面上不同方位上出现图象相应区域的频谱成分<br>                       
+    </font>                       
+    </b>                       
+  </li>  
+  <li><b><font color="#000000" size="4">白光照射时，滤波器透过色散频谱中不同频谱成分，得假彩色输出图象</font></b></li>  
+</ul>  
+                       
+<p align="center"><b><font color="#000000" size="4"><embed width="585" height="283" src="images4_7/4_7_10.swf"></font></b></p>                      
+                      
+<table border="0" width="100%">
+  <tr>
+    <td align="center" nowrap><b><font color="#000000" size="4">▲&nbsp;</font>                
+</b>            
+    </td>
+    <td align="center" nowrap>
+      <p align="left"><b><font color="#000000" size="4"> 假彩色编码：</font>                
+</b>            
+    </td>
+  </tr>
+  <tr>
+    <td align="center" nowrap></td>
+    <td align="center" nowrap>
+      <ul>
+        <li>
+          <p align="left"><b><font color="#000000" size="4">假彩色编码——人为地赋予黑得图象以各种色彩的技术，用于遥感图象、医学图象判读</font></b></li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" nowrap></td>
+    <td align="center">
+      <ul>
+        <li>
+          <p align="left"><b><font color="#000000" size="4">据于θ调制原理，若对物分布的不同光密度（或不同空间频率）分布赋予不同色彩，得到等密度（或等空间频率）假色彩编码。                      
+    </font>                      
+    </b>                      
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" nowrap></td>
+    <td align="center" nowrap><b><font color="#000000" size="4">&nbsp;图例：黑白图象用正交光栅调制，在白光信息处理系统中，得呈正交分布得色散频谱</font></b></td>
+  </tr>
+</table>
+                      
+<p><b><font color="#000000" size="4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 取用不同滤波器，分别实现等密度和等空间频率假色彩编码</font></b></p>                                  
+                       
+<table border="0" width="100%" cellspacing="6" cellpadding="0">                
+  <tr>                
+    <td width="32%">  
+      <p align="center"><b><font size="4"><img border="0" src="images4_7/4_7.HT15.gif" width="599" height="351"></font></b></p>  
+    </td>               
+    <td width="82%"><b><font color="#000000" size="4">等空间频率的彩色编码滤波器<br>               
+      ·通过蓝色的高频成分，红色的低频成分<br>               
+      ·输出面物体的低频信息呈蓝色，高频信息呈红色</font></b></td>               
+  </tr>               
+  <tr>               
+    <td width="32%">  
+      <p align="left"><b><font color="#000000" size="4">等密度的彩色编码滤波器<br>               
+      &nbsp; ·只让红色、绿色波长相应频谱通过<br>              
+      &nbsp; ·π相位片产生对比（密度）反转的负像<br>              
+      &nbsp; ·输出面上绿色负像和红色正像重合，强度迭加得等密度的彩色编码像<br>              
+      &nbsp; ·不同密度处呈现不同颜色</font></b></p> 
+    </td>              
+    <td width="82%">
+      <p align="center"><b><font size="4"><img border="0" src="images4_7/4_7.HT14.gif" width="185" height="186"></font></b></p>
+    </td>              
+  </tr>              
+</table>              
+                     
+<table border="0" cellpadding="0" cellspacing="5" width="100%"> 
+  <tr> 
+    <td nowrap> 
+      <b><font color="#000000" size="4">▲ 用黑白感光片记录和存储彩色图象：</font>                 
+</b>  
+    </td>  
+    <td rowspan="2" nowrap> 
+      <p align="center"><b><font color="#000000" size="4">                     
+    <img border="0" src="images4_7/4_7_13.gif" width="250" height="160">                     
+    </font>                     
+    </b>                     
+      </p>
+    </td> 
+  </tr> 
+  <tr>
+    <td nowrap> 
+      <ul>
+        <li><b><font color="#000000" size="4">彩色图象的记录（编码）</font></b></li>
+      </ul>
+    </td> 
+  </tr>
+  <tr> 
+    <td nowrap> 
+      <ul> 
+        <li><b><font color="#000000" size="4">重现彩色像（解码)</font></b></li> 
+      </ul> 
+    </td> 
+    <td nowrap>
+      <p align="center"><b><font color="#000000" size="4">                     
+    <img border="0" src="images4_7/4_7_12.gif" width="450" height="150">                    
+    </font>                     
+    </b>                    
+      </p>
+    </td> 
+  </tr> 
+</table> 
+    <p align="left"><b><font color="#000000" size="4">&nbsp;&nbsp; 黑白编码片置于白光4f系统物面上，频谱面上得其相应的色散频谱取平行于光栅方位的三个方向上的正一级谱，其上分别加红、绿、蓝滤光片滤波补充像面上得复原的彩色图像<br>                         
+    </font>                      
+    </b>                      
+<ul>  
+  <li><b><font color="#000000" size="4">用三色光栅一次记录彩色图象</font></b></li>  
+</ul>  
+<table border="0" width="100%" height="150" cellspacing="7" cellpadding="0">              
+  <tr>              
+    <td> 
+      <p align="center"><b><font color="#000000" size="4"><img border="0" src="images4_7/4_7_11.gif" align="left" width="250" height="150"></font></b></p>
+    </td>             
+    <td>             
+      <p align="left"><b><font color="#000000" size="4">图示三色光栅，由取向不同的红黑相间、绿黑相间和蓝黑相间的光栅相加而成</font></b></p>             
+      <p align="left"><b><font color="#000000" size="4">三色光栅与黑白片叠全进行拍摄可一次记录彩色图像</font></b></td>             
+  </tr>             
+</table> 
+<p align="center"></p>      
+<p align="center"><b><font size="4">    
+<a href="4_6.HTM">上一节</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="index1.htm">目录</a>            
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="4_8.HTM">下一节</a></font></b></p>      
+  
+<form>               
+  <p><font size="3"><b>第<select name="zhang" size="1">               
+    <option value="1">1</option>   
+    <option value="2">2</option>   
+    <option value="3">3</option>   
+    <option value="4">4</option>   
+    <option value="5">5</option>   
+    <option value="6">6</option>   
+    <option value="7">7</option>   
+  </select>章&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 第<select name="jie" size="1">                    
+    <option value="0">0</option>               
+    <option value="1">1</option>               
+    <option value="2">2</option>               
+    <option value="3">3</option>               
+    <option value="4">4</option>               
+    <option value="5">5</option>               
+    <option value="6">6</option>               
+    <option value="7">7</option>               
+    <option value="8">8</option>               
+    <option value="9">9</option>               
+  </select>节<input type="button" value="转到" name="B1" onclick="location.assign(this.form.zhang.value+'_'+this.form.jie.value+'.htm')"></b></font></p>               
+</form>      
+     
+　<!--msnavigation--></td></tr><!--msnavigation--></table></body>                      
+</html>                      

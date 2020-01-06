@@ -1,0 +1,172 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>第四章　傅里叶光学</title>
+<!--mstheme--><link rel="stylesheet" type="text/css" href="_themes/blends/blen1111-106.css"><meta name="Microsoft Theme" content="blends 1111">
+<meta name="Microsoft Border" content="tl, default">
+</head>
+
+<body topmargin="10" leftmargin="0"><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+<p align="center">　</p> 
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td valign="top" width="1%">
+
+
+
+</td><td valign="top" width="24"></td><!--msnavigation--><td valign="top">
+<p>　</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;  
+<font size="5"><b>第&nbsp;&nbsp;&nbsp;&nbsp; 四&nbsp;&nbsp;&nbsp; 章</b></font></p>
+    
+<table border="0" cellspacing="6" width="126">  
+  <tr>  
+    <td width="720" nowrap>
+      <p align="center"><font size="4"><b>傅里叶光学(或称信息光学)——光学与通信和信息理论结合形成的现代光学新分支。</b></font></p>
+    </td>  
+  </tr>  
+</table>  
+    
+<p align="center">　</p>    
+    
+<p align="left"><u><font color="#800000" size="4"><b>光学系统与通信系统的相似：</b></font></u></p>    
+    
+<div align="center">  
+  <center>  
+  <table border="0" cellspacing="5" cellpadding="0">  
+    <tr>  
+      <td align="left"><font size="4"> <b> ①</b></font></td>  
+      <td colspan="2"><font size="4"> <b> 用于传递、变换信息，可视为对各种频率的响应。</b></font></td>  
+    </tr>  
+    <tr>  
+      <td width="29" height="40"></td>  
+      <td valign="top" align="right" nowrap>
+        <p align="center"><font size="4"><b>电学中:</b></font></p>
+      </td>  
+      <td><font size="4"><b>信号—→放大器—→频率响应</b></font>
+        <p><font size="4"><b>（信息随时间变化——时变的电流电压信号）</b></font></p>
+      </td>  
+    </tr>  
+    <tr>  
+      <td width="29" height="40"></td>  
+      <td valign="top" align="right" nowrap>
+        <p align="center"><font size="4"><b>光学中：</b></font></p>
+      </td>  
+      <td><font size="4"><b>物面信息—→光学系统—→象面信息</b></font>
+        <p><font size="4"><b>(信息随空间变化——复振幅和强度的空间分布）</b></font></p>
+      </td>  
+    </tr>  
+    <tr>  
+      <td><font size="4"> <b> ②</b></font></td>  
+      <td colspan="2" nowrap><font size="4">    
+<b>    
+一定条件下，具有线性性和不变性</b></font></td>  
+    </tr>  
+    <tr>  
+      <td width="29" height="59"></td>  
+      <td valign="top" nowrap height="59" align="right"><font size="4"><b>表明：</b></font></td>  
+      <td height="59"><font size="4"><b>在线性系统理论下可用傅里叶分析（即频谱分析）方法进行描述、分析、观察系统的效应（时间频率域、空间频率域进行）</b></font></td> 
+    </tr> 
+  </table> 
+  </center> 
+</div> 
+   
+<p align="left"><font size="4"><b><u><font color="#800000">傅里叶光学研究的问题：</font><br> 
+</u>　　</b></font></p>   
+   
+<div align="center">
+  <center>
+  <table border="0" cellpadding="0" cellspacing="3" width="642">
+    <tr>
+      <td bordercolor="#FFFFFF" nowrap><font size="4"><b>线性系统理论</b></font>
+        <p><font size="4"><b>频谱分析方法</b></font></td>
+      <td width="36" bordercolor="#FFFFFF"><span style="mso-text-raise: -16.0pt; mso-bidi-font-size: 12.0pt; font-family: Times New Roman; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA" lang="EN-US"><font size="4"><b><!--[if gte vml 1]><v:shapetype
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:162pt;
+ height:42.75pt' o:ole="">
+ <v:imagedata src="file:///C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/msoclip1/01/clip_image001.wmz"
+  o:title=""/>
+</v:shape><![endif]-->
+        <span style="mso-text-raise:-3.0pt"><!--[if gte vml 1]><v:shapetype
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:27pt;
+ height:21.75pt' o:ole="">
+ <v:imagedata src="file:///C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/msoclip1/01/clip_image001.wmz"
+  o:title=""/>
+</v:shape><![endif]-->
+        <img src="images4_1/4_0.ht11.gif" v:shapes="_x0000_i1025" align="absmiddle" width="36" height="29"></span><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1025"
+  DrawAspect="Content" ObjectID="_1079767556">
+ </o:OLEObject>
+</xml><![endif]-->
+        </b></font>
+        </span></td>
+      <td width="464" align="center" bordercolor="#FFFFFF"><font size="4"><b>物体包含的各种空间频率成分的传播<span style="mso-bidi-font-size: 12.0pt; font-family: 宋体; mso-ascii-font-family: Times New Roman; mso-hansi-font-family: Times New Roman; mso-bidi-font-family: Times New Roman; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA">，叠加，成像等经典光学问题（采用空间频率概念）</span></b></font></td>
+    </tr>
+  </table>
+  </center>
+</div>
+
+<p align="center">　</p>
+
+<p align="center"><font size="4"><b><a href="3_6.htm">上一节</a>　<a href="index1.htm">目录</a>　<a href="4_1.htm">下一节</a></b></font></p>
+<form>
+  <p><font size="4"><b>第<select name="zhang" size="1">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+  </select>章&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 第<select name="jie" size="1">                
+    <option value="0">0</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+  </select>节<input type="button" value="转到" name="B1" onclick="location.assign(this.form.zhang.value+'_'+this.form.jie.value+'.htm')"></b></font></p>
+</form>
+　<!--msnavigation--></td></tr><!--msnavigation--></table></body>
+</html>

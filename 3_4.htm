@@ -1,0 +1,559 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>3-4</title>
+</head>
+
+<body background="backimages/nabkgnd.jpg">
+
+<p><a name="head"></a></p>
+<div id="KBStatic" style="position:absolute; left:650px; top:350px; width:41px; height:59px; z-index:25"><a href="#head">
+<dd align="left"><img src="images/back-top.gif" border="0" WIDTH="45" HEIGHT="57"></a></dd>
+</div><script language="JavaScript">
+function KB_keepItInIE(theName,theWantTop,theWantLeft) {
+theRealTop=parseInt(document.body.scrollTop)
+theTrueTop=theWantTop+theRealTop
+document.all[theName].style.top=theTrueTop
+theRealLeft=parseInt(document.body.scrollLeft)
+theTrueLeft=theWantLeft+theRealLeft
+document.all[theName].style.left=theTrueLeft
+}
+function KB_keepItInNN(theName,theWantX,theWantY) {
+theRealLay=document.layers[theName]
+theBadX=self.pageYOffset
+theBadY=self.pageXOffset
+theRealX=theBadX+theWantX
+theRealY=theBadY+theWantY
+theRealLay.moveTo(theRealY,theRealX)
+}
+IE4=(document.all)?1:0
+NN4=(document.layers)?1:0
+if (IE4)
+setInterval('KB_keepItInIE("KBStatic",350,650)',1)
+if (NN4)
+setInterval('KB_keepItInNN("KBStatic",350,650)',1)
+</script>
+
+
+<p><font size="4"><b><a href="3_4.htm#book1">一、双缝衍射</a><br>
+<a href="3_4.htm#book2">二、多缝夫琅和费衍射</a></b></font></p>
+
+<hr>
+
+<p align="center"><b><font size="5"> 
+第四节 &nbsp;&nbsp; 双缝和多缝的夫琅和费衍射</font></b></p>                 
+     
+<p align="left"><font size="4"><b><a name="book1"></a></b></font></p>     
+     
+<table border="0" cellpadding="0" cellspacing="5" width="100%">     
+  <tr>     
+    <td nowrap>     
+     
+<p><font size="4" color="#FF0000"><b>（一）双缝衍射</b></font></p>     
+     
+    </td>     
+  </tr>     
+  <tr>     
+    <td nowrap><p><font color="#FF8040" size="4"><b>一、强度分布公式</b></font></p>     
+     
+    </td>     
+  </tr>     
+  <tr>     
+    <td nowrap>     
+     
+<p><font size="4"><b>&nbsp;&nbsp;&nbsp;&nbsp; 可用夫琅和费衍射公式对双缝平面积分求取。</b></font></p>                 
+     
+    </td>     
+  </tr>     
+  <tr>     
+    <td nowrap><font size="4"><b> &nbsp;&nbsp;&nbsp;&nbsp; 另一种形式的讨论：</b></font></td>       
+  </tr>     
+  <tr>     
+    <td nowrap><font size="4"><b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   
+      观察孔径平移的衍射强度分布的结果：a)、b)情况衍射图样的位置不变。</b></font></td>     
+  </tr>     
+</table><table border="0" cellpadding="0" cellspacing="3" width="100%">     
+  <tr>     
+    <td colspan="2" nowrap>     
+      <p align="center"><img border="0" src="images3_4/3_4.HT1.gif" width="656" height="175">     
+      <p align="center">　</td>     
+  </tr>     
+  <tr>     
+    <td colspan="2" nowrap>     
+     
+<p><font size="4"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 当同一照明光照射到双缝时，屏上衍射分布是两单缝衍射复振幅分布叠加。</b></font></p>       
+     
+<p>　</p>      
+     
+    </td>     
+  </tr>     
+  <tr>     
+    <td nowrap>   
+      <p align="center"><font size="4"><b> 于是，<u><span lang="EN-US" style="font-size:10.5pt;mso-bidi-font-size:    
+10.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:宋体;mso-font-kerning:    
+1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:    
+AR-SA"><!--[if gte vml 1]><v:shapetype id="_x0000_t75" coordsize="21600,21600"    
+ o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe" filled="f"    
+ stroked="f">    
+ <v:stroke joinstyle="miter"/>    
+ <v:formulas>    
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>    
+  <v:f eqn="sum @0 1 0"/>    
+  <v:f eqn="sum 0 0 @1"/>    
+  <v:f eqn="prod @2 1 2"/>    
+  <v:f eqn="prod @3 21600 pixelWidth"/>    
+  <v:f eqn="prod @3 21600 pixelHeight"/>    
+  <v:f eqn="sum @0 0 1"/>    
+  <v:f eqn="prod @6 1 2"/>    
+  <v:f eqn="prod @7 21600 pixelWidth"/>    
+  <v:f eqn="sum @8 21600 0"/>    
+  <v:f eqn="prod @7 21600 pixelHeight"/>    
+  <v:f eqn="sum @10 21600 0"/>    
+ </v:formulas>    
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>    
+ <o:lock v:ext="edit" aspectratio="t"/>    
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:297.75pt;    
+ height:27.75pt' o:ole="" o:bordertopcolor="red" o:borderleftcolor="red"    
+ o:borderbottomcolor="red" o:borderrightcolor="red">    
+ <v:imagedata src="file:///C:/WINDOWS/TEMP/msoclip1/01/clip_image001.png"    
+  o:title=""/>    
+ <w:bordertop type="dashDotStroked" width="24" shadow="t"/>    
+ <w:borderleft type="dashDotStroked" width="24" shadow="t"/>    
+ <w:borderbottom type="dashDotStroked" width="24" shadow="t"/>    
+ <w:borderright type="dashDotStroked" width="24" shadow="t"/>    
+</v:shape><![endif]-->    
+      <img src="images3_4/3_4.HT10.gif" v:shapes="_x0000_i1025" align="middle" width="413" height="53"></span></u></b></font></p>    
+      <p align="center">　</p>   
+    </td>     
+    <td nowrap rowspan="3">   
+      <p align="center"><img border="0" src="images3_4/3_4.HT11.gif" width="267" height="145"></p>  
+</td>    
+  </tr>    
+  <tr>    
+    <td nowrap><font size="4"><b>&nbsp; 如图系统写出：</b></font></td>    
+  </tr>    
+  <tr>    
+    <td nowrap>    
+      <p align="center"><span lang="EN-US" style="font-size:10.5pt;mso-bidi-font-size:    
+10.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:宋体;mso-font-kerning:    
+1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:    
+AR-SA"><span style="mso-text-raise:-12.0pt"><!--[if gte vml 1]><v:shapetype    
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"    
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">    
+ <v:stroke joinstyle="miter"/>    
+ <v:formulas>    
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>    
+  <v:f eqn="sum @0 1 0"/>    
+  <v:f eqn="sum 0 0 @1"/>    
+  <v:f eqn="prod @2 1 2"/>    
+  <v:f eqn="prod @3 21600 pixelWidth"/>    
+  <v:f eqn="prod @3 21600 pixelHeight"/>    
+  <v:f eqn="sum @0 0 1"/>    
+  <v:f eqn="prod @6 1 2"/>    
+  <v:f eqn="prod @7 21600 pixelWidth"/>    
+  <v:f eqn="sum @8 21600 0"/>    
+  <v:f eqn="prod @7 21600 pixelHeight"/>    
+  <v:f eqn="sum @10 21600 0"/>    
+ </v:formulas>    
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>    
+ <o:lock v:ext="edit" aspectratio="t"/>    
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:4in;    
+ height:39pt' o:ole="">    
+ <v:imagedata src="file:///C:/WINDOWS/TEMP/msoclip1/01/clip_image001.wmz"    
+  o:title=""/>    
+</v:shape><![endif]-->    
+      <img src="images3_4/3_4.HT12.gif" v:shapes="_x0000_i1025" width="384" height="52"></span><!--[if gte mso 9]><xml>     
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1025"     
+  DrawAspect="Content" ObjectID="_1085548745">     
+ </o:OLEObject>     
+</xml><![endif]-->     
+      </span></td>     
+  </tr>     
+</table><table border="0" cellpadding="0" cellspacing="0" width="100%">     
+  <tr>     
+    <td width="100%">     
+      <p align="center"><img border="0" src="images3_4/3_4.HT13.gif" width="676" height="201"></td>     
+  </tr>     
+</table><table border="0" cellpadding="0" cellspacing="5" width="100%">     
+  <tr>     
+    <td width="100%">     
+     
+<p><font color="#FF8040" size="4"><b>二、强度分布曲线：</b></font></p>     
+     
+    </td>     
+  </tr>     
+  <tr>     
+    <td width="100%">     
+      <p align="center"><font size="4"><b><img border="0" src="images3_4/3_4.HT2.gif" width="681" height="144"></b></font></td>     
+  </tr>     
+  <tr>     
+    <td width="100%"><font color="#800080" size="4"><b>1、极大、极小位置：</b></font></td>     
+  </tr>     
+  <tr>     
+    <td width="100%"><font size="4"><b> （1）<img border="0" src="images3_4/3_4.HT15.gif" align="texttop" width="546" height="97"></b></font></td>     
+  </tr>     
+  <tr>     
+    <td width="100%"><font size="4"><b> （2）<img border="0" src="images3_4/3_4.HT16.gif" align="texttop" width="487" height="61"></b></font></td>     
+  </tr>     
+  <tr>     
+    <td width="100%"><font size="4"><b>（3）当δ=2mπ，α=nπ&nbsp;&nbsp;&nbsp;                  
+      其中 m=0，n=0处为中央（零级）主极大的位置</b></font></td>                  
+  </tr>     
+</table>     
+<table border="0" width="100%" cellspacing="0" cellpadding="0">    
+  <tr>    
+    <td valign="middle">    
+      <p align="right"><font size="4"><b>双缝衍射强度分布曲线如图：</b></font></td>    
+  <td><img border="0" src="images3_4/3_4.ht1.jpg" width="567" height="586"></td>  
+</tr>  
+</table>  
+<table border="0" cellpadding="0" cellspacing="5" width="100%">  
+  <tr>  
+    <td colspan="3" width="745"><b><font color="#800080" size="4">2、</font><span style="background-color: #FF0000"><font color="#FFFF00" size="4">讨论：</font></span></b></td>  
+  </tr>  
+  <tr>  
+    <td width="51"><font size="4"><b>（1）</b></font></td>  
+    <td width="686" colspan="2"><font size="4"><b>d——决定各级主极大的位置（干涉因子参量）</b></font></td>  
+  </tr>  
+  <tr>  
+    <td width="51"></td>  
+    <td width="686" colspan="2"><font size="4"><b> a——决定各级主极大的相对强度（衍射用于参量）</b></font></td>  
+  </tr>  
+  <tr>  
+    <td width="51"></td>  
+    <td width="686" colspan="2"><font size="4"><b>中央主极大（m=0，n=0）强度最大</b></font></td>  
+  </tr>  
+  <tr>  
+    <td valign="top" width="51"></td>  
+    <td width="686" colspan="2"><font size="4"><b> 大部分的能量集中在中央衍射极大内</b></font></td>  
+  </tr>  
+  <tr>  
+    <td valign="top" width="51"><font size="4"><b>（2）</b></font></td>  
+    <td width="686" colspan="2"><font size="4"><b>中央衍射极大内包含的主极大的数目由d/a决定。</b></font></td>  
+  </tr>  
+  <tr>  
+    <td></td>  
+    <td valign="top" nowrap><b>缺级——</b></td>  
+    <td><b>在m＝</b><font size="4"><b>d/a</b></font><b><font size="4">的整数倍处，某一级干涉极大与衍射极小相遇而不出现的现象。</font></b></td>  
+  </tr>  
+  <tr>  
+    <td width="51"><font size="4"><b>（3）</b></font></td>  
+    <td width="686" colspan="2"><font size="4"><b>由此可分析d或a的变化对衍射强度分布的影响</b></font></td>  
+  </tr>  
+</table><table border="0" cellpadding="0" cellspacing="5" width="100%">  
+  <tr>  
+    <td><font color="#FF8040" size="4"><b>三、应用：</b></font></td>  
+    <td rowspan="7"><img border="0" src="images3_4/3_4.HT17.gif" width="436" height="255"></td>  
+  </tr>  
+  <tr>  
+    <td><font color="#800080" size="4"><b>1、瑞利干涉仪</b></font></td>  
+  </tr>  
+  <tr>  
+    <td><font size="4"><b> 结构如图：</b></font></td>  
+  </tr>  
+  <tr>  
+    <td><font size="4"><b>&nbsp; <u>利用双缝衍射原理精密测量气体或流体的折射率</u></b></font></td>                 
+  </tr>     
+  <tr>     
+    <td>     
+      <p align="center"><span lang="EN-US" style="font-size:10.5pt;mso-bidi-font-size:     
+10.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:宋体;mso-font-kerning:     
+1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:     
+AR-SA"><span style="mso-text-raise:-5.0pt"><!--[if gte vml 1]><v:shapetype     
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"     
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">     
+ <v:stroke joinstyle="miter"/>     
+ <v:formulas>     
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>     
+  <v:f eqn="sum @0 1 0"/>     
+  <v:f eqn="sum 0 0 @1"/>     
+  <v:f eqn="prod @2 1 2"/>     
+  <v:f eqn="prod @3 21600 pixelWidth"/>     
+  <v:f eqn="prod @3 21600 pixelHeight"/>     
+  <v:f eqn="sum @0 0 1"/>     
+  <v:f eqn="prod @6 1 2"/>     
+  <v:f eqn="prod @7 21600 pixelWidth"/>     
+  <v:f eqn="sum @8 21600 0"/>     
+  <v:f eqn="prod @7 21600 pixelHeight"/>     
+  <v:f eqn="sum @10 21600 0"/>     
+ </v:formulas>     
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>     
+ <o:lock v:ext="edit" aspectratio="t"/>     
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:117pt;     
+ height:23.25pt' o:ole="">     
+ <v:imagedata src="file:///C:/WINDOWS/TEMP/msoclip1/01/clip_image001.wmz"     
+  o:title=""/>     
+</v:shape><![endif]-->     
+      <img src="images3_4/3_4.HT18.gif" v:shapes="_x0000_i1025" width="156" height="31"></span><!--[if gte mso 9]><xml>     
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1025"     
+  DrawAspect="Content" ObjectID="_1085556884">     
+ </o:OLEObject>     
+</xml><![endif]-->     
+      </span></td>     
+  </tr>     
+  <tr>     
+    <td>     
+      <p align="center"><span lang="EN-US" style="font-size:10.5pt;mso-bidi-font-size:     
+10.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:宋体;mso-font-kerning:     
+1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:     
+AR-SA"><span style="mso-text-raise:-9.0pt"><!--[if gte vml 1]><v:shapetype     
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"     
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">     
+ <v:stroke joinstyle="miter"/>     
+ <v:formulas>     
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>     
+  <v:f eqn="sum @0 1 0"/>     
+  <v:f eqn="sum 0 0 @1"/>     
+  <v:f eqn="prod @2 1 2"/>     
+  <v:f eqn="prod @3 21600 pixelWidth"/>     
+  <v:f eqn="prod @3 21600 pixelHeight"/>     
+  <v:f eqn="sum @0 0 1"/>     
+  <v:f eqn="prod @6 1 2"/>     
+  <v:f eqn="prod @7 21600 pixelWidth"/>     
+  <v:f eqn="sum @8 21600 0"/>     
+  <v:f eqn="prod @7 21600 pixelHeight"/>     
+  <v:f eqn="sum @10 21600 0"/>     
+ </v:formulas>     
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>     
+ <o:lock v:ext="edit" aspectratio="t"/>     
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:108pt;     
+ height:34.5pt' o:ole="">     
+ <v:imagedata src="file:///C:/WINDOWS/TEMP/msoclip1/01/clip_image001.wmz"     
+  o:title=""/>     
+</v:shape><![endif]-->     
+      <img src="images3_4/3_4.HT19.gif" v:shapes="_x0000_i1025" align="middle" width="144" height="46"></span></span><span lang="EN-US" style="font-size:10.5pt;mso-bidi-font-size:     
+10.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:宋体;mso-font-kerning:     
+1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:     
+AR-SA"><!--[if gte mso 9]><xml>     
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1025"     
+  DrawAspect="Content" ObjectID="_1085557039">     
+ </o:OLEObject>     
+</xml><![endif]-->     
+      </span></td>     
+  </tr>     
+  <tr>     
+    <td nowrap><font size="4"><b> （Δn=1/20条纹时，Δn～<img src="images1/3-4.ht5.jpg" alt="wpe27.jpg (832 字节)" align="middle" width="32" height="20">量级）</b></font></td>     
+  </tr>     
+</table><table border="0" cellpadding="0" cellspacing="0" width="100%" height="170">     
+  <tr>     
+    <td nowrap><font color="#800080" size="4"><b>2、测双星角间距</b></font></td>     
+    <td rowspan="5" nowrap>     
+      <p align="center"><font size="4"><b> 如图：</b></font><img border="0" src="images3_4/3_4.HT20.gif" align="texttop" width="172" height="220">&nbsp;</td>     
+  </tr>     
+  <tr>     
+    <td nowrap align="center"><font size="4"><b> 双星各产生一组双缝衍射条纹（相互有一位移）</b></font></td>     
+  </tr>     
+  <tr>     
+    <td nowrap align="center"><font size="4"><b> 变化d，当条纹可见度最差时</b></font></td>     
+  </tr>     
+  <tr>     
+    <td nowrap align="center"><font size="4"><b> 则，α=θ/2=λ/2d&nbsp; 由此求取α。</b></font></td>                 
+  </tr>     
+  <tr>     
+    <td nowrap align="center"><font size="4"><b> d越大，其测量灵敏度越高</b></font></td>     
+  </tr>     
+</table><table border="0" cellpadding="0" cellspacing="5" width="100%">     
+  <tr>     
+    <td colspan="2"><font size="4" color="#FF0000"><b><a name="book2"></a>（二）多缝夫琅和费衍射</b></font></td>     
+  </tr>     
+  <tr>     
+    <td><font color="#FF8040" size="4"><b>一、强度分布公式</b></font></td>     
+    <td rowspan="4">     
+      <p align="center"><img border="0" src="images3_4/3_4.HT21.gif" width="340" height="161"></td>     
+  </tr>     
+  <tr>     
+    <td><font size="4"><b>&nbsp;&nbsp; 可对多缝孔径积分求取夫琅和费衍射分布，亦可类似双缝情况求取。</b></font></td>           
+  </tr>     
+  <tr>     
+    <td><font size="4"><b>&nbsp;&nbsp; 易知，<font color="#800000"><u><em>多缝衍射是单缝单缝衍射和多缝干涉的综合结果</em></u>。</font></b></font></td>           
+  </tr>     
+  <tr>     
+    <td><font size="4"><b>&nbsp;&nbsp; 如图，利用多光束干涉原理，求取N个单缝在Q方向衍射光之间的干涉             
+。</b></font></td>     
+  </tr>     
+  <tr>     
+    <td colspan="2">     
+      <p align="center"><font size="4"><b>得：<span lang="EN-US" style="font-size:10.5pt;mso-bidi-font-size:     
+10.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:宋体;mso-font-kerning:     
+1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:     
+AR-SA"><!--[if gte vml 1]><v:shapetype id="_x0000_t75" coordsize="21600,21600"     
+ o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe" filled="f"     
+ stroked="f">     
+ <v:stroke joinstyle="miter"/>     
+ <v:formulas>     
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>     
+  <v:f eqn="sum @0 1 0"/>     
+  <v:f eqn="sum 0 0 @1"/>     
+  <v:f eqn="prod @2 1 2"/>     
+  <v:f eqn="prod @3 21600 pixelWidth"/>     
+  <v:f eqn="prod @3 21600 pixelHeight"/>     
+  <v:f eqn="sum @0 0 1"/>     
+  <v:f eqn="prod @6 1 2"/>     
+  <v:f eqn="prod @7 21600 pixelWidth"/>     
+  <v:f eqn="sum @8 21600 0"/>     
+  <v:f eqn="prod @7 21600 pixelHeight"/>     
+  <v:f eqn="sum @10 21600 0"/>     
+ </v:formulas>     
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>     
+ <o:lock v:ext="edit" aspectratio="t"/>     
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:424.5pt;     
+ height:71.25pt' o:ole="" o:bordertopcolor="red" o:borderleftcolor="red"     
+ o:borderbottomcolor="red" o:borderrightcolor="red">     
+ <v:imagedata src="file:///C:/WINDOWS/TEMP/msoclip1/01/clip_image001.png"     
+  o:title=""/>     
+ <w:bordertop type="dashDotStroked" width="24" shadow="t"/>     
+ <w:borderleft type="dashDotStroked" width="24" shadow="t"/>     
+ <w:borderbottom type="dashDotStroked" width="24" shadow="t"/>     
+ <w:borderright type="dashDotStroked" width="24" shadow="t"/>     
+</v:shape><![endif]-->     
+      <img src="images3_4/3_4.HT22.gif" v:shapes="_x0000_i1025" align="middle" width="582" height="111">&nbsp;&nbsp;</span></b></font></td>           
+  </tr>     
+</table><table border="0" cellpadding="0" cellspacing="5" width="100%">     
+  <tr>     
+    <td nowrap>     
+      <p align="right"><b><font size="4">式中：</font></b></td>     
+    <td nowrap><b><font size="4">I</font><font size="2">0</font><font size="4">为单缝在P</font><font size="2">0</font><font size="4">点产生的强度</font></b></td>     
+  </tr>     
+  <tr>     
+    <td nowrap></td>     
+    <td nowrap><span style="mso-text-raise: -12.0pt; font-size: 10.5pt; mso-bidi-font-size: 10.0pt; font-family: Times New Roman; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA" lang="EN-US"><img src="images3_4/3_4.HT23.gif" v:shapes="_x0000_i1025" width="504" height="53"></span></td>     
+  </tr>     
+  <tr>     
+    <td nowrap></td>     
+    <td nowrap><span style="mso-text-raise: -12.0pt; font-size: 10.5pt; mso-bidi-font-size: 10.0pt; font-family: Times New Roman; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA" lang="EN-US"><img src="images3_4/3_4.HT24.gif" v:shapes="_x0000_i1025" width="564" height="53"></span></td>     
+  </tr>     
+  <tr>     
+    <td nowrap></td>     
+    <td nowrap><b><font size="4">N是多缝缝数</font></b></td>     
+  </tr>     
+</table><table border="0" cellpadding="0" cellspacing="5" width="100%">     
+  <tr>     
+    <td width="100%">     
+      <p align="left"><b><font size="4" color="#FF8040">二、强度分布曲线</font></b></td>     
+  </tr>     
+  <tr>     
+    <td width="100%">     
+      <p align="center"><b>类似双缝情况分析讨论：</b><img border="0" src="images3_4/3_4.HT26.gif" align="texttop" width="349" height="131"></td>     
+  </tr>     
+</table><table border="0" cellpadding="0" cellspacing="5" width="100%">     
+  <tr>     
+    <td nowrap>     
+      <p align="right"><font size="4"><b>1、</b></font></td>     
+    <td colspan="2"><font size="4"><b>由<span style="mso-text-raise: -21.0pt; mso-bidi-font-size: 10.0pt; font-family: Times New Roman; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA" lang="EN-US"><img src="images3_4/3_4.HT27.gif" v:shapes="_x0000_i1025" align="middle" width="96" height="81"></span>求取干涉极大极小值位置</b></font></td>     
+  </tr>     
+  <tr>     
+    <td nowrap></td>     
+    <td colspan="2"><font size="4"><b>当<span style="mso-text-raise: -3.0pt; mso-bidi-font-size: 10.0pt; font-family: Times New Roman; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA" lang="EN-US"><img src="images3_4/3_4.HT3.gif" v:shapes="_x0000_i1025" align="middle" width="75" height="24"></span>或<span style="mso-text-raise: -5.0pt; mso-bidi-font-size: 10.0pt; font-family: Times New Roman; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA" lang="EN-US"><img src="images3_4/3_4.HT4.gif" v:shapes="_x0000_i1025" align="middle" width="294" height="30"></span>时，出现干涉主极大，其值为<span style="mso-text-raise: -3.0pt; mso-bidi-font-size: 10.0pt; font-family: Times New Roman; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA" lang="EN-US"><img src="images3_4/3_4.HT5.gif" v:shapes="_x0000_i1025" align="middle" width="28" height="26"></span>。</b></font></td>     
+  </tr>     
+  <tr>     
+    <td nowrap></td>     
+    <td colspan="2"><font size="4"><b>且有&nbsp; <span style="mso-text-raise: -14.0pt; mso-bidi-font-size: 10.0pt; font-family: Times New Roman; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA" lang="EN-US"><img src="images3_4/3_4.HT7.gif" v:shapes="_x0000_i1025" align="middle" width="162" height="59"></span>（强度为单缝时的<span style="mso-text-raise: -3.0pt; mso-bidi-font-size: 10.0pt; font-family: Times New Roman; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA" lang="EN-US"><img src="images3_4/3_4.HT5.gif" v:shapes="_x0000_i1025" align="middle" width="28" height="26"></span>倍）</b></font></td>          
+  </tr>     
+  <tr>     
+    <td nowrap></td>     
+    <td colspan="2"><font size="4"><b>当<span style="mso-text-raise: -9.0pt; mso-bidi-font-size: 10.0pt; font-family: Times New Roman; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA" lang="EN-US"><img src="images3_4/3_4.HT8.gif" v:shapes="_x0000_i1025" align="middle" width="91" height="41"></span>或<span style="mso-text-raise: -14.0pt; mso-bidi-font-size: 10.0pt; font-family: Times New Roman; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA" lang="EN-US"><img src="images3_4/3_4.HT9.gif" v:shapes="_x0000_i1025" align="middle" width="369" height="59"></span>时，出现干涉极小，其值为零</b></font></td>     
+  </tr>     
+  <tr>     
+    <td nowrap valign="top">    
+      <p align="right"></p>   
+    </td>    
+    <td nowrap valign="top"><font size="4" color="#FF00FF"><b>易知:</b></font></td>    
+    <td valign="top"><font size="4" color="#FF00FF"><b>相邻两个极小值间有一次极大，因而相邻两主极大间有（N－1）个极小值，&nbsp;&nbsp;   
+      （N－2）个次极大.</b></font></td>    
+  </tr>    
+</table><table border="0" cellpadding="0" cellspacing="5" width="100%">    
+  <tr>    
+    <td nowrap>   
+      <p align="right"><font size="4"><b>2、</b></font></p>   
+    </td>    
+    <td nowrap><span style="mso-text-raise: -14.0pt; font-size: 10.5pt; mso-bidi-font-size: 10.0pt; font-family: Times New Roman; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA" lang="EN-US"><img src="images3_4/3_4.HT6.gif" v:shapes="_x0000_i1025" align="middle" width="75" height="62"></span><font size="4"><b>的调制作用</b></font></td>    
+  </tr>    
+  <tr>    
+    <td nowrap></td>    
+    <td nowrap><font size="4"><b>当</b></font><span style="mso-text-raise: -3.0pt; font-size: 10.5pt; mso-bidi-font-size: 10.0pt; font-family: Times New Roman; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA" lang="EN-US"><img src="images3_4/3_4.HT25.gif" v:shapes="_x0000_i1025" align="middle" width="61" height="20"></span><font size="4"><b>或</b></font><span style="mso-text-raise: -5.0pt; font-size: 10.5pt; mso-bidi-font-size: 10.0pt; font-family: Times New Roman; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA" lang="EN-US"><img src="images3_4/3_4.HT14.gif" v:shapes="_x0000_i1025" align="middle" width="273" height="30"></span><font size="4"><b>时得衍射极小。</b></font></td>    
+  </tr>    
+  <tr>    
+    <td nowrap></td>    
+    <td nowrap><font size="4"><b>类似双缝时情况：</b></font></td>    
+  </tr>    
+  <tr>    
+    <td nowrap></td>    
+    <td nowrap><span style="mso-text-raise: -3.0pt; mso-bidi-font-size: 10.0pt; font-family: Times New Roman; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA" lang="EN-US"><font size="4"><b><img border="0" src="images3_4/3_4.HT28.gif" width="383" height="123"></b></font></span></td>    
+  </tr>    
+  <tr>    
+    <td nowrap></td>    
+    <td nowrap><b><font size="4">由参数d/a,N画得强度分布曲线如图：</font></b></td>    
+  </tr>    
+</table><table border="0" cellpadding="0" cellspacing="5" width="100%">    
+  <tr>    
+    <td nowrap>   
+      <p align="right"><font size="4"><b>3、</b></font></p>   
+    </td>    
+    <td nowrap><font size="4"><b><font color="#FF0000">缝数</font>N对衍射分布的影响（d、a不变时，与双缝时比较）</b></font></td>    
+  </tr>    
+  <tr>    
+    <td nowrap></td>    
+    <td nowrap><font size="4"><b>（1）N增加，使各相邻主极大数目增加</b></font></td>    
+  </tr>    
+  <tr>    
+    <td nowrap></td>    
+    <td nowrap><font size="4"><b>（2）N增加，使各主极大的强度增强N&sup2;倍</b></font></td>    
+  </tr>    
+  <tr>    
+    <td nowrap></td>    
+    <td nowrap><font size="4"><b>（3）N增加，各级主极大（条纹）变细变亮</b></font></td>    
+  </tr>    
+</table><table border="0" cellpadding="0" cellspacing="5" width="100%">    
+  <tr>    
+    <td colspan="2"><font size="4"><b>&nbsp;          
+如图，Δθ——主极大半角宽度</b></font></td>     
+  </tr>     
+  <tr>     
+    <td><span style="mso-text-raise: -21.0pt; font-size: 10.5pt; mso-bidi-font-size: 10.0pt; font-family: Times New Roman; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA" lang="EN-US"><img border="0" src="images3_4/3_4.HT29.gif" width="523" height="82"></span></td>     
+    <td>     
+      <p align="center"><img border="0" src="images3_4/3_4.HT30.gif" width="211" height="96"></td>     
+  </tr>     
+  <tr>     
+    <td colspan="2" nowrap>    
+      <p align="center"><font size="4" color="#FF00FF"><b>显然，d、a不变时，各级主极大位置、相对强度、缺级都不变，与双缝时一样。</b></font></p>   
+    </td>    
+  </tr>    
+</table>    
+    
+<p>　</p>    
+    
+<hr>
+
+<p align="center">　</p> 
+
+<p align="center"><font size="4"><b>  
+<a href="3_3.htm">上一节</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="index1.htm">目录</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        
+<a href="3_5.htm">下一节</a></b></font></p>      
+     
+<p>　</p>     
+     
+<form>     
+  <p><font size="4"><b>第<select name="zhang" size="1">     
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+  </select>章&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 第<select name="jie" size="1">         
+    <option value="0">0</option>     
+    <option value="1">1</option>     
+    <option value="2">2</option>     
+    <option value="3">3</option>     
+    <option value="4">4</option>     
+    <option value="5">5</option>     
+    <option value="6">6</option>     
+    <option value="7">7</option>     
+    <option value="8">8</option>     
+    <option value="9">9</option>     
+  </select>节<input type="button" value="转到" name="B1" onclick="location.assign(this.form.zhang.value+'_'+this.form.jie.value+'.htm')"></b></font></p>     
+</form>     
+</body>     
+</html>     

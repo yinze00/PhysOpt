@@ -1,0 +1,788 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>3-5</title>
+<meta name="Microsoft Theme" content="none, default">
+</head>
+
+<body background="backimages/nabkgnd.jpg">
+
+<p><a name="head"></a></p>
+<div id="KBStatic" style="position:absolute; left:650px; top:350px; width:41px; height:59px; z-index:25"><a href="#head">
+<dd align="left"><img src="images/back-top.gif" border="0" WIDTH="45" HEIGHT="57"></a></dd>
+</div><script language="JavaScript">
+function KB_keepItInIE(theName,theWantTop,theWantLeft) {
+theRealTop=parseInt(document.body.scrollTop)
+theTrueTop=theWantTop+theRealTop
+document.all[theName].style.top=theTrueTop
+theRealLeft=parseInt(document.body.scrollLeft)
+theTrueLeft=theWantLeft+theRealLeft
+document.all[theName].style.left=theTrueLeft
+}
+function KB_keepItInNN(theName,theWantX,theWantY) {
+theRealLay=document.layers[theName]
+theBadX=self.pageYOffset
+theBadY=self.pageXOffset
+theRealX=theBadX+theWantX
+theRealY=theBadY+theWantY
+theRealLay.moveTo(theRealY,theRealX)
+}
+IE4=(document.all)?1:0
+NN4=(document.layers)?1:0
+if (IE4)
+setInterval('KB_keepItInIE("KBStatic",350,650)',1)
+if (NN4)
+setInterval('KB_keepItInNN("KBStatic",350,650)',1)
+</script>
+
+<p><font size="4"><b><a href="#book1">一、光栅的分光性能</a><br>
+<a href="#book2">二、常用光栅</a></b></font></p>
+
+<hr>
+
+<p align="center"><b><font size="5">第五节 &nbsp;&nbsp;&nbsp; 衍射光栅</font><font size="4"><br>        
+</font></b><font size="4"><b>&nbsp;&nbsp;<font color="#800000"> </font></b></font></p> 
+ 
+<div align="center"> 
+  <center> 
+  <table border="0" cellpadding="0" cellspacing="5"> 
+    <tr> 
+      <td width="100%" align="left"><font size="4"><b><font color="#8000FF">衍射光栅——能周期性的在空间分割波阵面的光学元件。</font></b></font></td> 
+    </tr> 
+    <tr> 
+      <td nowrap align="left"><font color="#8000FF" size="4"><b>  
+衍射光栅是一多缝，光栅衍射具有类似于多光束干涉时的分光特性。</b></font></td> 
+    </tr> 
+    <tr> 
+      <td width="100%" align="left"><font color="#8000FF" size="4"><b>衍射光栅的夫琅和费衍射图样称为光栅光谱。</b></font></td> 
+    </tr> 
+  </table> 
+  </center> 
+</div> 
+<table border="0" cellpadding="0" cellspacing="5" width="100%"> 
+  <tr> 
+    <td width="100%"><font size="4"><b></b></font></td> 
+  </tr> 
+  <tr> 
+    <td width="100%"><font size="4"><b><a name="book1"></a>一、光栅的分光性能</b></font></td> 
+  </tr> 
+  <tr> 
+    <td width="100%"><font color="#FF8040" size="4"><b>1、光栅方程</b></font></td> 
+  </tr> 
+  <tr> 
+    <td width="100%"> 
+      <p align="left"><font size="4" color="#FFFF00"><b><span style="background-color: #FF0000"> 光栅方程——决定各级主极大位置的表达式</span></b></font></td> 
+  </tr> 
+  <tr> 
+    <td width="100%" nowrap> 
+      <p align="center"><font size="4"><b> dSinθ=mλ&nbsp; (m=0,±1,±2&middot;&middot;&middot;&middot;&middot;）——平行光正入射时的光栅方程。</b></font></td>         
+  </tr> 
+  <tr> 
+    <td> 
+      <p align="center"><font color="#800000" size="4"><em><u><b>光栅方程的导出——由相邻周期对应点其Q方向衍射光满足程差极大的条件求取。</b></u></em></font></td> 
+  </tr> 
+</table><table border="0" cellpadding="5" cellspacing="0" width="100%"> 
+  <tr> 
+    <td> 
+      <p align="center"><span lang="EN-US" style="font-size:10.5pt;mso-bidi-font-size: 
+10.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:宋体;mso-font-kerning: 
+1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language: 
+AR-SA"><!--[if gte vml 1]><v:shapetype id="_x0000_t75" coordsize="21600,21600" 
+ o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe" filled="f" 
+ stroked="f"> 
+ <v:stroke joinstyle="miter"/> 
+ <v:formulas> 
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/> 
+  <v:f eqn="sum @0 1 0"/> 
+  <v:f eqn="sum 0 0 @1"/> 
+  <v:f eqn="prod @2 1 2"/> 
+  <v:f eqn="prod @3 21600 pixelWidth"/> 
+  <v:f eqn="prod @3 21600 pixelHeight"/> 
+  <v:f eqn="sum @0 0 1"/> 
+  <v:f eqn="prod @6 1 2"/> 
+  <v:f eqn="prod @7 21600 pixelWidth"/> 
+  <v:f eqn="sum @8 21600 0"/> 
+  <v:f eqn="prod @7 21600 pixelHeight"/> 
+  <v:f eqn="sum @10 21600 0"/> 
+ </v:formulas> 
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/> 
+ <o:lock v:ext="edit" aspectratio="t"/> 
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:297pt; 
+ height:57pt' o:ole="" o:bordertopcolor="red" o:borderleftcolor="red" 
+ o:borderbottomcolor="red" o:borderrightcolor="red"> 
+ <v:imagedata src="file:///C:/WINDOWS/TEMP/msoclip1/01/clip_image001.png" 
+  o:title=""/> 
+ <w:bordertop type="dashDotStroked" width="24" shadow="t"/> 
+ <w:borderleft type="dashDotStroked" width="24" shadow="t"/> 
+ <w:borderbottom type="dashDotStroked" width="24" shadow="t"/> 
+ <w:borderright type="dashDotStroked" width="24" shadow="t"/> 
+</v:shape><![endif]--> 
+      <img src="images3_5/3_5.HT1.gif" v:shapes="_x0000_i1025" width="412" height="92"><!--[if gte mso 9]><xml> 
+ <o:OLEObject Type="Embed" ProgID="Paint.Picture" ShapeID="_x0000_i1025" 
+  DrawAspect="Content" ObjectID="_1085695625"> 
+ </o:OLEObject> 
+</xml><![endif]--> 
+      </span></td> 
+  </tr> 
+  <tr> 
+    <td> 
+      <p align="center"><font size="4"><b><img src="images3_5/12-30.jpg" alt="12-30.jpg (22139 字节)" width="659" height="220"></b></font></td> 
+  </tr> 
+  <tr> 
+    <td> 
+      <p align="center"><font size="4"><b><img border="0" src="images3_5/3_5.HT2.gif" width="555" height="94"></b></font></td> 
+  </tr> 
+</table><table border="0" cellpadding="0" cellspacing="5" width="100%"> 
+  <tr> 
+    <td colspan="3" nowrap><font color="#FF8040" size="4"><b>2、光栅的色散</b></font></td> 
+  </tr> 
+  <tr> 
+    <td colspan="3" nowrap> 
+      <p align="center"><font size="4"><b> <font color="#800000"><u><em>光栅的色散——不同波长的同级主极大对应不同的衍射角的现象</em></u></font></b></font></p> 
+    </td> 
+  </tr> 
+  <tr> 
+    <td colspan="3" nowrap> 
+      <p align="center"><font size="4"><b>  
+光栅的色散——光栅具有分光能力</b></font></p> 
+    </td> 
+  </tr> 
+  <tr> 
+    <td nowrap valign="top"> 
+      <p align="right"><font size="4"><b><font color="#800000"> 角色散：</font></b></font></p> 
+    </td> 
+    <td nowrap colspan="2"> 
+      <p align="left"><font size="4"><b>表示波长相差0.1nm的两条谱线分开的角距离（对透镜中心张角）</b></font></p>
+</td>
+  </tr>
+  <tr>
+    <td nowrap></td>
+    <td nowrap valign="top">
+      <p align="center"><font size="4"><b><span style="mso-text-raise:-12.0pt"><img border="0" src="images3_5/3_5.HT14.gif" width="113" height="51"></span></b></font></td>  
+    <td nowrap>
+      <p align="left"><font size="4"><b> （Q——同一波长两谱线衍射角之平均）</b></font></p>
+</td>  
+  </tr>
+  <tr>
+    <td nowrap>
+      <p align="right"><font size="4"><b> <font color="#800000">线色散：</font></b></font></p>
+    </td>
+    <td nowrap colspan="2">
+      <p align="left"><font size="4"><b>波长相差0.1nm的两谱线在焦面上分开的线距离</b></font></p>
+</td>
+  </tr>
+  <tr>
+    <td nowrap></td>
+    <td nowrap colspan="2" valign="top">&nbsp;&nbsp;&nbsp;&nbsp; <img border="0" src="images3_5/3_5.HT15.gif" width="138" height="47"></td>     
+  </tr> 
+  <tr> 
+    <td nowrap> 
+      <p align="right"><font size="4"><b><font color="#800000">匀排光谱：</font></b></font></p> 
+    </td> 
+    <td nowrap colspan="2"> 
+      <p align="left"><font size="4"><b>色散是均匀的光栅光谱（θ角不大时，视Cosθ不随θ而变）</b></font></p>
+</td>
+  </tr>
+</table><table border="0" cellpadding="0" cellspacing="5" width="100%">
+  <tr>
+    <td colspan="2"><font color="#FF8040" size="4"><b>3、光栅的分辨本领</b></font></td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <p align="center"><font color="#800000" size="4"><em><u><b>色分辨本领——分辨两相邻谱线的能力。</b></u></em></font></td>
+  </tr>
+  <tr>
+    <td colspan="2"><font size="4"><b>定义为：&nbsp;&nbsp;&nbsp;A=λ/Δλ</b></font></td>
+  </tr>
+  <tr>
+    <td colspan="2"><font size="4"><b>按瑞利判据，对于被色散的两谱线λ，λ+Δλ，在某一θ位置有（如图）。</b></font></td>
+  </tr>
+  <tr>
+    <td align="right"><font size="4"><b>dSinθ=m(λ+Δλ)</b></font></td>
+    <td rowspan="2">
+      <p align="left"><font size="4"><b>-→ m(λ+Δλ)=(m+1/N)λ</b></font></td>         
+  </tr> 
+  <tr> 
+    <td align="right"><font size="4"><b>Sinθ=(m+1/N)λ</b></font></td> 
+  </tr> 
+</table><table border="0" cellpadding="0" cellspacing="0" width="100%"> 
+  <tr> 
+    <td nowrap><font size="4"><b>易得：&nbsp;&nbsp;&nbsp;&nbsp; <font color="#FF0000">A=λ/Δλ=mN</font></b></font></td>        
+    <td rowspan="2" nowrap> 
+      <p align="center"><font size="4"><b><img border="0" src="images3_5/3_5.HT17.gif" width="263" height="173"></b></font></p>
+  </td>
+  </tr>
+  <tr>
+    <td nowrap>
+      <p align="center"><img border="0" src="images3_5/3_5.HT18.gif" width="430" height="111"></p>
+    </td>
+  </tr>
+</table><table border="0" cellpadding="0" cellspacing="5" width="100%">
+  <tr>
+    <td nowrap><font size="4"><b> 
+光栅的A一般比较大</b></font></td>
+    <td rowspan="7" nowrap>
+      <p align="center"><img border="0" src="images3_5/3_5.HT19.gif" width="190" height="328"></p>
+  </td>
+  </tr>
+<tr>
+    <td nowrap><font color="#FF8040" size="4"><b>4、光栅的自由光谱区</b></font></td>
+</tr>
+  <tr>
+    <td nowrap align="center"><font size="4"><b> 如图，复色光的光栅光谱，2级谱以上有邻级光谱间重叠现象。</b></font></td>
+  </tr>
+  <tr>
+    <td nowrap align="center"><font size="4"><b>自由光谱区Δλ——光谱不发生重叠区间</b></font></td>
+  </tr>
+  <tr>
+    <td nowrap align="center"><font size="4"><b>由 (m+1)λ=m(λ+Δλ)&nbsp; 得&nbsp;&nbsp;&nbsp; Δλ=λ/m</b></font></td>         
+  </tr> 
+  <tr> 
+    <td nowrap align="center"><font size="4"><b>光栅的Δλ一般比较大(m 不变)</b></font></td>         
+  </tr> 
+  <tr> 
+    <td nowrap valign="bottom"> 
+ 
+<p><font color="#FF8040" size="4"><b>5、几种分光元件性能之比较</b></font></p> 
+ 
+    </td> 
+  </tr> 
+</table> 
+<div align="center">
+  <center><table border="2" cellspacing="3" cellpadding="0">
+  <tr>
+    <td nowrap align="center">　</td>
+    <td nowrap align="center">
+      <p align="center"><font size="4" color="#0000FF"><b>分光棱镜</b></font></p>
+  </td>
+    <td nowrap align="center"><font size="4" color="#0000FF"><b>法——珀标准具</b></font></td>
+    <td align="center" nowrap><font size="4" color="#0000FF"><b>衍射光栅</b></font></td>
+  </tr>
+  <tr>
+    <td nowrap align="center"><font size="4" color="#FF0000"><b>光谱级次</b></font></td>
+    <td nowrap align="center">
+      <p align="center"><font size="4"><b>零级谱</b></font>
+      <p align="center"><font size="4"><b>（各波长零级谱排列）</b></font></td>
+    <td nowrap align="center"><font size="4"><b>m=2h/λ,m很大</b></font></td>
+    <td nowrap align="center"><font size="4"><b>无零级谱</b></font><p><font size="4"><b>（dSinθ=mλ）</b></font></td>
+  </tr>
+  <tr>
+    <td nowrap align="center"><font size="4" color="#FF0000"><b>光谱能量分布</b></font></td>
+    <td nowrap align="center"><font size="4"><b>分布在各波长零级谱上，</b></font>
+      <p align="center"><font size="4"><b>谱线很亮</b></font></p>
+</td>
+    <td nowrap align="center"><font size="4"><b>分布在各级各波长处</b></font></td>
+    <td align="center" nowrap><font size="4"><b>主要在零级其余级次强度下降，</b></font>
+      <p><font size="4"><b>应作闪耀光栅</b></font></p>
+</td>
+  </tr>
+  <tr>
+    <td nowrap align="center"><font size="4" color="#FF0000"><b>自由光谱区</b></font></td>
+    <td nowrap align="center"><font size="4"><b>很大，无越级现象</b></font></td>
+    <td nowrap align="center"><font size="4"><b><img border="0" src="images3_5/3_5.HT20.gif" width="91" height="43"></b></font>
+      <p><font size="4"><b>h大，</b></font><b><font size="4"> Δλ小，越级严重，</font></b></p>        
+      <p><b><font size="4">要求单色性好的光</font></b></td> 
+    <td align="center" nowrap><img border="0" src="images3_5/3_5.HT21.gif" width="115" height="45"> 
+      <p><font size="4"><b>d小，</b></font><b><font size="4"> Δλ较大，</font></b>    
+      <p><b><font size="4"> 可分析几百纳米的光谱区</font></b></td>    
+  </tr> 
+  <tr> 
+    <td nowrap align="center"><font size="4" color="#FF0000"><b>分辨本领</b></font></td> 
+    <td nowrap align="center"><font size="4"><b><img src="images1/3-5.ht3.jpg" alt="wpe25.jpg (1593 字节)" width="107" height="41"></b></font></td> 
+    <td nowrap align="center"><font size="4"><b>A=0.97ms</b></font> 
+      <p><font size="4"><b>N有限，提高m（h）</b></font></p> 
+      <p><font size="4"><b>以提高A</b></font></td> 
+    <td align="center" nowrap><font size="4"><b>A=mN</b></font><p><font size="4"><b>（增大N，提高A）</b></font></td> 
+  </tr> 
+  <tr> 
+    <td nowrap align="center"><font size="4" color="#FF0000"><b>角色散</b></font></td> 
+    <td nowrap align="center"><font size="4"><b><img src="images1/3-5.ht4.jpg" alt="wpe26.jpg (4095 字节)" WIDTH="159" HEIGHT="128"></b></font></td> 
+    <td nowrap align="center"><font size="4"><b>  
+    <img src="images1/3-5.ht5.jpg" alt="wpe27.jpg (2247 字节)" width="97" height="65"> </b></font></td> 
+    <td align="center" nowrap><font size="4"><b> <img src="images1/3-5.ht6.jpg" alt="wpe28.jpg (2611 字节)" WIDTH="149" HEIGHT="84"></b></font></td> 
+  </tr> 
+  <tr> 
+    <td nowrap align="center"><font size="4" color="#FF0000"><b>适用范围</b></font></td> 
+    <td nowrap align="center"><font size="4"><b>一般分光</b></font></td> 
+    <td nowrap align="center"><font size="4"><b>光谱精细分析</b></font></td> 
+    <td align="center" nowrap><font size="4"><b>宽波段光谱分析</b></font></td> 
+  </tr> 
+</table></center> 
+</div> 
+<table border="0" cellpadding="0" cellspacing="5" width="100%"> 
+  <tr> 
+    <td colspan="2"><font size="4"><b><a name="book2"></a>二、常用光栅</b></font></td> 
+  </tr> 
+  <tr> 
+    <td colspan="2"><font size="4"><b> <font color="#FF8040">1、平面光栅</font></b></font></td> 
+  </tr> 
+  <tr> 
+    <td valign="top" nowrap><font size="4"><b><font color="#800000"> 透射（反射）光栅</font>——</b></font></td> 
+    <td><font size="4"><b>在透明板（金属面）上平行刻上等距等宽的刻痕，使其余部分透过（反射）光的器件（如图）</b></font></td> 
+  </tr> 
+  <tr> 
+    <td colspan="2"><font size="4"><b>其<font color="#800000">光栅方程：</font> d(Sini±Sinθ)=mλ</b></font></td>         
+  </tr> 
+</table><table border="0" cellpadding="0" cellspacing="0" width="100%"> 
+  <tr> 
+    <td nowrap><font size="4"><b>这两种光栅也称为<font color="#800000">振幅光栅</font></b></font></td> 
+    <td nowrap rowspan="2"><font size="4"><b><img border="0" src="images3_5/3_5.HT22.gif" width="174" height="143"></b></font></td> 
+  </tr> 
+<tr> 
+    <td nowrap><font size="4"><b><font color="#800000">振幅型光栅</font>——改变入射光振幅分布的光栅（如图）</b></font></td> 
+</tr> 
+  <tr> 
+    <td nowrap><font size="4"><b><font color="#800000">相位型光栅</font>——改变入射光相位分布的光栅（如图）</b></font></td> 
+    <td nowrap><font size="4"><b><img border="0" src="images3_5/3_5.HT23.gif" width="206" height="120"></b></font></td> 
+  </tr> 
+  <tr> 
+    <td colspan="2" nowrap><font size="4" color="#FF0080"><b>可见，在横跨光栅面方向上，振幅（相位）随距离周期变化</b></font></td> 
+  </tr> 
+</table> 
+<div align="center">
+  <center><table border="0" cellpadding="0" cellspacing="5">
+  <tr>
+    <td colspan="3" nowrap><font size="4"><b>其光栅方程同样为：<span lang="EN-US" style="font-size:10.5pt;mso-bidi-font-size:
+10.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:宋体;mso-font-kerning:
+1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:
+AR-SA"><span style="mso-text-raise:-5.0pt"><!--[if gte vml 1]><v:shapetype
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:32.25pt;
+ height:43.5pt' o:ole="">
+ <v:imagedata src="file:///C:/WINDOWS/TEMP/msoclip1/01/clip_image001.wmz"
+  o:title=""/>
+</v:shape><![endif]-->
+      <!--[if gte vml 1]><v:shapetype
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:14.25pt;
+ height:43.5pt' o:ole="">
+ <v:imagedata src="file:///C:/WINDOWS/TEMP/msoclip1/01/clip_image001.wmz"
+  o:title=""/>
+</v:shape><![endif]-->
+      <!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1025"
+  DrawAspect="Content" ObjectID="_1085803735">
+ </o:OLEObject>
+</xml><![endif]-->
+      </span><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1025"
+  DrawAspect="Content" ObjectID="_1085803696">
+ </o:OLEObject>
+</xml><![endif]-->
+      </span></b></font></td>
+  </tr>
+  <tr>
+    <td rowspan="3" valign="top" nowrap><p align="right"><img border="0" src="images3_5/3_5.HT3.gif" width="10" height="57"></p> 
+
+    </td>
+    <td valign="top" nowrap><font size="4"><b>d(Sini±Sinθ)=mλ</b></font></td>
+    <td nowrap><font size="4"><b> m=0,±1,±2&middot;&middot;&middot;&middot;&middot;&middot;</b></font></td>
+  </tr>
+  <tr>
+    <td rowspan="2" valign="top" nowrap><font size="4"><b>a(Sini±Sinθ)=nλ</b></font></td>
+    <td nowrap><font size="4"><b>n=0(中央衍射极大)</b></font></td>
+  </tr>
+  <tr>
+    <td nowrap><font size="4"><b>n=±1,±2&middot;&middot;&middot;&middot;&middot;&middot;（衍射极小）</b></font></td>
+  </tr>
+  <tr>
+    <td colspan="3" nowrap>
+      <p align="center"><span lang="EN-US" style="font-size:10.5pt;mso-bidi-font-size:
+10.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:宋体;mso-font-kerning:
+1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:
+AR-SA"><!--[if gte vml 1]><v:shapetype id="_x0000_t75" coordsize="21600,21600"
+ o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe" filled="f"
+ stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:420.75pt;
+ height:28.5pt' o:ole="" o:bordertopcolor="red" o:borderleftcolor="red"
+ o:borderbottomcolor="red" o:borderrightcolor="red">
+ <v:imagedata src="file:///C:/WINDOWS/TEMP/msoclip1/01/clip_image001.png"
+  o:title=""/>
+ <w:bordertop type="dashDotStroked" width="24" shadow="t"/>
+ <w:borderleft type="dashDotStroked" width="24" shadow="t"/>
+ <w:borderbottom type="dashDotStroked" width="24" shadow="t"/>
+ <w:borderright type="dashDotStroked" width="24" shadow="t"/>
+</v:shape><![endif]-->
+      <img src="images3_5/3_5.HT4.gif" v:shapes="_x0000_i1025" width="577" height="54"><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Paint.Picture" ShapeID="_x0000_i1025"
+  DrawAspect="Content" ObjectID="_1085803463">
+ </o:OLEObject>
+</xml><![endif]-->
+      </span></td>
+  </tr>
+</table></center>
+</div>
+<table border="0" cellpadding="0" cellspacing="5" width="100%">
+  <tr>
+    <td colspan="2">
+
+<p><font color="#FF8040" size="4"><b>2、平面定向光栅（闪耀光栅）</b></font></p>
+
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" nowrap><p><font size="4" color="#800000"><b><i><u>平面光栅的不足</u>：</i></b></font></p>
+
+    </td>
+    <td><font size="4"><b>中央零级光强最大，高级次处衍射效率低，不满足光谱分析需要。</b></font></td>
+  </tr>
+  <tr>
+    <td valign="top" nowrap><p><font size="4"><b><font color="#800000"><u><em>闪耀光栅的功能</em></u>：</font></b></font></p>
+
+    </td>
+    <td rowspan="2"><font size="4"><b>改变刻痕面的形状，使单个刻痕面衍射的中央极大与槽面间干涉零级主极大分开，以改变各级主极大的相对强度，使某级光谱得到闪耀。</b></font></td>
+  </tr>
+  <tr>
+    <td nowrap>
+
+<p></p>
+
+    </td>
+  </tr>
+</table><table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tr>
+    <td><font size="4"><b>如图：刻痕面与光栅面夹角γ——<font color="#800000">闪耀角</font></b></font></td>
+    <td width="22%" rowspan="4"><embed width="241" height="219" src="images3_5/3_5_1.swf"></td>
+  </tr>
+  <tr>
+    <td><font size="4"><b>&nbsp;&nbsp;&nbsp; 加入刻痕面后，光强最大方向在满足反射定律方向（α=β）方向上。</b></font></td>       
+  </tr> 
+  <tr> 
+    <td> 
+      <p align="center"><font size="4"><b>对于光栅而言，使某级（例如m=1）光谱得到闪耀。</b></font></p>
+    </td>
+  </tr>
+  <tr>
+    <td><font color="#FF0080" size="4"><b><u><em>典型闪耀光栅</em></u>：</b></font></td>
+  </tr>
+</table><table border="0" cellpadding="0" cellspacing="5" width="100%">
+  <tr>
+    <td nowrap>
+      <p align="right"><font color="#004040" size="4"><b>a）</b></font></td>
+    <td nowrap><font color="#004040" size="4"><b>入射光沿光栅面法线方向</b></font></td>
+    <td rowspan="8" nowrap>
+      <p align="center"><embed width="232" height="263" src="images3_5/3_5_2.swf" align="right"></td>
+  </tr>
+  <tr>
+    <td nowrap></td>
+    <td nowrap>
+
+<p><font size="4"><b>图a） α=β=γ&nbsp;&nbsp;i=0&nbsp;&nbsp;&nbsp;θ=2γ方向上闪耀</b></font></p>       
+ 
+</td> 
+  </tr> 
+  <tr> 
+    <td nowrap></td> 
+    <td nowrap>   
+ 
+<p><font size="4"><b>由&nbsp;&nbsp; d(Sini+Sinθ)=mλ</b></font> </p>       
+ 
+</td> 
+  </tr> 
+  <tr> 
+    <td nowrap></td> 
+    <td nowrap><font size="4"><b>得 光栅方程为：dSin2γ=mλ</b></font></td>     
+  </tr> 
+  <tr> 
+    <td nowrap></td> 
+    <td nowrap>   
+ 
+<p><font size="4"><b>闪耀级m=1时对应的波长λ——闪耀波长</b></font></p> 
+ 
+</td> 
+  </tr> 
+  <tr> 
+    <td nowrap> 
+      <p align="right"><font color="#004040" size="4"><b>b）</b></font></td> 
+    <td nowrap> 
+ 
+<p><font color="#004040" size="4"><b>入射光沿刻痕面法线方向</b></font></p> 
+ 
+</td> 
+  </tr> 
+  <tr> 
+    <td nowrap></td> 
+    <td nowrap><p><font size="4"><b>图b） 在θ=i=γ方向上得到闪耀</b></font></p>       
+ 
+</td> 
+  </tr> 
+  <tr> 
+    <td nowrap></td> 
+    <td nowrap><font size="4"><b>光栅方程：2dSin2γ=mλ</b></font></td> 
+  </tr> 
+</table><table border="0" cellpadding="0" cellspacing="0" width="100%"> 
+  <tr> 
+    <td nowrap> 
+ 
+<p><font size="4"><b>&nbsp;图示为用于激光选模技术中的反射式闪耀光栅</b></font></p> 
+ 
+    </td> 
+    <td nowrap> 
+      <p align="center"><img border="0" src="images3_5/3_5.HT5.gif" width="230" height="113"></td> 
+  </tr> 
+</table><table border="0" cellpadding="0" cellspacing="5" width="100%"> 
+  <tr> 
+    <td colspan="2"> 
+ 
+<p><font color="#FF8040" size="4"><b>3、阶梯光栅</b></font></p> 
+ 
+    </td> 
+  </tr> 
+  <tr> 
+    <td> 
+ 
+<p><font size="4"><b>&nbsp;&nbsp; 平行的平面玻璃板成阶梯状排列而成的相位光栅。一般d=1mm，t=1～2cm其光栅方程由相邻阶梯 θ方向衍射光程差决定（如图）</b></font></p>        
+ 
+    </td> 
+    <td rowspan="3"> 
+      <p align="center"><img border="0" src="images3_5/3_5.HT6.gif" width="231" height="109"></p> 
+</td> 
+  </tr> 
+  <tr> 
+    <td nowrap> 
+      <p align="center"><font size="4"><b>Δ=nt+dSinθ-t1Cosθ=(n-1)t+θd=mλ</b></font></td> 
+  </tr> 
+  <tr> 
+    <td nowrap> 
+      <p align="center"><font size="4"><b>显见：θ=0方向上，Δ≠0</b></font></td> 
+  </tr> 
+</table><table border="0" cellpadding="0" cellspacing="5" width="100%"> 
+  <tr> 
+    <td nowrap> 
+      <p align="right"><font color="#800000" size="4"><b>其特点：</b></font></p> 
+    </td> 
+    <td nowrap> 
+ 
+<p align="left"><font color="#800000" size="4"><b>（1）t很大，故闪耀级次很高。</b></font></p> 
+ 
+  </td> 
+  </tr> 
+  <tr> 
+    <td nowrap></td> 
+    <td nowrap><font color="#800000" size="4"><b> （2）d=a，又a较大，中央衍射极大中只有一个或至多二次主极大。</b></font></td> 
+  </tr> 
+  <tr> 
+    <td nowrap></td> 
+    <td nowrap><font color="#800000" size="4"><b> （3）类同于法——珀标准具功能，用于超精细结构小范围光谱分析。</b></font></td> 
+  </tr> 
+</table><table border="0" cellpadding="0" cellspacing="5" width="759"> 
+  <tr> 
+    <td width="448">   
+ 
+<p><font color="#FF8040" size="4"><b>4、正弦（振幅型）光栅</b></font></p> 
+ 
+    </td> 
+    <td width="293" rowspan="3"> 
+      <p align="center"><img border="0" src="images3_5/3_5.HT7.gif" width="291" height="271"></td> 
+  </tr> 
+  <tr> 
+    <td width="446"> 
+ 
+<p><font size="4"><b>&nbsp;&nbsp; 正弦（或余弦）光栅其振幅透射系数是正弦（或余弦）型分布（如图）可表示为：</b></font></p>     
+ 
+    </td> 
+  </tr> 
+  <tr> 
+    <td width="446"> 
+      <p align="center"><span lang="EN-US" style="font-size:10.5pt;mso-bidi-font-size: 
+10.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:宋体;mso-font-kerning: 
+1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language: 
+AR-SA"><span style="mso-text-raise:-31.0pt"><!--[if gte vml 1]><v:shapetype 
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t" 
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f"> 
+ <v:stroke joinstyle="miter"/> 
+ <v:formulas> 
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/> 
+  <v:f eqn="sum @0 1 0"/> 
+  <v:f eqn="sum 0 0 @1"/> 
+  <v:f eqn="prod @2 1 2"/> 
+  <v:f eqn="prod @3 21600 pixelWidth"/> 
+  <v:f eqn="prod @3 21600 pixelHeight"/> 
+  <v:f eqn="sum @0 0 1"/> 
+  <v:f eqn="prod @6 1 2"/> 
+  <v:f eqn="prod @7 21600 pixelWidth"/> 
+  <v:f eqn="sum @8 21600 0"/> 
+  <v:f eqn="prod @7 21600 pixelHeight"/> 
+  <v:f eqn="sum @10 21600 0"/> 
+ </v:formulas> 
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/> 
+ <o:lock v:ext="edit" aspectratio="t"/> 
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:219pt; 
+ height:88.5pt' o:ole=""> 
+ <v:imagedata src="file:///C:/WINDOWS/TEMP/msoclip1/01/clip_image001.wmz" 
+  o:title=""/> 
+</v:shape><![endif]--> 
+      <img src="images3_5/3_5.HT8.gif" v:shapes="_x0000_i1025" width="292" height="118"></span><!--[if gte mso 9]><xml> 
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1025" 
+  DrawAspect="Content" ObjectID="_1085833871"> 
+ </o:OLEObject> 
+</xml><![endif]--> 
+      </span></td> 
+  </tr> 
+  <tr> 
+    <td colspan="2" nowrap width="745"><font size="4"><b>正弦光栅通过记录两束有一定夹角的平面波的干涉图而得到。</b></font></td> 
+  </tr> 
+  <tr> 
+    <td colspan="2" nowrap width="745"> 
+      <p align="center"><font size="4"><b><font color="#FF0000"><u><em>思考</em></u>：控制其夹角，可得到不同d的光栅，为什么？</font>    
+      </b></font> </p> 
+    </td> 
+  </tr> 
+</table><table border="0" cellpadding="0" cellspacing="5" width="100%"> 
+  <tr> 
+    <td colspan="2" nowrap><font color="#000040" size="4"><b>显然，N个缝的正弦光栅衍射是单缝衍射与多缝干涉的综合结果。</b></font></td> 
+  </tr> 
+  <tr> 
+    <td nowrap> 
+      <p align="right"><font color="#000040" size="4"><b>平面波入射时：</b></font></p> 
+    </td> 
+    <td rowspan="2" nowrap><font color="#000040" size="4"><b><img border="0" src="images3_5/3_5.HT9.gif" width="536" height="110"></b></font></td> 
+  </tr> 
+  <tr> 
+    <td nowrap></td> 
+  </tr> 
+  <tr> 
+    <td colspan="2" nowrap> 
+      <p align="center"><img border="0" src="images3_5/3_5.HT11.gif" width="421" height="79"></td> 
+  </tr> 
+  <tr> 
+    <td colspan="2" nowrap> 
+      <p align="center"><img border="0" src="images3_5/3_5.HT10.gif" width="556" height="73"></td> 
+  </tr> 
+</table><table border="0" cellpadding="0" cellspacing="5" width="100%" height="177"> 
+  <tr> 
+    <td> 
+      <p align="center"><font size="4"><b><span style="mso-text-raise: -30.0pt; font-size: 10.5pt; mso-bidi-font-size: 10.0pt; font-family: Times New Roman; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA" lang="EN-US"><img src="images3_5/3_5.HT12.gif" v:shapes="_x0000_i1025" width="205" height="113"></span></b></font></td> 
+    <td height="171"> 
+      <p align="center"><img border="0" src="images3_5/3_5.HT13.gif" width="375" height="189"></td> 
+  </tr> 
+</table><table border="0" cellpadding="0" cellspacing="5" width="100%"> 
+  <tr> 
+    <td nowrap> 
+      <p align="center"><font size="4"><b>其衍射强度分布曲线如图，显然，只有0，±1级共三个谱线。</b></font></td> 
+  </tr> 
+</table> 
+ 
+<p><font size="4"><b><span lang="EN-US" style="font-size:10.5pt;mso-bidi-font-size: 
+10.0pt;font-family:&quot;Times New Roman&quot;;mso-fareast-font-family:宋体;mso-font-kerning: 
+1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language: 
+AR-SA"><span style="mso-text-raise:-30.0pt"><!--[if gte vml 1]><v:shapetype 
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t" 
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f"> 
+ <v:stroke joinstyle="miter"/> 
+ <v:formulas> 
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/> 
+  <v:f eqn="sum @0 1 0"/> 
+  <v:f eqn="sum 0 0 @1"/> 
+  <v:f eqn="prod @2 1 2"/> 
+  <v:f eqn="prod @3 21600 pixelWidth"/> 
+  <v:f eqn="prod @3 21600 pixelHeight"/> 
+  <v:f eqn="sum @0 0 1"/> 
+  <v:f eqn="prod @6 1 2"/> 
+  <v:f eqn="prod @7 21600 pixelWidth"/> 
+  <v:f eqn="sum @8 21600 0"/> 
+  <v:f eqn="prod @7 21600 pixelHeight"/> 
+  <v:f eqn="sum @10 21600 0"/> 
+ </v:formulas> 
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/> 
+ <o:lock v:ext="edit" aspectratio="t"/> 
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:153.75pt; 
+ height:84.75pt' o:ole=""> 
+ <v:imagedata src="file:///C:/WINDOWS/TEMP/msoclip1/01/clip_image001.wmz" 
+  o:title=""/> 
+</v:shape><![endif]--> 
+</span><!--[if gte mso 9]><xml> 
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1025" 
+  DrawAspect="Content" ObjectID="_1085852439"> 
+ </o:OLEObject> 
+</xml><![endif]--> 
+</span></b></font></p> 
+ 
+<p>　</p> 
+ 
+<hr>
+
+<p align="center"><font size="4"><b>    
+<a href="3_4.htm">上一节</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="index1.htm">目录</a>         
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="3_6.htm">下一节</a></b></font></p>       
+ 
+<p>　</p> 
+ 
+<form> 
+  <p><font size="4"><b>第<select name="zhang" size="1"> 
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+  </select>章&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 第<select name="jie" size="1">        
+    <option value="0">0</option> 
+    <option value="1">1</option> 
+    <option value="2">2</option> 
+    <option value="3">3</option> 
+    <option value="4">4</option> 
+    <option value="5">5</option> 
+    <option value="6">6</option> 
+    <option value="7">7</option> 
+    <option value="8">8</option> 
+    <option value="9">9</option> 
+  </select>节<input type="button" value="转到" name="B1" onclick="location.assign(this.form.zhang.value+'_'+this.form.jie.value+'.htm')"></b></font></p> 
+</form> 
+</body> 
+</html> 
